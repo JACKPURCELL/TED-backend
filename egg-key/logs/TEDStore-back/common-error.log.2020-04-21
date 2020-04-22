@@ -1,0 +1,1125 @@
+2020-04-17 01:12:35,467 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 2071448ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 03:13:34,535 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 7218656ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:00:29,378 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 2774803ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:02:16,940 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67545ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:04:04,505 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67555ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:05:32,111 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67590ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:07:19,692 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67563ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:08:47,229 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67527ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:23:58,770 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 871523ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:25:46,346 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67559ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:27:33,938 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67582ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:29:21,533 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67579ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:30:49,075 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67528ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:32:36,634 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67540ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:34:04,271 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67621ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:49:15,823 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 871540ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:50:43,409 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67572ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:53:59,351 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 68360ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:55:46,957 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67577ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:57:34,602 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67628ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:59:02,217 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67603ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 05:15:42,677 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67542ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 05:17:30,233 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67542ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 05:18:57,775 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67528ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 05:20:45,343 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67550ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 05:22:13,442 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 68087ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 05:24:01,058 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67597ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 05:38:54,893 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 853812ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 05:40:42,438 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67527ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 05:42:30,027 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67572ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 05:43:57,600 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67561ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 05:47:12,773 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67577ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 05:49:00,418 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67625ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 06:03:52,692 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 872255ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 06:05:40,267 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67554ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 06:07:08,432 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 68146ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 06:08:56,019 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67569ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 06:10:43,632 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67607ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 06:12:11,222 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67579ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 06:13:58,852 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67623ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 08:14:35,989 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 7217129ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 08:16:43,573 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67562ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 08:18:11,165 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67580ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 08:19:58,811 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67640ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 08:21:26,428 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67605ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 08:23:14,041 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67597ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 08:25:01,687 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67624ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 08:28:28,077 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 186372ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 12:08:45,931 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 61414ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 12:14:09,030 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303086ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 12:19:52,118 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303066ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 12:25:35,267 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303127ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 12:31:18,412 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303119ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 12:36:41,531 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303104ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 12:42:24,635 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303086ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 13:22:06,371 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 2341722ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 13:27:49,460 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303059ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 13:41:25,856 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303117ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 13:47:09,035 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303160ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 13:52:52,165 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303118ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 13:58:16,126 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303940ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 14:37:12,599 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 2296444ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 14:42:55,761 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303128ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 14:48:38,917 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303138ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 14:54:22,021 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303085ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 14:59:45,131 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303093ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 15:05:28,231 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303088ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 15:11:11,373 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303120ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 15:51:49,420 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 2398034ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 15:58:40,857 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303105ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 16:04:23,939 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303059ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 16:09:47,064 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303117ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 16:15:30,144 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303070ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 16:18:24,635 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 134472ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 16:26:23,829 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 439178ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 21:05:14,578 ERROR 14700 nodejs.TypeError: Cannot read property 'replace' of null
+    at dispatchHttpRequest (/Users/ljc/Downloads/vue/egg-example/node_modules/_axios@0.19.2@axios/lib/adapters/http.js:84:74)
+    at new Promise (<anonymous>)
+    at httpAdapter (/Users/ljc/Downloads/vue/egg-example/node_modules/_axios@0.19.2@axios/lib/adapters/http.js:21:10)
+    at dispatchRequest (/Users/ljc/Downloads/vue/egg-example/node_modules/_axios@0.19.2@axios/lib/core/dispatchRequest.js:52:10)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 14700
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 21:05:42,405 ERROR 14771 nodejs.unhandledRejectionError: connect EHOSTUNREACH 0.0.27.90:80 - Local (192.168.15.149:54890)
+    at internalConnect (net.js:923:16)
+    at defaultTriggerAsyncIdScope (internal/async_hooks.js:313:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (net.js:1063:9)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:10)
+errno: -65
+code: "EHOSTUNREACH"
+syscall: "connect"
+address: "0.0.27.90"
+port: 80
+config: {"url":"localhost:7002/form","method":"post","data":"{\"ChunkerConfig\":{\"_chunkingType\":1,\"_minChunkSize\":4096,\"_avgChunkSize\":8192,\"_maxChunkSize\":16384,\"_slidingWinSize\":256,\"_ReadSize\":128},\"KeyServerConfig\":{\"_keyBatchSize\":3000,\"_keyServerPort\":6666,\"_sketchTableWidth\":1048576,\"_optimalSolverComputeItemNumberThreshold\":48000,\"_storageBlowPercent\":0.005},\"SPConfig\":{\"_storageServerPort\":6668,\"_maxContainerSize\":8388608},\"client\":{\"_clientID\":1,\"_sendChunkBatchSize\":1000,\"_sendRecipeBatchSize\":100000,\"_sendShortHashMaskBitNumber\":12}}","headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"axios/0.19.2","Content-Length":489},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1}
+request: {"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":false,"decodeStrings":true,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":true,"bufferProcessing":false,"writecb":null,"writelen":0,"afterWriteTickInfo":null,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":0,"prefinished":false,"errorEmitted":false,"emitClose":true,"autoDestroy":false,"errored":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":true,"_events":{},"_eventsCount":2,"_options":{"protocol":"http:","maxRedirects":21,"maxBodyLength":10485760,"path":"/form","method":"POST","headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"axios/0.19.2","Content-Length":489},"agents":{},"hostname":"7002","port":null,"nativeProtocols":{"http:":{"METHODS":["ACL","BIND","CHECKOUT","CONNECT","COPY","DELETE","GET","HEAD","LINK","LOCK","M-SEARCH","MERGE","MKACTIVITY","MKCALENDAR","MKCOL","MOVE","NOTIFY","OPTIONS","PATCH","POST","PROPFIND","PROPPATCH","PURGE","PUT","REBIND","REPORT","SEARCH","SOURCE","SUBSCRIBE","TRACE","UNBIND","UNLINK","UNLOCK","UNSUBSCRIBE"],"STATUS_CODES":{"100":"Continue","101":"Switching Protocols","102":"Processing","103":"Early Hints","200":"OK","201":"Created","202":"Accepted","203":"Non-Authoritative Information","204":"No Content","205":"Reset Content","206":"Partial Content","207":"Multi-Status","208":"Already Reported","226":"IM Used","300":"Multiple Choices","301":"Moved Permanently","302":"Found","303":"See Other","304":"Not Modified","305":"Use Proxy","307":"Temporary Redirect","308":"Permanent Redirect","400":"Bad Request","401":"Unauthorized","402":"Payment Required","403":"Forbidden","404":"Not Found","405":"Method Not Allowed","406":"Not Acceptable","407":"Proxy Authentication Required","408":"Request Timeout","409":"Conflict","410":"Gone","411":"Length Required","412":"Precondition Failed","413":"Payload Too Large","414":"URI Too Long","415":"Unsupported Media Type","416":"Range Not Satisfiable","417":"Expectation Failed","418":"I'm a Teapot","421":"Misdirected Request","422":"Unprocessable Entity","423":"Locked","424":"Failed Dependency","425":"Too Early","426":"Upgrade Required","428":"Precondition Required","429":"Too Many Requests","431":"Request Header Fields Too Large","451":"Unavailable For Legal Reasons","500":"Internal Server Error","501":"Not Implemented","502":"Bad Gateway","503":"Service Unavailable","504":"Gateway Timeout","505":"HTTP Version Not Supported","506":"Variant Also Negotiates","507":"Insufficient Storage","508":"Loop Detected","509":"Bandwidth Limit Exceeded","510":"Not Extended","511":"Network Authentication Required"},"maxHeaderSize":8192,"globalAgent":{"_events":{},"_eventsCount":2,"defaultPort":80,"protocol":"http:","options":{"path":null},"requests":{},"sockets":{"7002:80:":[{"connecting":false,"_hadError":true,"_parent":null,"_host":"7002","_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":[],"flowing":true,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"errorEmitted":true,"emitClose":false,"autoDestroy":false,"destroyed":true,"defaultEncoding":"utf8","awaitDrainWriters":null,"multiAwaitDrain":false,"readingMore":false,"decoder":null,"encoding":null},"readable":false,"_events":{"connect":[null,null,null],"close":[null,null]},"_eventsCount":8,"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":true,"decodeStrings":false,"defaultEncoding":"utf8","length":665,"writing":true,"corked":0,"sync":false,"bufferProcessing":false,"writelen":665,"afterWriteTickInfo":null,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":3,"prefinished":false,"errorEmitted":true,"emitClose":false,"autoDestroy":false,"errored":true,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":false,"allowHalfOpen":false,"_sockname":null,"_pendingData":[{"chunk":"POST /form HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nContent-Type: application/json\r\nUser-Agent: axios/0.19.2\r\nContent-Length: 489\r\nHost: 7002\r\nConnection: close\r\n\r\n","encoding":"latin1","next":{"chunk":"<Buffer 7b 22 43 68 75 6e 6b 65 72 43 6f 6e 66 69 67 22 3a 7b 22 5f 63 68 75 6e 6b 69 6e 67 54 79 70 65 22 3a 31 2c 22 5f 6d 69 6e 43 68 75 6e 6b 53 69 7a 65 ...(489) >","encoding":"buffer","next":null}},"~_options~nativeProtocols~http:~globalAgent~sockets~7002:80:~0~_pendingData~0~next"],"_pendingEncoding":"","server":null,"_server":null,"parser":null,"_httpMessage":{"_events":{},"_eventsCount":6,"outputData":[],"outputSize":0,"writable":true,"_last":true,"chunkedEncoding":false,"shouldKeepAlive":false,"useChunkedEncodingByDefault":true,"sendDate":false,"_removedConnection":false,"_removedContLen":false,"_removedTE":false,"_contentLength":null,"_hasBody":true,"_trailer":"","finished":false,"_headerSent":true,"socket":"~_options~nativeProtocols~http:~globalAgent~sockets~7002:80:~0","_header":"POST /form HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nContent-Type: application/json\r\nUser-Agent: axios/0.19.2\r\nContent-Length: 489\r\nHost: 7002\r\nConnection: close\r\n\r\n","agent":"~_options~nativeProtocols~http:~globalAgent","method":"POST","path":"/form","_ended":false,"res":null,"aborted":false,"timeoutCb":null,"upgradeOrConnect":false,"parser":null,"maxHeadersCount":null,"reusedSocket":false,"_redirectable":"~"}}]},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256}},"https:":{"globalAgent":{"_events":{},"_eventsCount":2,"defaultPort":443,"protocol":"https:","options":{"path":null},"requests":{},"sockets":{},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256,"maxCachedSessions":100,"_sessionCache":{"map":{},"list":[]}}}},"pathname":"/form"},"_redirectCount":0,"_redirects":[],"_requestBodyLength":489,"_requestBodyBuffers":[{"data":"<Buffer 7b 22 43 68 75 6e 6b 65 72 43 6f 6e 66 69 67 22 3a 7b 22 5f 63 68 75 6e 6b 69 6e 67 54 79 70 65 22 3a 31 2c 22 5f 6d 69 6e 43 68 75 6e 6b 53 69 7a 65 ...(489) >"}],"_currentRequest":"~_options~nativeProtocols~http:~globalAgent~sockets~7002:80:~0~_httpMessage","_currentUrl":"http://7002/form"}
+response: undefined
+isAxiosError: true
+toJSON: undefined
+name: "unhandledRejectionError"
+pid: 14771
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 21:06:40,321 ERROR 14822 nodejs.unhandledRejectionError: connect EHOSTUNREACH 0.0.27.90:80 - Local (192.168.15.149:56252)
+    at internalConnect (net.js:923:16)
+    at defaultTriggerAsyncIdScope (internal/async_hooks.js:313:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (net.js:1063:9)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:10)
+errno: -65
+code: "EHOSTUNREACH"
+syscall: "connect"
+address: "0.0.27.90"
+port: 80
+config: {"url":"127.0.0.1:7002/form","method":"post","headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"axios/0.19.2"},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1}
+request: {"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":false,"decodeStrings":true,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":true,"bufferProcessing":false,"writecb":null,"writelen":0,"afterWriteTickInfo":null,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":0,"prefinished":false,"errorEmitted":false,"emitClose":true,"autoDestroy":false,"errored":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":true,"_events":{},"_eventsCount":2,"_options":{"protocol":"http:","maxRedirects":21,"maxBodyLength":10485760,"path":"/form","method":"POST","headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"axios/0.19.2"},"agents":{},"hostname":"7002","port":null,"nativeProtocols":{"http:":{"METHODS":["ACL","BIND","CHECKOUT","CONNECT","COPY","DELETE","GET","HEAD","LINK","LOCK","M-SEARCH","MERGE","MKACTIVITY","MKCALENDAR","MKCOL","MOVE","NOTIFY","OPTIONS","PATCH","POST","PROPFIND","PROPPATCH","PURGE","PUT","REBIND","REPORT","SEARCH","SOURCE","SUBSCRIBE","TRACE","UNBIND","UNLINK","UNLOCK","UNSUBSCRIBE"],"STATUS_CODES":{"100":"Continue","101":"Switching Protocols","102":"Processing","103":"Early Hints","200":"OK","201":"Created","202":"Accepted","203":"Non-Authoritative Information","204":"No Content","205":"Reset Content","206":"Partial Content","207":"Multi-Status","208":"Already Reported","226":"IM Used","300":"Multiple Choices","301":"Moved Permanently","302":"Found","303":"See Other","304":"Not Modified","305":"Use Proxy","307":"Temporary Redirect","308":"Permanent Redirect","400":"Bad Request","401":"Unauthorized","402":"Payment Required","403":"Forbidden","404":"Not Found","405":"Method Not Allowed","406":"Not Acceptable","407":"Proxy Authentication Required","408":"Request Timeout","409":"Conflict","410":"Gone","411":"Length Required","412":"Precondition Failed","413":"Payload Too Large","414":"URI Too Long","415":"Unsupported Media Type","416":"Range Not Satisfiable","417":"Expectation Failed","418":"I'm a Teapot","421":"Misdirected Request","422":"Unprocessable Entity","423":"Locked","424":"Failed Dependency","425":"Too Early","426":"Upgrade Required","428":"Precondition Required","429":"Too Many Requests","431":"Request Header Fields Too Large","451":"Unavailable For Legal Reasons","500":"Internal Server Error","501":"Not Implemented","502":"Bad Gateway","503":"Service Unavailable","504":"Gateway Timeout","505":"HTTP Version Not Supported","506":"Variant Also Negotiates","507":"Insufficient Storage","508":"Loop Detected","509":"Bandwidth Limit Exceeded","510":"Not Extended","511":"Network Authentication Required"},"maxHeaderSize":8192,"globalAgent":{"_events":{},"_eventsCount":2,"defaultPort":80,"protocol":"http:","options":{"path":null},"requests":{},"sockets":{"7002:80:":[{"connecting":false,"_hadError":true,"_parent":null,"_host":"7002","_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":[],"flowing":true,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"errorEmitted":true,"emitClose":false,"autoDestroy":false,"destroyed":true,"defaultEncoding":"utf8","awaitDrainWriters":null,"multiAwaitDrain":false,"readingMore":false,"decoder":null,"encoding":null},"readable":false,"_events":{"connect":[null,null,null],"close":[null,null]},"_eventsCount":8,"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":true,"decodeStrings":false,"defaultEncoding":"utf8","length":174,"writing":true,"corked":0,"sync":false,"bufferProcessing":false,"writelen":174,"afterWriteTickInfo":null,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":1,"prefinished":false,"errorEmitted":true,"emitClose":false,"autoDestroy":false,"errored":true,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":false,"allowHalfOpen":false,"_sockname":null,"_pendingData":"POST /form HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nContent-Type: application/json\r\nUser-Agent: axios/0.19.2\r\nHost: 7002\r\nConnection: close\r\nContent-Length: 0\r\n\r\n","_pendingEncoding":"latin1","server":null,"_server":null,"parser":null,"_httpMessage":{"_events":{},"_eventsCount":6,"outputData":[],"outputSize":0,"writable":true,"_last":true,"chunkedEncoding":false,"shouldKeepAlive":false,"useChunkedEncodingByDefault":true,"sendDate":false,"_removedConnection":false,"_removedContLen":false,"_removedTE":false,"_contentLength":0,"_hasBody":true,"_trailer":"","finished":true,"_headerSent":true,"socket":"~_options~nativeProtocols~http:~globalAgent~sockets~7002:80:~0","_header":"POST /form HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nContent-Type: application/json\r\nUser-Agent: axios/0.19.2\r\nHost: 7002\r\nConnection: close\r\nContent-Length: 0\r\n\r\n","agent":"~_options~nativeProtocols~http:~globalAgent","method":"POST","path":"/form","_ended":false,"res":null,"aborted":false,"timeoutCb":null,"upgradeOrConnect":false,"parser":null,"maxHeadersCount":null,"reusedSocket":false,"_redirectable":"~"}}]},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256}},"https:":{"globalAgent":{"_events":{},"_eventsCount":2,"defaultPort":443,"protocol":"https:","options":{"path":null},"requests":{},"sockets":{},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256,"maxCachedSessions":100,"_sessionCache":{"map":{},"list":[]}}}},"pathname":"/form"},"_redirectCount":0,"_redirects":[],"_requestBodyLength":0,"_requestBodyBuffers":[],"_currentRequest":"~_options~nativeProtocols~http:~globalAgent~sockets~7002:80:~0~_httpMessage","_currentUrl":"http://7002/form"}
+response: undefined
+isAxiosError: true
+toJSON: undefined
+name: "unhandledRejectionError"
+pid: 14822
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 21:07:38,383 ERROR 14871 nodejs.unhandledRejectionError: connect EHOSTUNREACH 0.0.27.90:80 - Local (192.168.15.149:57650)
+    at internalConnect (net.js:923:16)
+    at defaultTriggerAsyncIdScope (internal/async_hooks.js:313:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (net.js:1063:9)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:10)
+errno: -65
+code: "EHOSTUNREACH"
+syscall: "connect"
+address: "0.0.27.90"
+port: 80
+config: {"url":"127.0.0.1:7002/form","method":"post","data":"{\"aaa\":\"aaa\"}","headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"axios/0.19.2","Content-Length":13},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1}
+request: {"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":false,"decodeStrings":true,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":true,"bufferProcessing":false,"writecb":null,"writelen":0,"afterWriteTickInfo":null,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":0,"prefinished":false,"errorEmitted":false,"emitClose":true,"autoDestroy":false,"errored":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":true,"_events":{},"_eventsCount":2,"_options":{"protocol":"http:","maxRedirects":21,"maxBodyLength":10485760,"path":"/form","method":"POST","headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"axios/0.19.2","Content-Length":13},"agents":{},"hostname":"7002","port":null,"nativeProtocols":{"http:":{"METHODS":["ACL","BIND","CHECKOUT","CONNECT","COPY","DELETE","GET","HEAD","LINK","LOCK","M-SEARCH","MERGE","MKACTIVITY","MKCALENDAR","MKCOL","MOVE","NOTIFY","OPTIONS","PATCH","POST","PROPFIND","PROPPATCH","PURGE","PUT","REBIND","REPORT","SEARCH","SOURCE","SUBSCRIBE","TRACE","UNBIND","UNLINK","UNLOCK","UNSUBSCRIBE"],"STATUS_CODES":{"100":"Continue","101":"Switching Protocols","102":"Processing","103":"Early Hints","200":"OK","201":"Created","202":"Accepted","203":"Non-Authoritative Information","204":"No Content","205":"Reset Content","206":"Partial Content","207":"Multi-Status","208":"Already Reported","226":"IM Used","300":"Multiple Choices","301":"Moved Permanently","302":"Found","303":"See Other","304":"Not Modified","305":"Use Proxy","307":"Temporary Redirect","308":"Permanent Redirect","400":"Bad Request","401":"Unauthorized","402":"Payment Required","403":"Forbidden","404":"Not Found","405":"Method Not Allowed","406":"Not Acceptable","407":"Proxy Authentication Required","408":"Request Timeout","409":"Conflict","410":"Gone","411":"Length Required","412":"Precondition Failed","413":"Payload Too Large","414":"URI Too Long","415":"Unsupported Media Type","416":"Range Not Satisfiable","417":"Expectation Failed","418":"I'm a Teapot","421":"Misdirected Request","422":"Unprocessable Entity","423":"Locked","424":"Failed Dependency","425":"Too Early","426":"Upgrade Required","428":"Precondition Required","429":"Too Many Requests","431":"Request Header Fields Too Large","451":"Unavailable For Legal Reasons","500":"Internal Server Error","501":"Not Implemented","502":"Bad Gateway","503":"Service Unavailable","504":"Gateway Timeout","505":"HTTP Version Not Supported","506":"Variant Also Negotiates","507":"Insufficient Storage","508":"Loop Detected","509":"Bandwidth Limit Exceeded","510":"Not Extended","511":"Network Authentication Required"},"maxHeaderSize":8192,"globalAgent":{"_events":{},"_eventsCount":2,"defaultPort":80,"protocol":"http:","options":{"path":null},"requests":{},"sockets":{"7002:80:":[{"connecting":false,"_hadError":true,"_parent":null,"_host":"7002","_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":[],"flowing":true,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"errorEmitted":true,"emitClose":false,"autoDestroy":false,"destroyed":true,"defaultEncoding":"utf8","awaitDrainWriters":null,"multiAwaitDrain":false,"readingMore":false,"decoder":null,"encoding":null},"readable":false,"_events":{"connect":[null,null,null],"close":[null,null]},"_eventsCount":8,"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":true,"decodeStrings":false,"defaultEncoding":"utf8","length":188,"writing":true,"corked":0,"sync":false,"bufferProcessing":false,"writelen":188,"afterWriteTickInfo":null,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":3,"prefinished":false,"errorEmitted":true,"emitClose":false,"autoDestroy":false,"errored":true,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":false,"allowHalfOpen":false,"_sockname":null,"_pendingData":[{"chunk":"POST /form HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nContent-Type: application/json\r\nUser-Agent: axios/0.19.2\r\nContent-Length: 13\r\nHost: 7002\r\nConnection: close\r\n\r\n","encoding":"latin1","next":{"chunk":"<Buffer 7b 22 61 61 61 22 3a 22 61 61 61 22 7d>","encoding":"buffer","next":null}},"~_options~nativeProtocols~http:~globalAgent~sockets~7002:80:~0~_pendingData~0~next"],"_pendingEncoding":"","server":null,"_server":null,"parser":null,"_httpMessage":{"_events":{},"_eventsCount":6,"outputData":[],"outputSize":0,"writable":true,"_last":true,"chunkedEncoding":false,"shouldKeepAlive":false,"useChunkedEncodingByDefault":true,"sendDate":false,"_removedConnection":false,"_removedContLen":false,"_removedTE":false,"_contentLength":null,"_hasBody":true,"_trailer":"","finished":false,"_headerSent":true,"socket":"~_options~nativeProtocols~http:~globalAgent~sockets~7002:80:~0","_header":"POST /form HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nContent-Type: application/json\r\nUser-Agent: axios/0.19.2\r\nContent-Length: 13\r\nHost: 7002\r\nConnection: close\r\n\r\n","agent":"~_options~nativeProtocols~http:~globalAgent","method":"POST","path":"/form","_ended":false,"res":null,"aborted":false,"timeoutCb":null,"upgradeOrConnect":false,"parser":null,"maxHeadersCount":null,"reusedSocket":false,"_redirectable":"~"}}]},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256}},"https:":{"globalAgent":{"_events":{},"_eventsCount":2,"defaultPort":443,"protocol":"https:","options":{"path":null},"requests":{},"sockets":{},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256,"maxCachedSessions":100,"_sessionCache":{"map":{},"list":[]}}}},"pathname":"/form"},"_redirectCount":0,"_redirects":[],"_requestBodyLength":13,"_requestBodyBuffers":[{"data":"<Buffer 7b 22 61 61 61 22 3a 22 61 61 61 22 7d>"}],"_currentRequest":"~_options~nativeProtocols~http:~globalAgent~sockets~7002:80:~0~_httpMessage","_currentUrl":"http://7002/form"}
+response: undefined
+isAxiosError: true
+toJSON: undefined
+name: "unhandledRejectionError"
+pid: 14871
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 21:09:17,172 ERROR 14964 [-/127.0.0.1/-/34ms POST /form] nodejs.EHOSTUNREACHError: connect EHOSTUNREACH 0.0.27.90:80 - Local (192.168.15.149:60093)
+    at internalConnect (net.js:923:16)
+    at defaultTriggerAsyncIdScope (internal/async_hooks.js:313:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (net.js:1063:9)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:10)
+errno: -65
+code: "EHOSTUNREACH"
+syscall: "connect"
+address: "0.0.27.90"
+port: 80
+config: {"url":"127.0.0.1:7002/form","method":"post","data":"{\"aaa\":\"aaa\"}","headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"axios/0.19.2","Content-Length":13},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1}
+request: {"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":false,"decodeStrings":true,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":true,"bufferProcessing":false,"writecb":null,"writelen":0,"afterWriteTickInfo":null,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":0,"prefinished":false,"errorEmitted":false,"emitClose":true,"autoDestroy":false,"errored":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":true,"_events":{},"_eventsCount":2,"_options":{"protocol":"http:","maxRedirects":21,"maxBodyLength":10485760,"path":"/form","method":"POST","headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"axios/0.19.2","Content-Length":13},"agents":{},"hostname":"7002","port":null,"nativeProtocols":{"http:":{"METHODS":["ACL","BIND","CHECKOUT","CONNECT","COPY","DELETE","GET","HEAD","LINK","LOCK","M-SEARCH","MERGE","MKACTIVITY","MKCALENDAR","MKCOL","MOVE","NOTIFY","OPTIONS","PATCH","POST","PROPFIND","PROPPATCH","PURGE","PUT","REBIND","REPORT","SEARCH","SOURCE","SUBSCRIBE","TRACE","UNBIND","UNLINK","UNLOCK","UNSUBSCRIBE"],"STATUS_CODES":{"100":"Continue","101":"Switching Protocols","102":"Processing","103":"Early Hints","200":"OK","201":"Created","202":"Accepted","203":"Non-Authoritative Information","204":"No Content","205":"Reset Content","206":"Partial Content","207":"Multi-Status","208":"Already Reported","226":"IM Used","300":"Multiple Choices","301":"Moved Permanently","302":"Found","303":"See Other","304":"Not Modified","305":"Use Proxy","307":"Temporary Redirect","308":"Permanent Redirect","400":"Bad Request","401":"Unauthorized","402":"Payment Required","403":"Forbidden","404":"Not Found","405":"Method Not Allowed","406":"Not Acceptable","407":"Proxy Authentication Required","408":"Request Timeout","409":"Conflict","410":"Gone","411":"Length Required","412":"Precondition Failed","413":"Payload Too Large","414":"URI Too Long","415":"Unsupported Media Type","416":"Range Not Satisfiable","417":"Expectation Failed","418":"I'm a Teapot","421":"Misdirected Request","422":"Unprocessable Entity","423":"Locked","424":"Failed Dependency","425":"Too Early","426":"Upgrade Required","428":"Precondition Required","429":"Too Many Requests","431":"Request Header Fields Too Large","451":"Unavailable For Legal Reasons","500":"Internal Server Error","501":"Not Implemented","502":"Bad Gateway","503":"Service Unavailable","504":"Gateway Timeout","505":"HTTP Version Not Supported","506":"Variant Also Negotiates","507":"Insufficient Storage","508":"Loop Detected","509":"Bandwidth Limit Exceeded","510":"Not Extended","511":"Network Authentication Required"},"maxHeaderSize":8192,"globalAgent":{"_events":{},"_eventsCount":2,"defaultPort":80,"protocol":"http:","options":{"path":null},"requests":{},"sockets":{"7002:80:":[{"connecting":false,"_hadError":true,"_parent":null,"_host":"7002","_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":[],"flowing":true,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"errorEmitted":true,"emitClose":false,"autoDestroy":false,"destroyed":true,"defaultEncoding":"utf8","awaitDrainWriters":null,"multiAwaitDrain":false,"readingMore":false,"decoder":null,"encoding":null},"readable":false,"_events":{"connect":[null,null,null],"close":[null,null]},"_eventsCount":8,"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":true,"decodeStrings":false,"defaultEncoding":"utf8","length":188,"writing":true,"corked":0,"sync":false,"bufferProcessing":false,"writelen":188,"afterWriteTickInfo":null,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":3,"prefinished":false,"errorEmitted":true,"emitClose":false,"autoDestroy":false,"errored":true,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":false,"allowHalfOpen":false,"_sockname":null,"_pendingData":[{"chunk":"POST /form HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nContent-Type: application/json\r\nUser-Agent: axios/0.19.2\r\nContent-Length: 13\r\nHost: 7002\r\nConnection: close\r\n\r\n","encoding":"latin1","next":{"chunk":"<Buffer 7b 22 61 61 61 22 3a 22 61 61 61 22 7d>","encoding":"buffer","next":null}},"~_options~nativeProtocols~http:~globalAgent~sockets~7002:80:~0~_pendingData~0~next"],"_pendingEncoding":"","server":null,"_server":null,"parser":null,"_httpMessage":{"_events":{},"_eventsCount":6,"outputData":[],"outputSize":0,"writable":true,"_last":true,"chunkedEncoding":false,"shouldKeepAlive":false,"useChunkedEncodingByDefault":true,"sendDate":false,"_removedConnection":false,"_removedContLen":false,"_removedTE":false,"_contentLength":null,"_hasBody":true,"_trailer":"","finished":false,"_headerSent":true,"socket":"~_options~nativeProtocols~http:~globalAgent~sockets~7002:80:~0","_header":"POST /form HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nContent-Type: application/json\r\nUser-Agent: axios/0.19.2\r\nContent-Length: 13\r\nHost: 7002\r\nConnection: close\r\n\r\n","agent":"~_options~nativeProtocols~http:~globalAgent","method":"POST","path":"/form","_ended":false,"res":null,"aborted":false,"timeoutCb":null,"upgradeOrConnect":false,"parser":null,"maxHeadersCount":null,"reusedSocket":false,"_redirectable":"~"}}]},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256}},"https:":{"globalAgent":{"_events":{},"_eventsCount":2,"defaultPort":443,"protocol":"https:","options":{"path":null},"requests":{},"sockets":{},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256,"maxCachedSessions":100,"_sessionCache":{"map":{},"list":[]}}}},"pathname":"/form"},"_redirectCount":0,"_redirects":[],"_requestBodyLength":13,"_requestBodyBuffers":[{"data":"<Buffer 7b 22 61 61 61 22 3a 22 61 61 61 22 7d>"}],"_currentRequest":"~_options~nativeProtocols~http:~globalAgent~sockets~7002:80:~0~_httpMessage","_currentUrl":"http://7002/form"}
+response: undefined
+isAxiosError: true
+toJSON: undefined
+name: "EHOSTUNREACHError"
+pid: 14964
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:09:46,648 ERROR 18484 [-/127.0.0.1/-/11ms GET /linknum] nodejs.TypeError: Cannot read property 'headers' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:33:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18484
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:09:47,137 ERROR 18484 [-/127.0.0.1/-/13ms GET /linknum] nodejs.TypeError: Cannot read property 'headers' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:33:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18484
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:10:45,148 ERROR 18520 [-/127.0.0.1/-/10ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:34:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18520
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:11:07,114 ERROR 18545 [-/127.0.0.1/-/10ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:34:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18545
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:11:46,755 ERROR 18566 [-/127.0.0.1/-/9ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:34:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18566
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:11:55,348 ERROR 18578 [-/127.0.0.1/-/11ms GET /linknum] nodejs.TypeError: console is not a function
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:5)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18578
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:11:57,969 ERROR 18578 [-/127.0.0.1/-/5ms GET /linknum] nodejs.TypeError: console is not a function
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:5)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18578
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:12:22,084 ERROR 18578 [-/127.0.0.1/-/5ms GET /linknum] nodejs.TypeError: console is not a function
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:5)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18578
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:12:30,314 ERROR 18578 [-/127.0.0.1/-/6ms GET /linknum] nodejs.TypeError: console is not a function
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:5)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18578
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:13:51,753 ERROR 18635 [-/127.0.0.1/-/11ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:34:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18635
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:14:03,013 ERROR 18648 [-/127.0.0.1/-/12ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:34:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18648
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:14:09,908 ERROR 18671 [-/127.0.0.1/-/9ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:34:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18671
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:14:21,847 ERROR 18671 [-/127.0.0.1/-/4ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:34:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18671
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:14:29,634 ERROR 18693 [-/127.0.0.1/-/10ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:34:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18693
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:14:43,146 ERROR 18713 [-/127.0.0.1/-/11ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:34:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18713
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:15:36,619 ERROR 18739 [-/127.0.0.1/-/4ms GET /linknum] nodejs.TypeError: Cannot read property 'dolinkcheck' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:31:35)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 18739
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:19:39,323 ERROR 18836 [-/127.0.0.1/-/11ms GET /linknum] nodejs.TypeError: Cannot read property 'stdout' of undefined
+    at doShellCmd (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:24:15)
+    at NumController.dolinkcheck (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:40:12)
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:31:31)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 18836
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:23:07,894 ERROR 18917 [-/127.0.0.1/-/12ms GET /linknum] nodejs.TypeError: Cannot read property 'stdout' of undefined
+    at doShellCmd (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:25:15)
+    at NumController.dolinkcheck (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:41:12)
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:32:31)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 18917
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:23:30,649 ERROR 18917 [-/127.0.0.1/-/5ms GET /linknum] nodejs.TypeError: Cannot read property 'stdout' of undefined
+    at doShellCmd (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:25:15)
+    at NumController.dolinkcheck (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:41:12)
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:32:31)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 18917
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:23:32,826 ERROR 18917 [-/127.0.0.1/-/5ms GET /linknum] nodejs.TypeError: Cannot read property 'stdout' of undefined
+    at doShellCmd (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:25:15)
+    at NumController.dolinkcheck (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:41:12)
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:32:31)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 18917
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:23:38,937 ERROR 18917 [-/127.0.0.1/-/4ms GET /linknum] nodejs.TypeError: Cannot read property 'stdout' of undefined
+    at doShellCmd (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:25:15)
+    at NumController.dolinkcheck (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:41:12)
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:32:31)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 18917
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:23:43,960 ERROR 18917 [-/127.0.0.1/-/5ms GET /linknum] nodejs.TypeError: Cannot read property 'stdout' of undefined
+    at doShellCmd (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:25:15)
+    at NumController.dolinkcheck (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:41:12)
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:32:31)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 18917
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:23:50,065 ERROR 18956 [-/127.0.0.1/-/9ms GET /linknum] nodejs.TypeError: Cannot read property 'stdout' of undefined
+    at doShellCmd (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:25:20)
+    at NumController.dolinkcheck (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:42:12)
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:33:31)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 18956
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:24:07,007 ERROR 18979 [-/127.0.0.1/-/10ms GET /linknum] nodejs.TypeError: Cannot read property 'stdout' of undefined
+    at doShellCmd (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:25:20)
+    at NumController.dolinkcheck (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:43:12)
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:34:31)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 18979
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:24:35,683 ERROR 19000 [-/127.0.0.1/-/14ms GET /linknum] nodejs.TypeError: Cannot read property 'stdout' of undefined
+    at doShellCmd (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:26:20)
+    at NumController.dolinkcheck (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:44:12)
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:31)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 19000
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:25:10,930 ERROR 19029 [-/127.0.0.1/-/10ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 19029
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:26:01,164 ERROR 19080 [-/127.0.0.1/-/11ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 19080
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:26:38,931 ERROR 19111 [-/127.0.0.1/-/11ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 19111
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:26:42,093 ERROR 19111 [-/127.0.0.1/-/11ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 19111
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:26:51,766 ERROR 19133 [-/127.0.0.1/-/11ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 19133
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:26:53,038 ERROR 19133 [-/127.0.0.1/-/5ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 19133
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:26:54,035 ERROR 19133 [-/127.0.0.1/-/4ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 19133
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:26:56,580 ERROR 19133 [-/127.0.0.1/-/4ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 19133
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:26:58,497 ERROR 19133 [-/127.0.0.1/-/4ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 19133
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:27:17,027 ERROR 19156 [-/127.0.0.1/-/12ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 19156
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:29:46,436 ERROR 19229 [-/127.0.0.1/-/10ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Users/ljc/Downloads/vue/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/ljc/Downloads/vue/egg-example/node_modules/koa-static-cache/index.js:53:56
+
+pid: 19229
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:29:59,100 ERROR 19250 [-/127.0.0.1/-/9ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.dolinkcheck (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:44:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:32:20)
+
+pid: 19250
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:30:03,543 ERROR 19250 [-/127.0.0.1/-/5ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.dolinkcheck (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:44:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:32:20)
+
+pid: 19250
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:30:08,198 ERROR 19250 [-/127.0.0.1/-/5ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.dolinkcheck (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:44:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:32:20)
+
+pid: 19250
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:30:09,045 ERROR 19250 [-/127.0.0.1/-/5ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.dolinkcheck (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:44:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:32:20)
+
+pid: 19250
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:30:09,883 ERROR 19250 [-/127.0.0.1/-/5ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.dolinkcheck (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:44:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:32:20)
+
+pid: 19250
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:31:56,181 ERROR 19320 [-/127.0.0.1/-/9ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Users/ljc/Downloads/vue/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/ljc/Downloads/vue/egg-example/node_modules/koa-static-cache/index.js:53:56
+
+pid: 19320
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:32:52,218 ERROR 19346 [-/127.0.0.1/-/10ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 19346
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:36:14,109 ERROR 19458 [-/127.0.0.1/-/10ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 19458
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:49:15,804 ERROR 19895 [-/127.0.0.1/-/19ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:34:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Users/ljc/Downloads/vue/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/ljc/Downloads/vue/egg-example/node_modules/koa-static-cache/index.js:53:56
+
+pid: 19895
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:49:29,957 ERROR 19909 [-/127.0.0.1/-/21ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:34:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Users/ljc/Downloads/vue/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/ljc/Downloads/vue/egg-example/node_modules/koa-static-cache/index.js:53:56
+
+pid: 19909
+hostname: liangjiengdeMBP.lan
+

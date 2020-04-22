@@ -1,0 +1,458 @@
+2020-04-21 21:09:17,174 ERROR 14964 [-/127.0.0.1/-/34ms POST /form] nodejs.EHOSTUNREACHError: connect EHOSTUNREACH 0.0.27.90:80 - Local (192.168.15.149:60093)
+    at internalConnect (net.js:923:16)
+    at defaultTriggerAsyncIdScope (internal/async_hooks.js:313:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (net.js:1063:9)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:10)
+errno: -65
+code: "EHOSTUNREACH"
+syscall: "connect"
+address: "0.0.27.90"
+port: 80
+config: {"url":"127.0.0.1:7002/form","method":"post","data":"{\"aaa\":\"aaa\"}","headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"axios/0.19.2","Content-Length":13},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1}
+request: {"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":false,"decodeStrings":true,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":true,"bufferProcessing":false,"writecb":null,"writelen":0,"afterWriteTickInfo":null,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":0,"prefinished":false,"errorEmitted":false,"emitClose":true,"autoDestroy":false,"errored":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":true,"_events":{},"_eventsCount":2,"_options":{"protocol":"http:","maxRedirects":21,"maxBodyLength":10485760,"path":"/form","method":"POST","headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"axios/0.19.2","Content-Length":13},"agents":{},"hostname":"7002","port":null,"nativeProtocols":{"http:":{"METHODS":["ACL","BIND","CHECKOUT","CONNECT","COPY","DELETE","GET","HEAD","LINK","LOCK","M-SEARCH","MERGE","MKACTIVITY","MKCALENDAR","MKCOL","MOVE","NOTIFY","OPTIONS","PATCH","POST","PROPFIND","PROPPATCH","PURGE","PUT","REBIND","REPORT","SEARCH","SOURCE","SUBSCRIBE","TRACE","UNBIND","UNLINK","UNLOCK","UNSUBSCRIBE"],"STATUS_CODES":{"100":"Continue","101":"Switching Protocols","102":"Processing","103":"Early Hints","200":"OK","201":"Created","202":"Accepted","203":"Non-Authoritative Information","204":"No Content","205":"Reset Content","206":"Partial Content","207":"Multi-Status","208":"Already Reported","226":"IM Used","300":"Multiple Choices","301":"Moved Permanently","302":"Found","303":"See Other","304":"Not Modified","305":"Use Proxy","307":"Temporary Redirect","308":"Permanent Redirect","400":"Bad Request","401":"Unauthorized","402":"Payment Required","403":"Forbidden","404":"Not Found","405":"Method Not Allowed","406":"Not Acceptable","407":"Proxy Authentication Required","408":"Request Timeout","409":"Conflict","410":"Gone","411":"Length Required","412":"Precondition Failed","413":"Payload Too Large","414":"URI Too Long","415":"Unsupported Media Type","416":"Range Not Satisfiable","417":"Expectation Failed","418":"I'm a Teapot","421":"Misdirected Request","422":"Unprocessable Entity","423":"Locked","424":"Failed Dependency","425":"Too Early","426":"Upgrade Required","428":"Precondition Required","429":"Too Many Requests","431":"Request Header Fields Too Large","451":"Unavailable For Legal Reasons","500":"Internal Server Error","501":"Not Implemented","502":"Bad Gateway","503":"Service Unavailable","504":"Gateway Timeout","505":"HTTP Version Not Supported","506":"Variant Also Negotiates","507":"Insufficient Storage","508":"Loop Detected","509":"Bandwidth Limit Exceeded","510":"Not Extended","511":"Network Authentication Required"},"maxHeaderSize":8192,"globalAgent":{"_events":{},"_eventsCount":2,"defaultPort":80,"protocol":"http:","options":{"path":null},"requests":{},"sockets":{"7002:80:":[{"connecting":false,"_hadError":true,"_parent":null,"_host":"7002","_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":[],"flowing":true,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"errorEmitted":true,"emitClose":false,"autoDestroy":false,"destroyed":true,"defaultEncoding":"utf8","awaitDrainWriters":null,"multiAwaitDrain":false,"readingMore":false,"decoder":null,"encoding":null},"readable":false,"_events":{"connect":[null,null,null],"close":[null,null]},"_eventsCount":8,"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":true,"decodeStrings":false,"defaultEncoding":"utf8","length":188,"writing":true,"corked":0,"sync":false,"bufferProcessing":false,"writelen":188,"afterWriteTickInfo":null,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":3,"prefinished":false,"errorEmitted":true,"emitClose":false,"autoDestroy":false,"errored":true,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":false,"allowHalfOpen":false,"_sockname":null,"_pendingData":[{"chunk":"POST /form HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nContent-Type: application/json\r\nUser-Agent: axios/0.19.2\r\nContent-Length: 13\r\nHost: 7002\r\nConnection: close\r\n\r\n","encoding":"latin1","next":{"chunk":"<Buffer 7b 22 61 61 61 22 3a 22 61 61 61 22 7d>","encoding":"buffer","next":null}},"~_options~nativeProtocols~http:~globalAgent~sockets~7002:80:~0~_pendingData~0~next"],"_pendingEncoding":"","server":null,"_server":null,"parser":null,"_httpMessage":{"_events":{},"_eventsCount":6,"outputData":[],"outputSize":0,"writable":true,"_last":true,"chunkedEncoding":false,"shouldKeepAlive":false,"useChunkedEncodingByDefault":true,"sendDate":false,"_removedConnection":false,"_removedContLen":false,"_removedTE":false,"_contentLength":null,"_hasBody":true,"_trailer":"","finished":false,"_headerSent":true,"socket":"~_options~nativeProtocols~http:~globalAgent~sockets~7002:80:~0","_header":"POST /form HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nContent-Type: application/json\r\nUser-Agent: axios/0.19.2\r\nContent-Length: 13\r\nHost: 7002\r\nConnection: close\r\n\r\n","agent":"~_options~nativeProtocols~http:~globalAgent","method":"POST","path":"/form","_ended":false,"res":null,"aborted":false,"timeoutCb":null,"upgradeOrConnect":false,"parser":null,"maxHeadersCount":null,"reusedSocket":false,"_redirectable":"~"}}]},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256}},"https:":{"globalAgent":{"_events":{},"_eventsCount":2,"defaultPort":443,"protocol":"https:","options":{"path":null},"requests":{},"sockets":{},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256,"maxCachedSessions":100,"_sessionCache":{"map":{},"list":[]}}}},"pathname":"/form"},"_redirectCount":0,"_redirects":[],"_requestBodyLength":13,"_requestBodyBuffers":[{"data":"<Buffer 7b 22 61 61 61 22 3a 22 61 61 61 22 7d>"}],"_currentRequest":"~_options~nativeProtocols~http:~globalAgent~sockets~7002:80:~0~_httpMessage","_currentUrl":"http://7002/form"}
+response: undefined
+isAxiosError: true
+toJSON: undefined
+name: "EHOSTUNREACHError"
+pid: 14964
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:09:46,649 ERROR 18484 [-/127.0.0.1/-/11ms GET /linknum] nodejs.TypeError: Cannot read property 'headers' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:33:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18484
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:09:47,137 ERROR 18484 [-/127.0.0.1/-/13ms GET /linknum] nodejs.TypeError: Cannot read property 'headers' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:33:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18484
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:10:45,148 ERROR 18520 [-/127.0.0.1/-/10ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:34:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18520
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:11:07,115 ERROR 18545 [-/127.0.0.1/-/10ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:34:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18545
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:11:46,755 ERROR 18566 [-/127.0.0.1/-/9ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:34:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18566
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:11:55,348 ERROR 18578 [-/127.0.0.1/-/11ms GET /linknum] nodejs.TypeError: console is not a function
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:5)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18578
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:11:57,969 ERROR 18578 [-/127.0.0.1/-/5ms GET /linknum] nodejs.TypeError: console is not a function
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:5)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18578
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:12:22,084 ERROR 18578 [-/127.0.0.1/-/5ms GET /linknum] nodejs.TypeError: console is not a function
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:5)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18578
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:12:30,314 ERROR 18578 [-/127.0.0.1/-/6ms GET /linknum] nodejs.TypeError: console is not a function
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:5)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18578
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:13:51,753 ERROR 18635 [-/127.0.0.1/-/11ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:34:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18635
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:14:03,013 ERROR 18648 [-/127.0.0.1/-/12ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:34:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18648
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:14:09,908 ERROR 18671 [-/127.0.0.1/-/9ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:34:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18671
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:14:21,848 ERROR 18671 [-/127.0.0.1/-/4ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:34:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18671
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:14:29,634 ERROR 18693 [-/127.0.0.1/-/10ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:34:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18693
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:14:43,146 ERROR 18713 [-/127.0.0.1/-/11ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:34:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 18713
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:15:36,619 ERROR 18739 [-/127.0.0.1/-/4ms GET /linknum] nodejs.TypeError: Cannot read property 'dolinkcheck' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:31:35)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 18739
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:19:39,324 ERROR 18836 [-/127.0.0.1/-/11ms GET /linknum] nodejs.TypeError: Cannot read property 'stdout' of undefined
+    at doShellCmd (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:24:15)
+    at NumController.dolinkcheck (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:40:12)
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:31:31)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 18836
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:23:07,895 ERROR 18917 [-/127.0.0.1/-/12ms GET /linknum] nodejs.TypeError: Cannot read property 'stdout' of undefined
+    at doShellCmd (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:25:15)
+    at NumController.dolinkcheck (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:41:12)
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:32:31)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 18917
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:23:30,649 ERROR 18917 [-/127.0.0.1/-/5ms GET /linknum] nodejs.TypeError: Cannot read property 'stdout' of undefined
+    at doShellCmd (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:25:15)
+    at NumController.dolinkcheck (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:41:12)
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:32:31)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 18917
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:23:32,826 ERROR 18917 [-/127.0.0.1/-/5ms GET /linknum] nodejs.TypeError: Cannot read property 'stdout' of undefined
+    at doShellCmd (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:25:15)
+    at NumController.dolinkcheck (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:41:12)
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:32:31)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 18917
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:23:38,938 ERROR 18917 [-/127.0.0.1/-/4ms GET /linknum] nodejs.TypeError: Cannot read property 'stdout' of undefined
+    at doShellCmd (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:25:15)
+    at NumController.dolinkcheck (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:41:12)
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:32:31)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 18917
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:23:43,960 ERROR 18917 [-/127.0.0.1/-/5ms GET /linknum] nodejs.TypeError: Cannot read property 'stdout' of undefined
+    at doShellCmd (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:25:15)
+    at NumController.dolinkcheck (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:41:12)
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:32:31)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 18917
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:23:50,065 ERROR 18956 [-/127.0.0.1/-/9ms GET /linknum] nodejs.TypeError: Cannot read property 'stdout' of undefined
+    at doShellCmd (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:25:20)
+    at NumController.dolinkcheck (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:42:12)
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:33:31)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 18956
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:24:07,007 ERROR 18979 [-/127.0.0.1/-/10ms GET /linknum] nodejs.TypeError: Cannot read property 'stdout' of undefined
+    at doShellCmd (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:25:20)
+    at NumController.dolinkcheck (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:43:12)
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:34:31)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 18979
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:24:35,684 ERROR 19000 [-/127.0.0.1/-/14ms GET /linknum] nodejs.TypeError: Cannot read property 'stdout' of undefined
+    at doShellCmd (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:26:20)
+    at NumController.dolinkcheck (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:44:12)
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:31)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/ljc/Downloads/vue/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 19000
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:25:10,930 ERROR 19029 [-/127.0.0.1/-/10ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 19029
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:26:01,164 ERROR 19080 [-/127.0.0.1/-/11ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 19080
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:26:38,932 ERROR 19111 [-/127.0.0.1/-/11ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 19111
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:26:42,093 ERROR 19111 [-/127.0.0.1/-/11ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 19111
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:26:51,766 ERROR 19133 [-/127.0.0.1/-/11ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 19133
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:26:53,038 ERROR 19133 [-/127.0.0.1/-/5ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 19133
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:26:54,035 ERROR 19133 [-/127.0.0.1/-/4ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 19133
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:26:56,580 ERROR 19133 [-/127.0.0.1/-/4ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 19133
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:26:58,497 ERROR 19133 [-/127.0.0.1/-/4ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 19133
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:27:17,027 ERROR 19156 [-/127.0.0.1/-/12ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 19156
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:29:46,439 ERROR 19229 [-/127.0.0.1/-/10ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Users/ljc/Downloads/vue/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/ljc/Downloads/vue/egg-example/node_modules/koa-static-cache/index.js:53:56
+
+pid: 19229
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:29:59,101 ERROR 19250 [-/127.0.0.1/-/9ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.dolinkcheck (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:44:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:32:20)
+
+pid: 19250
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:30:03,544 ERROR 19250 [-/127.0.0.1/-/5ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.dolinkcheck (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:44:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:32:20)
+
+pid: 19250
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:30:08,198 ERROR 19250 [-/127.0.0.1/-/5ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.dolinkcheck (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:44:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:32:20)
+
+pid: 19250
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:30:09,045 ERROR 19250 [-/127.0.0.1/-/5ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.dolinkcheck (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:44:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:32:20)
+
+pid: 19250
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:30:09,883 ERROR 19250 [-/127.0.0.1/-/5ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.dolinkcheck (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:44:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:32:20)
+
+pid: 19250
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:31:56,185 ERROR 19320 [-/127.0.0.1/-/9ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Users/ljc/Downloads/vue/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/ljc/Downloads/vue/egg-example/node_modules/koa-static-cache/index.js:53:56
+
+pid: 19320
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:32:52,218 ERROR 19346 [-/127.0.0.1/-/10ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 19346
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:36:14,109 ERROR 19458 [-/127.0.0.1/-/10ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:35:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 19458
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:49:15,806 ERROR 19895 [-/127.0.0.1/-/19ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:34:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Users/ljc/Downloads/vue/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/ljc/Downloads/vue/egg-example/node_modules/koa-static-cache/index.js:53:56
+
+pid: 19895
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 23:49:29,958 ERROR 19909 [-/127.0.0.1/-/21ms GET /linknum] nodejs.TypeError: Cannot read property 'data' of undefined
+    at NumController.get (/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js:34:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Users/ljc/Downloads/vue/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/ljc/Downloads/vue/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/ljc/Downloads/vue/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/ljc/Downloads/vue/egg-example/node_modules/koa-static-cache/index.js:53:56
+
+pid: 19909
+hostname: liangjiengdeMBP.lan
+

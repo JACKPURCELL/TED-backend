@@ -1,0 +1,294 @@
+{
+  "keys": "/Users/ljc/Downloads/vue/egg-key/config/config.default.js",
+  "middleware": "/Users/ljc/Downloads/vue/egg-key/config/config.default.js",
+  "security": {
+    "csrf": {
+      "enable": "/Users/ljc/Downloads/vue/egg-key/config/config.default.js",
+      "type": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+  "name": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "version": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "description": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "private": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "axios": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+      "egg": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+      "stop": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+      "dev": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+      "debug": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+      "test": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+      "cov": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+      "lint": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+      "ci": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+      "autod": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+      "url": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "license": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "strict": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+      "depth": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "env": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "level": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "logging": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+      "port": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/config.default.js"
+}

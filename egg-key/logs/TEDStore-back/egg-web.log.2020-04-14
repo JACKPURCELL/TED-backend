@@ -1,0 +1,417 @@
+2020-04-14 00:00:01,010 INFO 81190 [egg-logrotator] app logger reload: got log-reload message
+2020-04-14 01:54:55,915 INFO 90091 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-14 01:54:55,937 INFO 90091 [egg-multipart] stream mode enable
+2020-04-14 01:54:56,006 INFO 90091 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-14 01:54:56,008 INFO 90091 [egg-security] use methodnoallow middleware
+2020-04-14 01:54:56,009 INFO 90091 [egg-security] use noopen middleware
+2020-04-14 01:54:56,010 INFO 90091 [egg-security] use nosniff middleware
+2020-04-14 01:54:56,010 INFO 90091 [egg-security] use xssProtection middleware
+2020-04-14 01:54:56,011 INFO 90091 [egg-security] use xframe middleware
+2020-04-14 01:54:56,011 INFO 90091 [egg-security] use dta middleware
+2020-04-14 01:54:56,012 INFO 90091 [egg-security] compose 6 middlewares into one security middleware
+2020-04-14 01:54:56,020 INFO 90091 [egg:core] dump config after load, 4ms
+2020-04-14 01:54:56,031 INFO 90091 [egg-watcher:application] watcher start success
+2020-04-14 01:54:56,038 INFO 90091 [egg:core] dump config after ready, 6ms
+2020-04-14 01:57:03,722 INFO 90223 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-14 01:57:03,749 INFO 90223 [egg-multipart] stream mode enable
+2020-04-14 01:57:03,817 INFO 90223 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-14 01:57:03,819 INFO 90223 [egg-security] use methodnoallow middleware
+2020-04-14 01:57:03,820 INFO 90223 [egg-security] use noopen middleware
+2020-04-14 01:57:03,821 INFO 90223 [egg-security] use nosniff middleware
+2020-04-14 01:57:03,821 INFO 90223 [egg-security] use xssProtection middleware
+2020-04-14 01:57:03,822 INFO 90223 [egg-security] use xframe middleware
+2020-04-14 01:57:03,823 INFO 90223 [egg-security] use dta middleware
+2020-04-14 01:57:03,823 INFO 90223 [egg-security] compose 6 middlewares into one security middleware
+2020-04-14 01:57:03,831 INFO 90223 [egg:core] dump config after load, 3ms
+2020-04-14 01:57:03,841 INFO 90223 [egg-watcher:application] watcher start success
+2020-04-14 01:57:03,850 INFO 90223 [egg:core] dump config after ready, 7ms
+2020-04-14 01:57:10,240 INFO 90245 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-14 01:57:10,257 INFO 90245 [egg-multipart] stream mode enable
+2020-04-14 01:57:10,287 INFO 90245 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-14 01:57:10,288 INFO 90245 [egg-security] use methodnoallow middleware
+2020-04-14 01:57:10,288 INFO 90245 [egg-security] use noopen middleware
+2020-04-14 01:57:10,289 INFO 90245 [egg-security] use nosniff middleware
+2020-04-14 01:57:10,289 INFO 90245 [egg-security] use xssProtection middleware
+2020-04-14 01:57:10,289 INFO 90245 [egg-security] use xframe middleware
+2020-04-14 01:57:10,289 INFO 90245 [egg-security] use dta middleware
+2020-04-14 01:57:10,290 INFO 90245 [egg-security] compose 6 middlewares into one security middleware
+2020-04-14 01:57:10,295 INFO 90245 [egg:core] dump config after load, 3ms
+2020-04-14 01:57:10,304 INFO 90245 [egg-watcher:application] watcher start success
+2020-04-14 01:57:10,311 INFO 90245 [egg:core] dump config after ready, 5ms
+2020-04-14 01:59:02,976 INFO 90421 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-14 01:59:02,998 INFO 90421 [egg-multipart] stream mode enable
+2020-04-14 01:59:03,039 INFO 90421 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-14 01:59:03,041 INFO 90421 [egg-security] use methodnoallow middleware
+2020-04-14 01:59:03,041 INFO 90421 [egg-security] use noopen middleware
+2020-04-14 01:59:03,041 INFO 90421 [egg-security] use nosniff middleware
+2020-04-14 01:59:03,042 INFO 90421 [egg-security] use xssProtection middleware
+2020-04-14 01:59:03,042 INFO 90421 [egg-security] use xframe middleware
+2020-04-14 01:59:03,042 INFO 90421 [egg-security] use dta middleware
+2020-04-14 01:59:03,042 INFO 90421 [egg-security] compose 6 middlewares into one security middleware
+2020-04-14 01:59:03,050 INFO 90421 [egg:core] dump config after load, 4ms
+2020-04-14 01:59:03,061 INFO 90421 [egg-watcher:application] watcher start success
+2020-04-14 01:59:03,069 INFO 90421 [egg:core] dump config after ready, 7ms
+2020-04-14 02:08:02,474 INFO 91014 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-14 02:08:02,496 INFO 91014 [egg-multipart] stream mode enable
+2020-04-14 02:08:02,560 INFO 91014 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-14 02:08:02,562 INFO 91014 [egg-security] use methodnoallow middleware
+2020-04-14 02:08:02,563 INFO 91014 [egg-security] use noopen middleware
+2020-04-14 02:08:02,563 INFO 91014 [egg-security] use nosniff middleware
+2020-04-14 02:08:02,564 INFO 91014 [egg-security] use xssProtection middleware
+2020-04-14 02:08:02,565 INFO 91014 [egg-security] use xframe middleware
+2020-04-14 02:08:02,565 INFO 91014 [egg-security] use dta middleware
+2020-04-14 02:08:02,565 INFO 91014 [egg-security] compose 6 middlewares into one security middleware
+2020-04-14 02:08:02,573 INFO 91014 [egg:core] dump config after load, 4ms
+2020-04-14 02:08:02,583 INFO 91014 [egg-watcher:application] watcher start success
+2020-04-14 02:08:02,591 INFO 91014 [egg:core] dump config after ready, 6ms
+2020-04-14 02:09:31,731 INFO 91110 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-14 02:09:31,754 INFO 91110 [egg-multipart] stream mode enable
+2020-04-14 02:09:31,822 INFO 91110 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-14 02:09:31,824 INFO 91110 [egg-security] use methodnoallow middleware
+2020-04-14 02:09:31,825 INFO 91110 [egg-security] use noopen middleware
+2020-04-14 02:09:31,826 INFO 91110 [egg-security] use nosniff middleware
+2020-04-14 02:09:31,826 INFO 91110 [egg-security] use xssProtection middleware
+2020-04-14 02:09:31,827 INFO 91110 [egg-security] use xframe middleware
+2020-04-14 02:09:31,828 INFO 91110 [egg-security] use dta middleware
+2020-04-14 02:09:31,828 INFO 91110 [egg-security] compose 6 middlewares into one security middleware
+2020-04-14 02:09:31,837 INFO 91110 [egg:core] dump config after load, 5ms
+2020-04-14 02:09:31,850 INFO 91110 [egg-watcher:application] watcher start success
+2020-04-14 02:09:31,859 INFO 91110 [egg:core] dump config after ready, 7ms
+2020-04-14 02:10:33,220 INFO 91187 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-14 02:10:33,242 INFO 91187 [egg-multipart] stream mode enable
+2020-04-14 02:10:33,304 INFO 91187 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-14 02:10:33,306 INFO 91187 [egg-security] use methodnoallow middleware
+2020-04-14 02:10:33,307 INFO 91187 [egg-security] use noopen middleware
+2020-04-14 02:10:33,307 INFO 91187 [egg-security] use nosniff middleware
+2020-04-14 02:10:33,308 INFO 91187 [egg-security] use xssProtection middleware
+2020-04-14 02:10:33,309 INFO 91187 [egg-security] use xframe middleware
+2020-04-14 02:10:33,309 INFO 91187 [egg-security] use dta middleware
+2020-04-14 02:10:33,309 INFO 91187 [egg-security] compose 6 middlewares into one security middleware
+2020-04-14 02:10:33,317 INFO 91187 [egg:core] dump config after load, 4ms
+2020-04-14 02:10:33,327 INFO 91187 [egg-watcher:application] watcher start success
+2020-04-14 02:10:33,335 INFO 91187 [egg:core] dump config after ready, 6ms
+2020-04-14 02:49:21,293 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 04:02:15,182 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 04:03:42,796 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 04:05:30,355 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 04:06:57,924 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 04:08:45,483 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 04:25:25,641 WARN 91187 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 04:25:25,642 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 04:27:13,262 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 04:28:40,866 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 04:30:28,492 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 04:31:56,026 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 04:33:43,664 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 04:35:11,276 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 04:51:51,201 WARN 91187 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 04:51:51,201 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 04:53:38,762 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 04:55:26,381 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 05:01:31,294 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 05:03:18,868 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 05:04:46,507 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 05:19:58,590 WARN 91187 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 05:19:58,590 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 05:21:26,259 WARN 91187 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 05:21:26,260 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 05:23:13,874 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 05:25:01,479 WARN 91187 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 05:25:01,481 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 05:26:29,021 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 05:28:16,592 WARN 91187 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 05:28:16,592 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 05:29:44,206 WARN 91187 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 05:29:44,206 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 05:44:55,629 WARN 91187 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 05:44:55,630 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 05:46:23,242 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 05:48:10,871 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 05:49:38,921 WARN 91187 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 05:49:38,922 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 05:51:26,510 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 05:53:14,073 WARN 91187 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 05:53:14,074 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 05:54:41,706 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 06:09:53,388 WARN 91187 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 06:09:53,389 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 06:11:20,984 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 06:13:08,555 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 06:14:36,136 WARN 91187 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 06:14:36,136 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 06:16:23,732 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 06:17:51,370 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 06:19:38,922 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 06:34:32,508 WARN 91187 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 06:34:32,509 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 06:36:20,081 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 06:38:07,724 WARN 91187 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 06:38:07,724 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 06:39:35,352 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 06:41:22,967 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 06:42:50,552 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 06:44:38,252 WARN 91187 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 06:44:38,252 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 06:59:30,695 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 07:01:18,265 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 07:02:45,803 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 07:04:33,351 WARN 91187 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 07:04:33,352 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 07:23:10,273 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 07:24:37,843 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 07:26:25,471 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 07:27:53,273 WARN 91187 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 07:27:53,274 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 07:29:40,905 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 07:31:09,576 WARN 91187 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 07:31:09,586 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 07:46:21,370 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 07:48:08,990 WARN 91187 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 07:48:08,991 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 07:49:36,557 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 07:51:24,175 WARN 91187 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 07:51:24,175 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 07:52:51,796 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 07:54:39,423 WARN 91187 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 07:54:39,423 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 07:56:07,059 WARN 91187 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 07:56:07,059 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 08:11:18,769 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 08:12:46,380 WARN 91187 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 08:12:46,381 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 08:14:33,940 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 08:16:21,502 WARN 91187 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 08:16:21,502 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 08:17:49,023 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 08:19:36,629 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 08:21:04,260 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 08:36:16,871 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 08:37:44,421 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 08:39:32,043 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 08:40:59,558 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 08:42:47,146 WARN 91187 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 08:42:47,147 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 08:42:49,018 INFO 91187 [-/127.0.0.1/-/11ms SCHEDULE /__schedule?path=/Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/ws/jsz01nvd3074c9dwb74dbx8h0000gn/T/egg-multipart-tmp/TEDStore-back"
+2020-04-14 08:42:49,049 INFO 91187 [-/127.0.0.1/-/46ms SCHEDULE /__schedule?path=/Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-04-14 08:44:14,675 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 08:46:02,236 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 09:00:54,726 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 09:03:02,308 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 09:04:29,889 WARN 91187 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 09:04:29,889 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 09:06:17,547 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 09:07:45,145 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 09:09:32,742 WARN 91187 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 09:09:32,742 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 09:11:20,243 WARN 91187 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 09:11:20,244 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 09:29:26,826 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 09:31:14,393 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 09:32:41,965 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 09:34:29,540 WARN 91187 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 09:34:29,540 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 09:35:57,139 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 10:00:12,453 WARN 91187 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 11:07:36,513 INFO 3415 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-14 11:07:36,537 INFO 3415 [egg-multipart] stream mode enable
+2020-04-14 11:07:36,724 INFO 3415 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-14 11:07:36,727 INFO 3415 [egg-security] use methodnoallow middleware
+2020-04-14 11:07:36,728 INFO 3415 [egg-security] use noopen middleware
+2020-04-14 11:07:36,729 INFO 3415 [egg-security] use nosniff middleware
+2020-04-14 11:07:36,729 INFO 3415 [egg-security] use xssProtection middleware
+2020-04-14 11:07:36,730 INFO 3415 [egg-security] use xframe middleware
+2020-04-14 11:07:36,731 INFO 3415 [egg-security] use dta middleware
+2020-04-14 11:07:36,731 INFO 3415 [egg-security] compose 6 middlewares into one security middleware
+2020-04-14 11:07:36,740 INFO 3415 [egg:core] dump config after load, 4ms
+2020-04-14 11:07:36,751 INFO 3415 [egg-watcher:application] watcher start success
+2020-04-14 11:07:36,761 INFO 3415 [egg:core] dump config after ready, 8ms
+2020-04-14 13:53:13,822 WARN 3415 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 13:53:13,837 WARN 3415 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 14:28:57,981 WARN 3415 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 17:25:03,558 WARN 3415 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 17:30:35,410 WARN 3415 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 17:36:18,483 WARN 3415 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 17:41:42,186 WARN 3415 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 17:41:42,187 WARN 3415 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 17:47:25,245 WARN 3415 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 17:54:19,579 WARN 3415 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 17:54:19,579 WARN 3415 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 17:57:09,364 WARN 3415 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 18:04:09,811 WARN 3415 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 18:09:52,851 WARN 3415 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 18:15:15,941 WARN 3415 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 18:18:06,854 WARN 3415 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 18:23:21,481 WARN 3415 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 18:23:21,486 WARN 3415 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 23:17:28,121 INFO 18005 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-14 23:17:28,138 INFO 18005 [egg-multipart] stream mode enable
+2020-04-14 23:17:28,198 INFO 18005 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-14 23:17:28,200 INFO 18005 [egg-security] use methodnoallow middleware
+2020-04-14 23:17:28,201 INFO 18005 [egg-security] use noopen middleware
+2020-04-14 23:17:28,201 INFO 18005 [egg-security] use nosniff middleware
+2020-04-14 23:17:28,202 INFO 18005 [egg-security] use xssProtection middleware
+2020-04-14 23:17:28,202 INFO 18005 [egg-security] use xframe middleware
+2020-04-14 23:17:28,203 INFO 18005 [egg-security] use dta middleware
+2020-04-14 23:17:28,203 INFO 18005 [egg-security] compose 6 middlewares into one security middleware
+2020-04-14 23:17:28,210 INFO 18005 [egg:core] dump config after load, 3ms
+2020-04-14 23:17:28,218 INFO 18005 [egg-watcher:application] watcher start success
+2020-04-14 23:17:28,225 INFO 18005 [egg:core] dump config after ready, 5ms
+2020-04-14 23:19:30,723 INFO 18037 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-14 23:19:30,749 INFO 18037 [egg-multipart] stream mode enable
+2020-04-14 23:19:30,827 INFO 18037 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-14 23:19:30,829 INFO 18037 [egg-security] use methodnoallow middleware
+2020-04-14 23:19:30,829 INFO 18037 [egg-security] use noopen middleware
+2020-04-14 23:19:30,830 INFO 18037 [egg-security] use nosniff middleware
+2020-04-14 23:19:30,831 INFO 18037 [egg-security] use xssProtection middleware
+2020-04-14 23:19:30,832 INFO 18037 [egg-security] use xframe middleware
+2020-04-14 23:19:30,832 INFO 18037 [egg-security] use dta middleware
+2020-04-14 23:19:30,832 INFO 18037 [egg-security] compose 6 middlewares into one security middleware
+2020-04-14 23:19:30,840 INFO 18037 [egg:core] dump config after load, 3ms
+2020-04-14 23:19:30,849 INFO 18037 [egg-watcher:application] watcher start success
+2020-04-14 23:19:30,858 INFO 18037 [egg:core] dump config after ready, 7ms
+2020-04-14 23:19:39,238 INFO 18040 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-14 23:19:39,260 INFO 18040 [egg-multipart] stream mode enable
+2020-04-14 23:19:39,293 INFO 18040 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-14 23:19:39,294 INFO 18040 [egg-security] use methodnoallow middleware
+2020-04-14 23:19:39,294 INFO 18040 [egg-security] use noopen middleware
+2020-04-14 23:19:39,295 INFO 18040 [egg-security] use nosniff middleware
+2020-04-14 23:19:39,295 INFO 18040 [egg-security] use xssProtection middleware
+2020-04-14 23:19:39,295 INFO 18040 [egg-security] use xframe middleware
+2020-04-14 23:19:39,295 INFO 18040 [egg-security] use dta middleware
+2020-04-14 23:19:39,296 INFO 18040 [egg-security] compose 6 middlewares into one security middleware
+2020-04-14 23:19:39,301 INFO 18040 [egg:core] dump config after load, 3ms
+2020-04-14 23:19:39,308 INFO 18040 [egg-watcher:application] watcher start success
+2020-04-14 23:19:39,315 INFO 18040 [egg:core] dump config after ready, 6ms
+2020-04-14 23:19:53,758 INFO 18055 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-14 23:19:53,776 INFO 18055 [egg-multipart] stream mode enable
+2020-04-14 23:19:53,807 INFO 18055 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-14 23:19:53,809 INFO 18055 [egg-security] use methodnoallow middleware
+2020-04-14 23:19:53,809 INFO 18055 [egg-security] use noopen middleware
+2020-04-14 23:19:53,810 INFO 18055 [egg-security] use nosniff middleware
+2020-04-14 23:19:53,810 INFO 18055 [egg-security] use xssProtection middleware
+2020-04-14 23:19:53,810 INFO 18055 [egg-security] use xframe middleware
+2020-04-14 23:19:53,811 INFO 18055 [egg-security] use dta middleware
+2020-04-14 23:19:53,811 INFO 18055 [egg-security] compose 6 middlewares into one security middleware
+2020-04-14 23:19:53,817 INFO 18055 [egg:core] dump config after load, 3ms
+2020-04-14 23:19:53,827 INFO 18055 [egg-watcher:application] watcher start success
+2020-04-14 23:19:53,835 INFO 18055 [egg:core] dump config after ready, 6ms
+2020-04-14 23:21:26,443 INFO 18146 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-14 23:21:26,468 INFO 18146 [egg-multipart] stream mode enable
+2020-04-14 23:21:26,509 INFO 18146 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-14 23:21:26,510 INFO 18146 [egg-security] use methodnoallow middleware
+2020-04-14 23:21:26,511 INFO 18146 [egg-security] use noopen middleware
+2020-04-14 23:21:26,511 INFO 18146 [egg-security] use nosniff middleware
+2020-04-14 23:21:26,512 INFO 18146 [egg-security] use xssProtection middleware
+2020-04-14 23:21:26,512 INFO 18146 [egg-security] use xframe middleware
+2020-04-14 23:21:26,512 INFO 18146 [egg-security] use dta middleware
+2020-04-14 23:21:26,512 INFO 18146 [egg-security] compose 6 middlewares into one security middleware
+2020-04-14 23:21:26,520 INFO 18146 [egg:core] dump config after load, 4ms
+2020-04-14 23:21:26,532 INFO 18146 [egg-watcher:application] watcher start success
+2020-04-14 23:21:26,540 INFO 18146 [egg:core] dump config after ready, 6ms
+2020-04-14 23:22:20,176 INFO 18258 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-14 23:22:20,199 INFO 18258 [egg-multipart] stream mode enable
+2020-04-14 23:22:20,239 INFO 18258 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-14 23:22:20,241 INFO 18258 [egg-security] use methodnoallow middleware
+2020-04-14 23:22:20,241 INFO 18258 [egg-security] use noopen middleware
+2020-04-14 23:22:20,242 INFO 18258 [egg-security] use nosniff middleware
+2020-04-14 23:22:20,242 INFO 18258 [egg-security] use xssProtection middleware
+2020-04-14 23:22:20,242 INFO 18258 [egg-security] use xframe middleware
+2020-04-14 23:22:20,243 INFO 18258 [egg-security] use dta middleware
+2020-04-14 23:22:20,243 INFO 18258 [egg-security] compose 6 middlewares into one security middleware
+2020-04-14 23:22:20,251 INFO 18258 [egg:core] dump config after load, 4ms
+2020-04-14 23:22:20,263 INFO 18258 [egg-watcher:application] watcher start success
+2020-04-14 23:22:20,271 INFO 18258 [egg:core] dump config after ready, 6ms
+2020-04-14 23:22:37,008 INFO 18262 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-14 23:22:37,026 INFO 18262 [egg-multipart] stream mode enable
+2020-04-14 23:22:37,061 INFO 18262 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-14 23:22:37,062 INFO 18262 [egg-security] use methodnoallow middleware
+2020-04-14 23:22:37,063 INFO 18262 [egg-security] use noopen middleware
+2020-04-14 23:22:37,063 INFO 18262 [egg-security] use nosniff middleware
+2020-04-14 23:22:37,063 INFO 18262 [egg-security] use xssProtection middleware
+2020-04-14 23:22:37,064 INFO 18262 [egg-security] use xframe middleware
+2020-04-14 23:22:37,064 INFO 18262 [egg-security] use dta middleware
+2020-04-14 23:22:37,064 INFO 18262 [egg-security] compose 6 middlewares into one security middleware
+2020-04-14 23:22:37,071 INFO 18262 [egg:core] dump config after load, 3ms
+2020-04-14 23:22:37,079 INFO 18262 [egg-watcher:application] watcher start success
+2020-04-14 23:22:37,084 INFO 18262 [egg:core] dump config after ready, 4ms
+2020-04-14 23:24:32,545 INFO 18291 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-14 23:24:32,566 INFO 18291 [egg-multipart] stream mode enable
+2020-04-14 23:24:32,595 INFO 18291 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-14 23:24:32,597 INFO 18291 [egg-security] use methodnoallow middleware
+2020-04-14 23:24:32,597 INFO 18291 [egg-security] use noopen middleware
+2020-04-14 23:24:32,597 INFO 18291 [egg-security] use nosniff middleware
+2020-04-14 23:24:32,598 INFO 18291 [egg-security] use xssProtection middleware
+2020-04-14 23:24:32,598 INFO 18291 [egg-security] use xframe middleware
+2020-04-14 23:24:32,598 INFO 18291 [egg-security] use dta middleware
+2020-04-14 23:24:32,598 INFO 18291 [egg-security] compose 6 middlewares into one security middleware
+2020-04-14 23:24:32,604 INFO 18291 [egg:core] dump config after load, 3ms
+2020-04-14 23:24:32,611 INFO 18291 [egg-watcher:application] watcher start success
+2020-04-14 23:24:32,619 INFO 18291 [egg:core] dump config after ready, 6ms
+2020-04-14 23:24:38,685 INFO 18293 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-14 23:24:38,704 INFO 18293 [egg-multipart] stream mode enable
+2020-04-14 23:24:38,734 INFO 18293 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-14 23:24:38,736 INFO 18293 [egg-security] use methodnoallow middleware
+2020-04-14 23:24:38,736 INFO 18293 [egg-security] use noopen middleware
+2020-04-14 23:24:38,736 INFO 18293 [egg-security] use nosniff middleware
+2020-04-14 23:24:38,737 INFO 18293 [egg-security] use xssProtection middleware
+2020-04-14 23:24:38,737 INFO 18293 [egg-security] use xframe middleware
+2020-04-14 23:24:38,737 INFO 18293 [egg-security] use dta middleware
+2020-04-14 23:24:38,737 INFO 18293 [egg-security] compose 6 middlewares into one security middleware
+2020-04-14 23:24:38,744 INFO 18293 [egg:core] dump config after load, 3ms
+2020-04-14 23:24:38,753 INFO 18293 [egg-watcher:application] watcher start success
+2020-04-14 23:24:38,761 INFO 18293 [egg:core] dump config after ready, 7ms
+2020-04-14 23:24:42,988 INFO 18295 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-14 23:24:43,005 INFO 18295 [egg-multipart] stream mode enable
+2020-04-14 23:24:43,035 INFO 18295 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-14 23:24:43,037 INFO 18295 [egg-security] use methodnoallow middleware
+2020-04-14 23:24:43,037 INFO 18295 [egg-security] use noopen middleware
+2020-04-14 23:24:43,037 INFO 18295 [egg-security] use nosniff middleware
+2020-04-14 23:24:43,037 INFO 18295 [egg-security] use xssProtection middleware
+2020-04-14 23:24:43,038 INFO 18295 [egg-security] use xframe middleware
+2020-04-14 23:24:43,038 INFO 18295 [egg-security] use dta middleware
+2020-04-14 23:24:43,038 INFO 18295 [egg-security] compose 6 middlewares into one security middleware
+2020-04-14 23:24:43,044 INFO 18295 [egg:core] dump config after load, 3ms
+2020-04-14 23:24:43,051 INFO 18295 [egg-watcher:application] watcher start success
+2020-04-14 23:24:43,058 INFO 18295 [egg:core] dump config after ready, 5ms
+2020-04-14 23:37:32,896 INFO 18736 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-14 23:37:32,923 INFO 18736 [egg-multipart] stream mode enable
+2020-04-14 23:37:32,997 INFO 18736 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-14 23:37:32,999 INFO 18736 [egg-security] use methodnoallow middleware
+2020-04-14 23:37:33,000 INFO 18736 [egg-security] use noopen middleware
+2020-04-14 23:37:33,001 INFO 18736 [egg-security] use nosniff middleware
+2020-04-14 23:37:33,001 INFO 18736 [egg-security] use xssProtection middleware
+2020-04-14 23:37:33,002 INFO 18736 [egg-security] use xframe middleware
+2020-04-14 23:37:33,003 INFO 18736 [egg-security] use dta middleware
+2020-04-14 23:37:33,003 INFO 18736 [egg-security] compose 6 middlewares into one security middleware
+2020-04-14 23:37:33,011 INFO 18736 [egg:core] dump config after load, 4ms
+2020-04-14 23:37:33,021 INFO 18736 [egg-watcher:application] watcher start success
+2020-04-14 23:37:33,029 INFO 18736 [egg:core] dump config after ready, 6ms
+2020-04-14 23:37:45,093 INFO 18740 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-14 23:37:45,111 INFO 18740 [egg-multipart] stream mode enable
+2020-04-14 23:37:45,141 INFO 18740 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-14 23:37:45,143 INFO 18740 [egg-security] use methodnoallow middleware
+2020-04-14 23:37:45,143 INFO 18740 [egg-security] use noopen middleware
+2020-04-14 23:37:45,143 INFO 18740 [egg-security] use nosniff middleware
+2020-04-14 23:37:45,144 INFO 18740 [egg-security] use xssProtection middleware
+2020-04-14 23:37:45,144 INFO 18740 [egg-security] use xframe middleware
+2020-04-14 23:37:45,144 INFO 18740 [egg-security] use dta middleware
+2020-04-14 23:37:45,144 INFO 18740 [egg-security] compose 6 middlewares into one security middleware
+2020-04-14 23:37:45,150 INFO 18740 [egg:core] dump config after load, 3ms
+2020-04-14 23:37:45,157 INFO 18740 [egg-watcher:application] watcher start success
+2020-04-14 23:37:45,164 INFO 18740 [egg:core] dump config after ready, 6ms
+2020-04-14 23:57:46,197 INFO 19266 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-14 23:57:46,226 INFO 19266 [egg-multipart] stream mode enable
+2020-04-14 23:57:46,304 INFO 19266 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-14 23:57:46,305 INFO 19266 [egg-security] use methodnoallow middleware
+2020-04-14 23:57:46,306 INFO 19266 [egg-security] use noopen middleware
+2020-04-14 23:57:46,307 INFO 19266 [egg-security] use nosniff middleware
+2020-04-14 23:57:46,307 INFO 19266 [egg-security] use xssProtection middleware
+2020-04-14 23:57:46,308 INFO 19266 [egg-security] use xframe middleware
+2020-04-14 23:57:46,308 INFO 19266 [egg-security] use dta middleware
+2020-04-14 23:57:46,308 INFO 19266 [egg-security] compose 6 middlewares into one security middleware
+2020-04-14 23:57:46,316 INFO 19266 [egg:core] dump config after load, 3ms
+2020-04-14 23:57:46,323 INFO 19266 [egg-watcher:application] watcher start success
+2020-04-14 23:57:46,336 INFO 19266 [egg:core] dump config after ready, 11ms
+2020-04-15 00:00:00,038 INFO 19266 [egg-logrotator] clean all log before 31 days
+2020-04-15 00:00:01,015 INFO 19266 [egg-logrotator] broadcast log-reload
+2020-04-15 00:00:01,015 INFO 19266 [egg-logrotator] rotate files success by DayRotator, files ["/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back/common-error.log -> /Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back/common-error.log.2020-04-14","/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back/TEDStore-back-web.log -> /Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back/TEDStore-back-web.log.2020-04-14","/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back/egg-web.log -> /Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back/egg-web.log.2020-04-14","/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back/egg-schedule.log -> /Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back/egg-schedule.log.2020-04-14","/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back/egg-agent.log -> /Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back/egg-agent.log.2020-04-14"]

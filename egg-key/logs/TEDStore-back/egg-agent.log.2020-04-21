@@ -1,0 +1,927 @@
+2020-04-17 00:00:01,071 INFO 51775 [egg-logrotator] agent logger reload: got log-reload message
+2020-04-17 00:16:18,194 WARN 51775 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/form.js change
+2020-04-17 00:16:17,985 INFO 51775 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/form.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36609959,"size":1140,"blocks":8,"atimeMs":1587044092202.6155,"mtimeMs":1587053777909.2146,"ctimeMs":1587053777909.2146,"birthtimeMs":1586801427832.6602,"atime":"2020-04-16T13:34:52.203Z","mtime":"2020-04-16T16:16:17.909Z","ctime":"2020-04-16T16:16:17.909Z","birthtime":"2020-04-13T18:10:27.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-17 00:16:20,506 WARN 51775 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/form.js change
+2020-04-17 00:16:20,302 INFO 51775 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/form.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36609959,"size":1140,"blocks":8,"atimeMs":1587053779242.5461,"mtimeMs":1587053780291.3188,"ctimeMs":1587053780291.3188,"birthtimeMs":1586801427832.6602,"atime":"2020-04-16T16:16:19.243Z","mtime":"2020-04-16T16:16:20.291Z","ctime":"2020-04-16T16:16:20.291Z","birthtime":"2020-04-13T18:10:27.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-17 00:18:15,550 WARN 51775 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/form.js change
+2020-04-17 00:18:15,346 INFO 51775 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/form.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36609959,"size":1173,"blocks":8,"atimeMs":1587053782099.1304,"mtimeMs":1587053895286.6633,"ctimeMs":1587053895286.6633,"birthtimeMs":1586801427832.6602,"atime":"2020-04-16T16:16:22.099Z","mtime":"2020-04-16T16:18:15.287Z","ctime":"2020-04-16T16:18:15.287Z","birthtime":"2020-04-13T18:10:27.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-17 00:21:33,373 WARN 51775 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/userppp.json change
+2020-04-17 00:21:33,169 INFO 51775 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/userppp.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":489,"blocks":8,"atimeMs":1587041566205.5505,"mtimeMs":1587054093110.2322,"ctimeMs":1587054093110.2322,"birthtimeMs":1586877578393.2979,"atime":"2020-04-16T12:52:46.206Z","mtime":"2020-04-16T16:21:33.110Z","ctime":"2020-04-16T16:21:33.110Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-17 00:22:04,253 WARN 51775 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/userppp.json change
+2020-04-17 00:22:04,048 INFO 51775 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/userppp.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":489,"blocks":8,"atimeMs":1587041566205.5505,"mtimeMs":1587054123961.548,"ctimeMs":1587054123961.548,"birthtimeMs":1586877578393.2979,"atime":"2020-04-16T12:52:46.206Z","mtime":"2020-04-16T16:22:03.962Z","ctime":"2020-04-16T16:22:03.962Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-17 00:32:44,531 WARN 51775 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/userppp.json change
+2020-04-17 00:32:44,327 INFO 51775 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/userppp.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":489,"blocks":8,"atimeMs":1587041566205.5505,"mtimeMs":1587054764219.2837,"ctimeMs":1587054764219.2837,"birthtimeMs":1586877578393.2979,"atime":"2020-04-16T12:52:46.206Z","mtime":"2020-04-16T16:32:44.219Z","ctime":"2020-04-16T16:32:44.219Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-17 00:34:10,157 INFO 51775 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/userppp.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":489,"blocks":8,"atimeMs":1587041566205.5505,"mtimeMs":1587054850100.5598,"ctimeMs":1587054850100.5598,"birthtimeMs":1586877578393.2979,"atime":"2020-04-16T12:52:46.206Z","mtime":"2020-04-16T16:34:10.101Z","ctime":"2020-04-16T16:34:10.101Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-17 00:34:10,362 WARN 51775 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/userppp.json change
+2020-04-17 00:34:25,633 WARN 51775 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/userppp.json change
+2020-04-17 00:34:25,428 INFO 51775 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/userppp.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":489,"blocks":8,"atimeMs":1587041566205.5505,"mtimeMs":1587054865370.313,"ctimeMs":1587054865370.313,"birthtimeMs":1586877578393.2979,"atime":"2020-04-16T12:52:46.206Z","mtime":"2020-04-16T16:34:25.370Z","ctime":"2020-04-16T16:34:25.370Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-17 00:35:22,835 WARN 51775 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/userppp.json change
+2020-04-17 00:35:22,630 INFO 51775 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/userppp.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":489,"blocks":8,"atimeMs":1587041566205.5505,"mtimeMs":1587054922095.9194,"ctimeMs":1587054922095.9194,"birthtimeMs":1586877578393.2979,"atime":"2020-04-16T12:52:46.206Z","mtime":"2020-04-16T16:35:22.096Z","ctime":"2020-04-16T16:35:22.096Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-17 01:12:35,467 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 2071448ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 03:13:34,536 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 7218656ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:00:29,379 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 2774803ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:02:16,941 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67545ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:04:04,505 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67555ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:05:32,112 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67590ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:07:19,693 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67563ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:08:47,229 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67527ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:23:58,770 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 871523ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:25:46,346 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67559ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:27:33,939 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67582ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:29:21,534 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67579ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:30:49,075 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67528ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:32:36,635 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67540ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:34:04,272 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67621ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:49:15,824 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 871540ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:50:43,409 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67572ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:53:59,352 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 68360ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:55:46,957 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67577ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:57:34,603 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67628ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 04:59:02,217 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67603ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 05:15:42,677 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67542ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 05:17:30,233 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67542ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 05:18:57,777 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67528ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 05:20:45,343 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67550ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 05:22:13,443 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 68087ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 05:24:01,059 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67597ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 05:38:54,893 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 853812ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 05:40:42,438 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67527ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 05:42:30,027 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67572ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 05:43:57,600 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67561ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 05:47:12,774 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67577ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 05:49:00,419 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67625ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 06:03:52,692 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 872255ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 06:05:40,267 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67554ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 06:07:08,433 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 68146ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 06:08:56,019 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67569ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 06:10:43,633 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67607ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 06:12:11,223 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67579ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 06:13:58,853 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67623ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 08:14:35,989 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 7217129ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 08:16:43,573 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67562ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 08:18:11,165 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67580ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 08:19:58,815 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67640ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 08:21:26,428 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67605ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 08:23:14,041 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67597ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 08:25:01,687 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 67624ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 08:28:28,077 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 186372ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 12:08:45,933 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 61414ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 12:14:09,030 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303086ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 12:19:52,119 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303066ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 12:25:35,267 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303127ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 12:31:18,413 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303119ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 12:36:41,531 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303104ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 12:42:24,635 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303086ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 13:22:06,371 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 2341722ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 13:27:49,460 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303059ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 13:41:25,857 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303117ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 13:47:09,036 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303160ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 13:52:52,166 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303118ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 13:58:16,126 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303940ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 14:37:12,600 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 2296444ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 14:42:55,762 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303128ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 14:48:38,917 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303138ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 14:54:22,021 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303085ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 14:59:45,132 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303093ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 15:05:28,232 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303088ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 15:11:11,374 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303120ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 15:51:49,420 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 2398034ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 15:58:40,857 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303105ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 16:04:23,939 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303059ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 16:09:47,064 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303117ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 16:15:30,144 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 303070ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 16:18:24,635 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 134472ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-17 16:26:23,829 ERROR 51775 nodejs.ClusterClientNoResponseError: client no response in 439178ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 51775
+hostname: liangjiengdeMBP.lan
+
+2020-04-21 20:48:36,877 INFO 13676 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-21 20:48:36,884 INFO 13676 [egg:core] dump config after load, 3ms
+2020-04-21 20:48:36,927 INFO 13676 [egg-watcher] Start watching: ["/Users/ljc/Downloads/vue/egg-example/app","/Users/ljc/Downloads/vue/egg-example/config","/Users/ljc/Downloads/vue/egg-example/mocks","/Users/ljc/Downloads/vue/egg-example/mocks_proxy","/Users/ljc/Downloads/vue/egg-example/app.js"]
+2020-04-21 20:48:36,927 INFO 13676 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/egg-example/app"
+2020-04-21 20:48:36,928 INFO 13676 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/egg-example/config"
+2020-04-21 20:48:36,928 INFO 13676 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/egg-example/mocks"
+2020-04-21 20:48:36,928 INFO 13676 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/egg-example/mocks_proxy"
+2020-04-21 20:48:36,928 INFO 13676 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/egg-example/app.js"
+2020-04-21 20:48:36,928 INFO 13676 [egg-watcher:agent] watcher start success
+2020-04-21 20:48:36,944 INFO 13676 [egg:core] dump config after ready, 4ms
+2020-04-21 20:49:12,622 WARN 13676 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/userppp.json change
+2020-04-21 20:49:12,415 INFO 13676 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/userppp.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":489,"blocks":8,"atimeMs":1587054945461.034,"mtimeMs":1587473352356.678,"ctimeMs":1587473352356.678,"birthtimeMs":1586877578393.2979,"atime":"2020-04-16T16:35:45.461Z","mtime":"2020-04-21T12:49:12.357Z","ctime":"2020-04-21T12:49:12.357Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 20:50:18,228 INFO 13676 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/userppp.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":489,"blocks":8,"atimeMs":1587473362528.2344,"mtimeMs":1587473418120.694,"ctimeMs":1587473418120.694,"birthtimeMs":1586877578393.2979,"atime":"2020-04-21T12:49:22.528Z","mtime":"2020-04-21T12:50:18.121Z","ctime":"2020-04-21T12:50:18.121Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 20:50:18,431 WARN 13676 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/userppp.json change
+2020-04-21 20:50:39,277 WARN 13676 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/userppp.json change
+2020-04-21 20:50:39,071 INFO 13676 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/userppp.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":489,"blocks":8,"atimeMs":1587473418639.1423,"mtimeMs":1587473438666.0706,"ctimeMs":1587473438666.0706,"birthtimeMs":1586877578393.2979,"atime":"2020-04-21T12:50:18.639Z","mtime":"2020-04-21T12:50:38.666Z","ctime":"2020-04-21T12:50:38.666Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 20:52:36,580 WARN 13676 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/userppp.json change
+2020-04-21 20:52:36,375 INFO 13676 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/userppp.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":489,"blocks":8,"atimeMs":1587473439486.8438,"mtimeMs":1587473556318.0022,"ctimeMs":1587473556318.0022,"birthtimeMs":1586877578393.2979,"atime":"2020-04-21T12:50:39.487Z","mtime":"2020-04-21T12:52:36.318Z","ctime":"2020-04-21T12:52:36.318Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 20:53:00,431 WARN 13676 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/userppp.json change
+2020-04-21 20:53:00,225 INFO 13676 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/userppp.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":489,"blocks":8,"atimeMs":1587473556787.7234,"mtimeMs":1587473580167.9321,"ctimeMs":1587473580167.9321,"birthtimeMs":1586877578393.2979,"atime":"2020-04-21T12:52:36.788Z","mtime":"2020-04-21T12:53:00.168Z","ctime":"2020-04-21T12:53:00.168Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 20:59:27,421 WARN 13676 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/userppp.json change
+2020-04-21 20:59:27,217 INFO 13676 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/userppp.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":489,"blocks":8,"atimeMs":1587473580640.1213,"mtimeMs":1587473967160.3154,"ctimeMs":1587473967160.3154,"birthtimeMs":1586877578393.2979,"atime":"2020-04-21T12:53:00.640Z","mtime":"2020-04-21T12:59:27.160Z","ctime":"2020-04-21T12:59:27.160Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 21:04:44,735 INFO 14656 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-21 21:04:44,740 INFO 14656 [egg:core] dump config after load, 2ms
+2020-04-21 21:04:44,772 INFO 14656 [egg-watcher] Start watching: ["/Users/ljc/Downloads/vue/egg-example/app","/Users/ljc/Downloads/vue/egg-example/config","/Users/ljc/Downloads/vue/egg-example/mocks","/Users/ljc/Downloads/vue/egg-example/mocks_proxy","/Users/ljc/Downloads/vue/egg-example/app.js"]
+2020-04-21 21:04:44,772 INFO 14656 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/egg-example/app"
+2020-04-21 21:04:44,772 INFO 14656 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/egg-example/config"
+2020-04-21 21:04:44,772 INFO 14656 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/egg-example/mocks"
+2020-04-21 21:04:44,772 INFO 14656 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/egg-example/mocks_proxy"
+2020-04-21 21:04:44,772 INFO 14656 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/egg-example/app.js"
+2020-04-21 21:04:44,773 INFO 14656 [egg-watcher:agent] watcher start success
+2020-04-21 21:04:44,783 INFO 14656 [egg:core] dump config after ready, 3ms
+2020-04-21 21:04:58,760 WARN 14656 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/form.js change
+2020-04-21 21:04:58,553 INFO 14656 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/form.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36609959,"size":1399,"blocks":8,"atimeMs":1587474274817.8164,"mtimeMs":1587474298539.6455,"ctimeMs":1587474298539.6455,"birthtimeMs":1586801427832.6602,"atime":"2020-04-21T13:04:34.818Z","mtime":"2020-04-21T13:04:58.540Z","ctime":"2020-04-21T13:04:58.540Z","birthtime":"2020-04-13T18:10:27.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 21:05:14,838 WARN 14656 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/userppp.json change
+2020-04-21 21:05:14,633 INFO 14656 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/userppp.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":489,"blocks":8,"atimeMs":1587473967630.4246,"mtimeMs":1587474314581.2488,"ctimeMs":1587474314581.2488,"birthtimeMs":1586877578393.2979,"atime":"2020-04-21T12:59:27.630Z","mtime":"2020-04-21T13:05:14.581Z","ctime":"2020-04-21T13:05:14.581Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 21:05:35,831 INFO 14656 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/form.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36609959,"size":1404,"blocks":8,"atimeMs":1587474299867.8374,"mtimeMs":1587474335770.2295,"ctimeMs":1587474335770.2295,"birthtimeMs":1586801427832.6602,"atime":"2020-04-21T13:04:59.868Z","mtime":"2020-04-21T13:05:35.770Z","ctime":"2020-04-21T13:05:35.770Z","birthtime":"2020-04-13T18:10:27.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 21:05:36,037 WARN 14656 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/form.js change
+2020-04-21 21:05:39,329 WARN 14656 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/form.js change
+2020-04-21 21:05:39,074 INFO 14656 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/form.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36609959,"size":1404,"blocks":8,"atimeMs":1587474337133.7927,"mtimeMs":1587474339063.7456,"ctimeMs":1587474339063.7456,"birthtimeMs":1586801427832.6602,"atime":"2020-04-21T13:05:37.134Z","mtime":"2020-04-21T13:05:39.064Z","ctime":"2020-04-21T13:05:39.064Z","birthtime":"2020-04-13T18:10:27.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 21:05:39,124 INFO 14656 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/form.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36609959,"size":1404,"blocks":8,"atimeMs":1587474337133.7927,"mtimeMs":1587474339063.7456,"ctimeMs":1587474339063.7456,"birthtimeMs":1586801427832.6602,"atime":"2020-04-21T13:05:37.134Z","mtime":"2020-04-21T13:05:39.064Z","ctime":"2020-04-21T13:05:39.064Z","birthtime":"2020-04-13T18:10:27.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 21:05:42,655 WARN 14656 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/userppp.json change
+2020-04-21 21:05:42,401 INFO 14656 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/userppp.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":0,"blocks":0,"atimeMs":1587474315053.3596,"mtimeMs":1587474342390.9795,"ctimeMs":1587474342390.9795,"birthtimeMs":1586877578393.2979,"atime":"2020-04-21T13:05:15.053Z","mtime":"2020-04-21T13:05:42.391Z","ctime":"2020-04-21T13:05:42.391Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 21:05:42,451 INFO 14656 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/userppp.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":489,"blocks":8,"atimeMs":1587474315053.3596,"mtimeMs":1587474342401.9387,"ctimeMs":1587474342401.9387,"birthtimeMs":1586877578393.2979,"atime":"2020-04-21T13:05:15.053Z","mtime":"2020-04-21T13:05:42.402Z","ctime":"2020-04-21T13:05:42.402Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 21:05:55,976 WARN 14656 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/form.js change
+2020-04-21 21:05:55,771 INFO 14656 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/form.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36609959,"size":1404,"blocks":8,"atimeMs":1587474341819.8816,"mtimeMs":1587474355760.067,"ctimeMs":1587474355760.067,"birthtimeMs":1586801427832.6602,"atime":"2020-04-21T13:05:41.820Z","mtime":"2020-04-21T13:05:55.760Z","ctime":"2020-04-21T13:05:55.760Z","birthtime":"2020-04-13T18:10:27.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 21:06:34,418 WARN 14656 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/form.js change
+2020-04-21 21:06:34,213 INFO 14656 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/form.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36609959,"size":1409,"blocks":8,"atimeMs":1587474357069.9277,"mtimeMs":1587474394152.2627,"ctimeMs":1587474394152.2627,"birthtimeMs":1586801427832.6602,"atime":"2020-04-21T13:05:57.070Z","mtime":"2020-04-21T13:06:34.152Z","ctime":"2020-04-21T13:06:34.152Z","birthtime":"2020-04-13T18:10:27.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 21:06:40,575 WARN 14656 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/userppp.json change
+2020-04-21 21:06:40,324 INFO 14656 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/userppp.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":489,"blocks":8,"atimeMs":1587474342577.1487,"mtimeMs":1587474400319.2346,"ctimeMs":1587474400319.2346,"birthtimeMs":1586877578393.2979,"atime":"2020-04-21T13:05:42.577Z","mtime":"2020-04-21T13:06:40.319Z","ctime":"2020-04-21T13:06:40.319Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 21:06:40,370 INFO 14656 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/userppp.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":489,"blocks":8,"atimeMs":1587474342577.1487,"mtimeMs":1587474400319.2346,"ctimeMs":1587474400319.2346,"birthtimeMs":1586877578393.2979,"atime":"2020-04-21T13:05:42.577Z","mtime":"2020-04-21T13:06:40.319Z","ctime":"2020-04-21T13:06:40.319Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 21:07:33,762 WARN 14656 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/form.js change
+2020-04-21 21:07:33,557 INFO 14656 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/form.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36609959,"size":1414,"blocks":8,"atimeMs":1587474396464.166,"mtimeMs":1587474453496.7615,"ctimeMs":1587474453496.7615,"birthtimeMs":1586801427832.6602,"atime":"2020-04-21T13:06:36.464Z","mtime":"2020-04-21T13:07:33.497Z","ctime":"2020-04-21T13:07:33.497Z","birthtime":"2020-04-13T18:10:27.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 21:07:38,379 INFO 14656 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/userppp.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":0,"blocks":0,"atimeMs":1587474400797.463,"mtimeMs":1587474458368.9,"ctimeMs":1587474458368.9,"birthtimeMs":1586877578393.2979,"atime":"2020-04-21T13:06:40.797Z","mtime":"2020-04-21T13:07:38.369Z","ctime":"2020-04-21T13:07:38.369Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 21:07:38,430 INFO 14656 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/userppp.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":489,"blocks":8,"atimeMs":1587474400797.463,"mtimeMs":1587474458380.9158,"ctimeMs":1587474458380.9158,"birthtimeMs":1586877578393.2979,"atime":"2020-04-21T13:06:40.797Z","mtime":"2020-04-21T13:07:38.381Z","ctime":"2020-04-21T13:07:38.381Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 21:07:38,634 WARN 14656 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/userppp.json change
+2020-04-21 21:08:23,653 INFO 14656 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/form.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36609959,"size":1438,"blocks":8,"atimeMs":1587474455158.5957,"mtimeMs":1587474503591.5566,"ctimeMs":1587474503591.5566,"birthtimeMs":1586801427832.6602,"atime":"2020-04-21T13:07:35.159Z","mtime":"2020-04-21T13:08:23.592Z","ctime":"2020-04-21T13:08:23.592Z","birthtime":"2020-04-13T18:10:27.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 21:08:23,858 WARN 14656 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/form.js change
+2020-04-21 21:08:28,926 WARN 14656 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/userppp.json change
+2020-04-21 21:08:28,721 INFO 14656 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/userppp.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":489,"blocks":8,"atimeMs":1587474458479.7476,"mtimeMs":1587474508711.4036,"ctimeMs":1587474508711.4036,"birthtimeMs":1586877578393.2979,"atime":"2020-04-21T13:07:38.480Z","mtime":"2020-04-21T13:08:28.711Z","ctime":"2020-04-21T13:08:28.711Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 21:08:57,282 WARN 14656 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/form.js change
+2020-04-21 21:08:57,079 INFO 14656 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/form.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36609959,"size":1420,"blocks":8,"atimeMs":1587474504927.1313,"mtimeMs":1587474537018.3254,"ctimeMs":1587474537018.3254,"birthtimeMs":1586801427832.6602,"atime":"2020-04-21T13:08:24.927Z","mtime":"2020-04-21T13:08:57.018Z","ctime":"2020-04-21T13:08:57.018Z","birthtime":"2020-04-13T18:10:27.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 21:09:17,425 WARN 14656 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/userppp.json change
+2020-04-21 21:09:17,219 INFO 14656 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/userppp.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":489,"blocks":8,"atimeMs":1587474509036.151,"mtimeMs":1587474557168.7585,"ctimeMs":1587474557168.7585,"birthtimeMs":1586877578393.2979,"atime":"2020-04-21T13:08:29.036Z","mtime":"2020-04-21T13:09:17.169Z","ctime":"2020-04-21T13:09:17.169Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 21:10:58,132 WARN 14656 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/form.js change
+2020-04-21 21:10:57,928 INFO 14656 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/form.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36609959,"size":1427,"blocks":8,"atimeMs":1587474538330.8706,"mtimeMs":1587474657866.9114,"ctimeMs":1587474657866.9114,"birthtimeMs":1586801427832.6602,"atime":"2020-04-21T13:08:58.331Z","mtime":"2020-04-21T13:10:57.867Z","ctime":"2020-04-21T13:10:57.867Z","birthtime":"2020-04-13T18:10:27.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 21:11:08,233 WARN 14656 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/userppp.json change
+2020-04-21 21:11:08,028 INFO 14656 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/userppp.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":2,"blocks":8,"atimeMs":1587474557630.0093,"mtimeMs":1587474668024.6035,"ctimeMs":1587474668024.6035,"birthtimeMs":1586877578393.2979,"atime":"2020-04-21T13:09:17.630Z","mtime":"2020-04-21T13:11:08.025Z","ctime":"2020-04-21T13:11:08.025Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 21:11:22,955 WARN 14656 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/userppp.json change
+2020-04-21 21:11:22,704 INFO 14656 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/userppp.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":489,"blocks":8,"atimeMs":1587474668593.183,"mtimeMs":1587474682700.0815,"ctimeMs":1587474682700.0815,"birthtimeMs":1586877578393.2979,"atime":"2020-04-21T13:11:08.593Z","mtime":"2020-04-21T13:11:22.700Z","ctime":"2020-04-21T13:11:22.700Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 21:11:22,753 INFO 14656 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/userppp.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":489,"blocks":8,"atimeMs":1587474668593.183,"mtimeMs":1587474682700.0815,"ctimeMs":1587474682700.0815,"birthtimeMs":1586877578393.2979,"atime":"2020-04-21T13:11:08.593Z","mtime":"2020-04-21T13:11:22.700Z","ctime":"2020-04-21T13:11:22.700Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 21:11:42,379 WARN 14656 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/form.js change
+2020-04-21 21:11:42,173 INFO 14656 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/form.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36609959,"size":1417,"blocks":8,"atimeMs":1587474659675.7383,"mtimeMs":1587474702120.7104,"ctimeMs":1587474702120.7104,"birthtimeMs":1586801427832.6602,"atime":"2020-04-21T13:10:59.676Z","mtime":"2020-04-21T13:11:42.121Z","ctime":"2020-04-21T13:11:42.121Z","birthtime":"2020-04-13T18:10:27.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 21:11:45,847 WARN 14656 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/userppp.json change
+2020-04-21 21:11:45,640 INFO 14656 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/userppp.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":489,"blocks":8,"atimeMs":1587474683090.849,"mtimeMs":1587474705634.9204,"ctimeMs":1587474705634.9204,"birthtimeMs":1586877578393.2979,"atime":"2020-04-21T13:11:23.091Z","mtime":"2020-04-21T13:11:45.635Z","ctime":"2020-04-21T13:11:45.635Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 22:45:44,247 INFO 17677 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-21 22:45:44,253 INFO 17677 [egg:core] dump config after load, 3ms
+2020-04-21 22:45:44,287 INFO 17677 [egg-watcher] Start watching: ["/Users/ljc/Downloads/vue/egg-example/app","/Users/ljc/Downloads/vue/egg-example/config","/Users/ljc/Downloads/vue/egg-example/mocks","/Users/ljc/Downloads/vue/egg-example/mocks_proxy","/Users/ljc/Downloads/vue/egg-example/app.js"]
+2020-04-21 22:45:44,287 INFO 17677 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/egg-example/app"
+2020-04-21 22:45:44,287 INFO 17677 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/egg-example/config"
+2020-04-21 22:45:44,287 INFO 17677 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/egg-example/mocks"
+2020-04-21 22:45:44,287 INFO 17677 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/egg-example/mocks_proxy"
+2020-04-21 22:45:44,287 INFO 17677 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/egg-example/app.js"
+2020-04-21 22:45:44,288 INFO 17677 [egg-watcher:agent] watcher start success
+2020-04-21 22:45:44,301 INFO 17677 [egg:core] dump config after ready, 3ms
+2020-04-21 22:48:32,067 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js rename
+2020-04-21 22:48:31,864 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":0,"blocks":0,"atimeMs":1587480511751.6494,"mtimeMs":1587480511751.6494,"ctimeMs":1587480511751.6494,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T14:48:31.752Z","mtime":"2020-04-21T14:48:31.752Z","ctime":"2020-04-21T14:48:31.752Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 22:51:40,013 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 22:51:39,812 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1393,"blocks":8,"atimeMs":1587480511751.6494,"mtimeMs":1587480699750.8164,"ctimeMs":1587480699750.8164,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T14:48:31.752Z","mtime":"2020-04-21T14:51:39.751Z","ctime":"2020-04-21T14:51:39.751Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 22:51:49,257 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/form.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36609959,"size":1428,"blocks":8,"atimeMs":1587480305562.856,"mtimeMs":1587480709246.1248,"ctimeMs":1587480709246.1248,"birthtimeMs":1586801427832.6602,"atime":"2020-04-21T14:45:05.563Z","mtime":"2020-04-21T14:51:49.246Z","ctime":"2020-04-21T14:51:49.246Z","birthtime":"2020-04-13T18:10:27.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 22:51:49,307 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/form.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36609959,"size":1428,"blocks":8,"atimeMs":1587480305562.856,"mtimeMs":1587480709246.1248,"ctimeMs":1587480709246.1248,"birthtimeMs":1586801427832.6602,"atime":"2020-04-21T14:45:05.563Z","mtime":"2020-04-21T14:51:49.246Z","ctime":"2020-04-21T14:51:49.246Z","birthtime":"2020-04-13T18:10:27.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 22:51:49,508 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/form.js change
+2020-04-21 22:51:51,222 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/form.js change
+2020-04-21 22:51:51,018 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/form.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36609959,"size":1428,"blocks":8,"atimeMs":1587480710507.3054,"mtimeMs":1587480711007.9214,"ctimeMs":1587480711007.9214,"birthtimeMs":1586801427832.6602,"atime":"2020-04-21T14:51:50.507Z","mtime":"2020-04-21T14:51:51.008Z","ctime":"2020-04-21T14:51:51.008Z","birthtime":"2020-04-13T18:10:27.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 22:51:52,392 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/form.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36609959,"size":1428,"blocks":8,"atimeMs":1587480712001.588,"mtimeMs":1587480712382.0369,"ctimeMs":1587480712382.0369,"birthtimeMs":1586801427832.6602,"atime":"2020-04-21T14:51:52.002Z","mtime":"2020-04-21T14:51:52.382Z","ctime":"2020-04-21T14:51:52.382Z","birthtime":"2020-04-13T18:10:27.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 22:51:52,649 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/form.js change
+2020-04-21 22:51:52,443 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/form.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36609959,"size":1428,"blocks":8,"atimeMs":1587480712001.588,"mtimeMs":1587480712382.0369,"ctimeMs":1587480712382.0369,"birthtimeMs":1586801427832.6602,"atime":"2020-04-21T14:51:52.002Z","mtime":"2020-04-21T14:51:52.382Z","ctime":"2020-04-21T14:51:52.382Z","birthtime":"2020-04-13T18:10:27.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 22:51:55,983 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/form.js change
+2020-04-21 22:51:55,780 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/form.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36609959,"size":1428,"blocks":8,"atimeMs":1587480714670.8206,"mtimeMs":1587480715769.3486,"ctimeMs":1587480715769.3486,"birthtimeMs":1586801427832.6602,"atime":"2020-04-21T14:51:54.671Z","mtime":"2020-04-21T14:51:55.769Z","ctime":"2020-04-21T14:51:55.769Z","birthtime":"2020-04-13T18:10:27.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 22:53:45,629 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 22:53:45,425 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1386,"blocks":8,"atimeMs":1587480701205.8264,"mtimeMs":1587480825362.2556,"ctimeMs":1587480825362.2556,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T14:51:41.206Z","mtime":"2020-04-21T14:53:45.362Z","ctime":"2020-04-21T14:53:45.362Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 22:53:46,114 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 22:53:45,856 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1386,"blocks":8,"atimeMs":1587480825844.8801,"mtimeMs":1587480825845.1619,"ctimeMs":1587480825845.1619,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T14:53:45.845Z","mtime":"2020-04-21T14:53:45.845Z","ctime":"2020-04-21T14:53:45.845Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 22:53:45,909 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1386,"blocks":8,"atimeMs":1587480825844.8801,"mtimeMs":1587480825845.1619,"ctimeMs":1587480825845.1619,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T14:53:45.845Z","mtime":"2020-04-21T14:53:45.845Z","ctime":"2020-04-21T14:53:45.845Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 22:53:58,461 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/form.js change
+2020-04-21 22:53:58,255 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/form.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36609959,"size":1422,"blocks":8,"atimeMs":1587480717857.4473,"mtimeMs":1587480838244.3232,"ctimeMs":1587480838244.3232,"birthtimeMs":1586801427832.6602,"atime":"2020-04-21T14:51:57.857Z","mtime":"2020-04-21T14:53:58.244Z","ctime":"2020-04-21T14:53:58.244Z","birthtime":"2020-04-13T18:10:27.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 22:55:02,007 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/form.js change
+2020-04-21 22:55:01,804 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/form.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36609959,"size":1447,"blocks":8,"atimeMs":1587480839612.2065,"mtimeMs":1587480901743.4966,"ctimeMs":1587480901743.4966,"birthtimeMs":1586801427832.6602,"atime":"2020-04-21T14:53:59.612Z","mtime":"2020-04-21T14:55:01.743Z","ctime":"2020-04-21T14:55:01.743Z","birthtime":"2020-04-13T18:10:27.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 22:55:08,470 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/userppp.json change
+2020-04-21 22:55:08,267 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/userppp.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":2,"blocks":8,"atimeMs":1587474706227.1843,"mtimeMs":1587480908262.5098,"ctimeMs":1587480908262.5098,"birthtimeMs":1586877578393.2979,"atime":"2020-04-21T13:11:46.227Z","mtime":"2020-04-21T14:55:08.263Z","ctime":"2020-04-21T14:55:08.263Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 22:55:20,732 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/form.js change
+2020-04-21 22:55:20,530 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/form.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36609959,"size":1422,"blocks":8,"atimeMs":1587480903019.4194,"mtimeMs":1587480920519.2073,"ctimeMs":1587480920519.2073,"birthtimeMs":1586801427832.6602,"atime":"2020-04-21T14:55:03.019Z","mtime":"2020-04-21T14:55:20.519Z","ctime":"2020-04-21T14:55:20.519Z","birthtime":"2020-04-13T18:10:27.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 22:55:46,933 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/form.js change
+2020-04-21 22:55:46,729 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/form.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36609959,"size":1434,"blocks":8,"atimeMs":1587480921872.9873,"mtimeMs":1587480946667.4382,"ctimeMs":1587480946667.4382,"birthtimeMs":1586801427832.6602,"atime":"2020-04-21T14:55:21.873Z","mtime":"2020-04-21T14:55:46.667Z","ctime":"2020-04-21T14:55:46.667Z","birthtime":"2020-04-13T18:10:27.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:01:35,796 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:01:35,591 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1719,"blocks":8,"atimeMs":1587480827119.1914,"mtimeMs":1587481295530.0251,"ctimeMs":1587481295530.0251,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T14:53:47.119Z","mtime":"2020-04-21T15:01:35.530Z","ctime":"2020-04-21T15:01:35.530Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:01:54,932 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:01:54,728 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1684,"blocks":8,"atimeMs":1587481297018.1274,"mtimeMs":1587481314667.0552,"ctimeMs":1587481314667.0552,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:01:37.018Z","mtime":"2020-04-21T15:01:54.667Z","ctime":"2020-04-21T15:01:54.667Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:01:58,113 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:01:57,861 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1684,"blocks":8,"atimeMs":1587481316069.2212,"mtimeMs":1587481317850.732,"ctimeMs":1587481317850.732,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:01:56.069Z","mtime":"2020-04-21T15:01:57.851Z","ctime":"2020-04-21T15:01:57.851Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:01:57,911 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1684,"blocks":8,"atimeMs":1587481316069.2212,"mtimeMs":1587481317850.732,"ctimeMs":1587481317850.732,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:01:56.069Z","mtime":"2020-04-21T15:01:57.851Z","ctime":"2020-04-21T15:01:57.851Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:02:23,271 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:02:23,067 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1680,"blocks":8,"atimeMs":1587481319119.2454,"mtimeMs":1587481343005.3977,"ctimeMs":1587481343005.3977,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:01:59.119Z","mtime":"2020-04-21T15:02:23.005Z","ctime":"2020-04-21T15:02:23.005Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:07:19,104 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/router.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36408856,"size":278,"blocks":8,"atimeMs":1586791331148.2725,"mtimeMs":1587481639043.5305,"ctimeMs":1587481639043.5305,"birthtimeMs":1586763891656.7773,"atime":"2020-04-13T15:22:11.148Z","mtime":"2020-04-21T15:07:19.044Z","ctime":"2020-04-21T15:07:19.044Z","birthtime":"2020-04-13T07:44:51.657Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:07:19,309 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/router.js change
+2020-04-21 23:07:29,298 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/userppp.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":2,"blocks":8,"atimeMs":1587481640274.5015,"mtimeMs":1587481649289.749,"ctimeMs":1587481649289.749,"birthtimeMs":1586877578393.2979,"atime":"2020-04-21T15:07:20.275Z","mtime":"2020-04-21T15:07:29.290Z","ctime":"2020-04-21T15:07:29.290Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:07:29,499 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/userppp.json change
+2020-04-21 23:08:33,247 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/userppp.json change
+2020-04-21 23:08:33,034 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/userppp.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":2,"blocks":8,"atimeMs":1587481640274.5015,"mtimeMs":1587481712976.1147,"ctimeMs":1587481712976.1147,"birthtimeMs":1586877578393.2979,"atime":"2020-04-21T15:07:20.275Z","mtime":"2020-04-21T15:08:32.976Z","ctime":"2020-04-21T15:08:32.976Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:09:08,004 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:09:07,801 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1031,"blocks":8,"atimeMs":1587481345035.0867,"mtimeMs":1587481747740.49,"ctimeMs":1587481747740.49,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:02:25.035Z","mtime":"2020-04-21T15:09:07.740Z","ctime":"2020-04-21T15:09:07.740Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:09:40,366 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:09:40,163 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1029,"blocks":8,"atimeMs":1587481749017.5537,"mtimeMs":1587481780101.351,"ctimeMs":1587481780101.351,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:09:09.018Z","mtime":"2020-04-21T15:09:40.101Z","ctime":"2020-04-21T15:09:40.101Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:10:36,326 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:10:36,119 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1058,"blocks":8,"atimeMs":1587481782118.9067,"mtimeMs":1587481836058.873,"ctimeMs":1587481836058.873,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:09:42.119Z","mtime":"2020-04-21T15:10:36.059Z","ctime":"2020-04-21T15:10:36.059Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:11:03,924 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1063,"blocks":8,"atimeMs":1587481838232.7036,"mtimeMs":1587481863862.4302,"ctimeMs":1587481863862.4302,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:10:38.233Z","mtime":"2020-04-21T15:11:03.862Z","ctime":"2020-04-21T15:11:03.862Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:11:04,126 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:11:42,791 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:11:42,587 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1053,"blocks":8,"atimeMs":1587481865170.5984,"mtimeMs":1587481902526.0667,"ctimeMs":1587481902526.0667,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:11:05.171Z","mtime":"2020-04-21T15:11:42.526Z","ctime":"2020-04-21T15:11:42.526Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:11:52,696 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:11:52,441 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1048,"blocks":8,"atimeMs":1587481903921.1282,"mtimeMs":1587481912430.98,"ctimeMs":1587481912430.98,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:11:43.921Z","mtime":"2020-04-21T15:11:52.431Z","ctime":"2020-04-21T15:11:52.431Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:11:52,492 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1048,"blocks":8,"atimeMs":1587481903921.1282,"mtimeMs":1587481912430.98,"ctimeMs":1587481912430.98,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:11:43.921Z","mtime":"2020-04-21T15:11:52.431Z","ctime":"2020-04-21T15:11:52.431Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:13:09,009 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:13:08,805 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1055,"blocks":8,"atimeMs":1587481914076.9763,"mtimeMs":1587481988749.4583,"ctimeMs":1587481988749.4583,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:11:54.077Z","mtime":"2020-04-21T15:13:08.749Z","ctime":"2020-04-21T15:13:08.749Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:13:49,221 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:13:49,017 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1078,"blocks":8,"atimeMs":1587481990521.2598,"mtimeMs":1587482028955.2742,"ctimeMs":1587482028955.2742,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:13:10.521Z","mtime":"2020-04-21T15:13:48.955Z","ctime":"2020-04-21T15:13:48.955Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:13:59,358 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:13:59,102 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1065,"blocks":8,"atimeMs":1587482030177.7358,"mtimeMs":1587482039091.7314,"ctimeMs":1587482039091.7314,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:13:50.178Z","mtime":"2020-04-21T15:13:59.092Z","ctime":"2020-04-21T15:13:59.092Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:13:59,153 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1065,"blocks":8,"atimeMs":1587482030177.7358,"mtimeMs":1587482039091.7314,"ctimeMs":1587482039091.7314,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:13:50.178Z","mtime":"2020-04-21T15:13:59.092Z","ctime":"2020-04-21T15:13:59.092Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:14:06,978 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:14:06,775 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1060,"blocks":8,"atimeMs":1587482040522.3552,"mtimeMs":1587482046765.1074,"ctimeMs":1587482046765.1074,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:14:00.522Z","mtime":"2020-04-21T15:14:06.765Z","ctime":"2020-04-21T15:14:06.765Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:14:28,048 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:14:27,844 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1044,"blocks":8,"atimeMs":1587482048016.9932,"mtimeMs":1587482067783.3455,"ctimeMs":1587482067783.3455,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:14:08.017Z","mtime":"2020-04-21T15:14:27.783Z","ctime":"2020-04-21T15:14:27.783Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:14:35,500 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:14:35,293 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1047,"blocks":8,"atimeMs":1587482069117.3704,"mtimeMs":1587482075282.0989,"ctimeMs":1587482075282.0989,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:14:29.117Z","mtime":"2020-04-21T15:14:35.282Z","ctime":"2020-04-21T15:14:35.282Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:14:40,551 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1047,"blocks":8,"atimeMs":1587482076974.1465,"mtimeMs":1587482080543.2935,"ctimeMs":1587482080543.2935,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:14:36.974Z","mtime":"2020-04-21T15:14:40.543Z","ctime":"2020-04-21T15:14:40.543Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:14:40,602 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1047,"blocks":8,"atimeMs":1587482076974.1465,"mtimeMs":1587482080543.2935,"ctimeMs":1587482080543.2935,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:14:36.974Z","mtime":"2020-04-21T15:14:40.543Z","ctime":"2020-04-21T15:14:40.543Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:14:40,805 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:15:29,334 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:15:29,129 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1051,"blocks":8,"atimeMs":1587482123520.6873,"mtimeMs":1587482129067.214,"ctimeMs":1587482129067.214,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:15:23.521Z","mtime":"2020-04-21T15:15:29.067Z","ctime":"2020-04-21T15:15:29.067Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:15:45,638 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:15:45,433 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1047,"blocks":8,"atimeMs":1587482130736.3557,"mtimeMs":1587482145372.028,"ctimeMs":1587482145372.028,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:15:30.736Z","mtime":"2020-04-21T15:15:45.372Z","ctime":"2020-04-21T15:15:45.372Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:16:00,905 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:16:00,703 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1072,"blocks":8,"atimeMs":1587482146576.7893,"mtimeMs":1587482160641.8582,"ctimeMs":1587482160641.8582,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:15:46.577Z","mtime":"2020-04-21T15:16:00.642Z","ctime":"2020-04-21T15:16:00.642Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:19:32,297 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:19:32,092 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1048,"blocks":8,"atimeMs":1587482183620.9885,"mtimeMs":1587482372029.0557,"ctimeMs":1587482372029.0557,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:16:23.621Z","mtime":"2020-04-21T15:19:32.029Z","ctime":"2020-04-21T15:19:32.029Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:19:52,574 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1050,"blocks":8,"atimeMs":1587482373480.0845,"mtimeMs":1587482392513.0874,"ctimeMs":1587482392513.0874,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:19:33.480Z","mtime":"2020-04-21T15:19:52.513Z","ctime":"2020-04-21T15:19:52.513Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:19:52,780 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:23:03,802 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:23:03,600 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1069,"blocks":8,"atimeMs":1587482394276.7239,"mtimeMs":1587482583538.7737,"ctimeMs":1587482583538.7737,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:19:54.277Z","mtime":"2020-04-21T15:23:03.539Z","ctime":"2020-04-21T15:23:03.539Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:23:46,033 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:23:45,831 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1097,"blocks":8,"atimeMs":1587482585828.1692,"mtimeMs":1587482625769.9568,"ctimeMs":1587482625769.9568,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:23:05.828Z","mtime":"2020-04-21T15:23:45.770Z","ctime":"2020-04-21T15:23:45.770Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:24:04,941 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:24:04,739 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1127,"blocks":8,"atimeMs":1587482627067.9573,"mtimeMs":1587482644678.0188,"ctimeMs":1587482644678.0188,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:23:47.068Z","mtime":"2020-04-21T15:24:04.678Z","ctime":"2020-04-21T15:24:04.678Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:24:34,509 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:24:34,304 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1153,"blocks":8,"atimeMs":1587482645718.1826,"mtimeMs":1587482674244.2146,"ctimeMs":1587482674244.2146,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:24:05.718Z","mtime":"2020-04-21T15:24:34.244Z","ctime":"2020-04-21T15:24:34.244Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:25:04,670 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1073,"blocks":8,"atimeMs":1587482675568.85,"mtimeMs":1587482704560.0823,"ctimeMs":1587482704560.0823,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:24:35.569Z","mtime":"2020-04-21T15:25:04.560Z","ctime":"2020-04-21T15:25:04.560Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:25:04,875 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:25:24,451 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:25:24,249 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1067,"blocks":8,"atimeMs":1587482706119.6755,"mtimeMs":1587482724187.997,"ctimeMs":1587482724187.997,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:25:06.120Z","mtime":"2020-04-21T15:25:24.188Z","ctime":"2020-04-21T15:25:24.188Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:25:45,434 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:25:45,230 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1091,"blocks":8,"atimeMs":1587482725470.391,"mtimeMs":1587482745169.1453,"ctimeMs":1587482745169.1453,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:25:25.470Z","mtime":"2020-04-21T15:25:45.169Z","ctime":"2020-04-21T15:25:45.169Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:25:56,254 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:25:55,999 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1097,"blocks":8,"atimeMs":1587482746672.7588,"mtimeMs":1587482755988.8853,"ctimeMs":1587482755988.8853,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:25:46.673Z","mtime":"2020-04-21T15:25:55.989Z","ctime":"2020-04-21T15:25:55.989Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:25:56,049 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1097,"blocks":8,"atimeMs":1587482746672.7588,"mtimeMs":1587482755988.8853,"ctimeMs":1587482755988.8853,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:25:46.673Z","mtime":"2020-04-21T15:25:55.989Z","ctime":"2020-04-21T15:25:55.989Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:26:35,586 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:26:35,380 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1149,"blocks":8,"atimeMs":1587482758073.4038,"mtimeMs":1587482795319.3657,"ctimeMs":1587482795319.3657,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:25:58.073Z","mtime":"2020-04-21T15:26:35.319Z","ctime":"2020-04-21T15:26:35.319Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:26:49,588 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:26:49,383 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1173,"blocks":8,"atimeMs":1587482796672.7573,"mtimeMs":1587482809372.1104,"ctimeMs":1587482809372.1104,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:26:36.673Z","mtime":"2020-04-21T15:26:49.372Z","ctime":"2020-04-21T15:26:49.372Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:27:13,939 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:27:13,735 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1173,"blocks":8,"atimeMs":1587482810423.1152,"mtimeMs":1587482833411.2688,"ctimeMs":1587482833411.2688,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:26:50.423Z","mtime":"2020-04-21T15:27:13.411Z","ctime":"2020-04-21T15:27:13.411Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:29:40,598 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:29:40,393 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1179,"blocks":8,"atimeMs":1587482834873.4707,"mtimeMs":1587482980317.936,"ctimeMs":1587482980317.936,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:27:14.873Z","mtime":"2020-04-21T15:29:40.318Z","ctime":"2020-04-21T15:29:40.318Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:29:55,446 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1184,"blocks":8,"atimeMs":1587482981827.6248,"mtimeMs":1587482995384.4917,"ctimeMs":1587482995384.4917,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:29:41.828Z","mtime":"2020-04-21T15:29:55.384Z","ctime":"2020-04-21T15:29:55.384Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:29:55,527 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1184,"blocks":8,"atimeMs":1587482981827.6248,"mtimeMs":1587482995384.4917,"ctimeMs":1587482995384.4917,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:29:41.828Z","mtime":"2020-04-21T15:29:55.384Z","ctime":"2020-04-21T15:29:55.384Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:29:55,730 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:30:16,974 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:30:16,769 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1179,"blocks":8,"atimeMs":1587482996890.4404,"mtimeMs":1587483016708.4885,"ctimeMs":1587483016708.4885,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:29:56.890Z","mtime":"2020-04-21T15:30:16.708Z","ctime":"2020-04-21T15:30:16.708Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:31:50,382 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:31:50,177 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1179,"blocks":8,"atimeMs":1587483018028.4524,"mtimeMs":1587483110115.8203,"ctimeMs":1587483110115.8203,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:30:18.028Z","mtime":"2020-04-21T15:31:50.116Z","ctime":"2020-04-21T15:31:50.116Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:31:50,962 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1179,"blocks":8,"atimeMs":1587483110950.4182,"mtimeMs":1587483110950.878,"ctimeMs":1587483110950.878,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:31:50.950Z","mtime":"2020-04-21T15:31:50.951Z","ctime":"2020-04-21T15:31:50.951Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:31:51,032 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1179,"blocks":8,"atimeMs":1587483110950.4182,"mtimeMs":1587483110950.878,"ctimeMs":1587483110950.878,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:31:50.950Z","mtime":"2020-04-21T15:31:50.951Z","ctime":"2020-04-21T15:31:50.951Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:31:51,234 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:32:46,454 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:32:46,250 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1173,"blocks":8,"atimeMs":1587483112375.3547,"mtimeMs":1587483166189.7756,"ctimeMs":1587483166189.7756,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:31:52.375Z","mtime":"2020-04-21T15:32:46.190Z","ctime":"2020-04-21T15:32:46.190Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:33:19,094 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:33:18,889 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1197,"blocks":8,"atimeMs":1587483167418.1726,"mtimeMs":1587483198828.7175,"ctimeMs":1587483198828.7175,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:32:47.418Z","mtime":"2020-04-21T15:33:18.829Z","ctime":"2020-04-21T15:33:18.829Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:35:13,499 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:35:13,293 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1380,"blocks":8,"atimeMs":1587483200176.4077,"mtimeMs":1587483313232.914,"ctimeMs":1587483313232.914,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:33:20.176Z","mtime":"2020-04-21T15:35:13.233Z","ctime":"2020-04-21T15:35:13.233Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:36:08,912 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:36:08,707 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1288,"blocks":8,"atimeMs":1587483314673.714,"mtimeMs":1587483368645.935,"ctimeMs":1587483368645.935,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:35:14.674Z","mtime":"2020-04-21T15:36:08.646Z","ctime":"2020-04-21T15:36:08.646Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:36:40,221 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:36:40,016 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1179,"blocks":8,"atimeMs":1587483369973.8362,"mtimeMs":1587483399954.6138,"ctimeMs":1587483399954.6138,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:36:09.974Z","mtime":"2020-04-21T15:36:39.955Z","ctime":"2020-04-21T15:36:39.955Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:38:06,572 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:38:06,367 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1172,"blocks":8,"atimeMs":1587483401493.3308,"mtimeMs":1587483486313.8599,"ctimeMs":1587483486313.8599,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:36:41.493Z","mtime":"2020-04-21T15:38:06.314Z","ctime":"2020-04-21T15:38:06.314Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:41:41,795 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1172,"blocks":8,"atimeMs":1587483487669.6245,"mtimeMs":1587483701733.1633,"ctimeMs":1587483701733.1633,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:38:07.670Z","mtime":"2020-04-21T15:41:41.733Z","ctime":"2020-04-21T15:41:41.733Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:41:41,996 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:42:19,914 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1158,"blocks":8,"atimeMs":1587483703681.512,"mtimeMs":1587483739852.4534,"ctimeMs":1587483739852.4534,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:41:43.682Z","mtime":"2020-04-21T15:42:19.852Z","ctime":"2020-04-21T15:42:19.852Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:42:20,118 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:42:51,004 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:42:50,802 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1163,"blocks":8,"atimeMs":1587483742782.5225,"mtimeMs":1587483770741.169,"ctimeMs":1587483770741.169,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:42:22.783Z","mtime":"2020-04-21T15:42:50.741Z","ctime":"2020-04-21T15:42:50.741Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:43:15,044 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:43:14,839 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1195,"blocks":8,"atimeMs":1587483772019.552,"mtimeMs":1587483794778.3347,"ctimeMs":1587483794778.3347,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:42:52.020Z","mtime":"2020-04-21T15:43:14.778Z","ctime":"2020-04-21T15:43:14.778Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:43:43,225 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:43:43,021 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1198,"blocks":8,"atimeMs":1587483796971.4814,"mtimeMs":1587483822959.635,"ctimeMs":1587483822959.635,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:43:16.971Z","mtime":"2020-04-21T15:43:42.960Z","ctime":"2020-04-21T15:43:42.960Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:43:46,882 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:43:46,630 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1194,"blocks":8,"atimeMs":1587483824225.5295,"mtimeMs":1587483826619.195,"ctimeMs":1587483826619.195,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:43:44.226Z","mtime":"2020-04-21T15:43:46.619Z","ctime":"2020-04-21T15:43:46.619Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:43:46,680 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1194,"blocks":8,"atimeMs":1587483824225.5295,"mtimeMs":1587483826619.195,"ctimeMs":1587483826619.195,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:43:44.226Z","mtime":"2020-04-21T15:43:46.619Z","ctime":"2020-04-21T15:43:46.619Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:43:48,991 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:43:48,735 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1163,"blocks":8,"atimeMs":1587483828225.467,"mtimeMs":1587483828723.6055,"ctimeMs":1587483828723.6055,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:43:48.225Z","mtime":"2020-04-21T15:43:48.724Z","ctime":"2020-04-21T15:43:48.724Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:43:48,785 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1163,"blocks":8,"atimeMs":1587483828225.467,"mtimeMs":1587483828723.6055,"ctimeMs":1587483828723.6055,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:43:48.225Z","mtime":"2020-04-21T15:43:48.724Z","ctime":"2020-04-21T15:43:48.724Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:44:05,327 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:44:05,123 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1169,"blocks":8,"atimeMs":1587483830125.9922,"mtimeMs":1587483845011.7173,"ctimeMs":1587483845011.7173,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:43:50.126Z","mtime":"2020-04-21T15:44:05.012Z","ctime":"2020-04-21T15:44:05.012Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:44:29,271 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:44:29,067 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1169,"blocks":8,"atimeMs":1587483846426.6702,"mtimeMs":1587483869007.2148,"ctimeMs":1587483869007.2148,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:44:06.427Z","mtime":"2020-04-21T15:44:29.007Z","ctime":"2020-04-21T15:44:29.007Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:44:47,360 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:44:47,156 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1174,"blocks":8,"atimeMs":1587483870027.8032,"mtimeMs":1587483887095.342,"ctimeMs":1587483887095.342,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:44:30.028Z","mtime":"2020-04-21T15:44:47.095Z","ctime":"2020-04-21T15:44:47.095Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:44:49,547 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:44:49,291 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1175,"blocks":8,"atimeMs":1587483888432.181,"mtimeMs":1587483889280.4822,"ctimeMs":1587483889280.4822,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:44:48.432Z","mtime":"2020-04-21T15:44:49.280Z","ctime":"2020-04-21T15:44:49.280Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:44:49,341 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1175,"blocks":8,"atimeMs":1587483888432.181,"mtimeMs":1587483889280.4822,"ctimeMs":1587483889280.4822,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:44:48.432Z","mtime":"2020-04-21T15:44:49.280Z","ctime":"2020-04-21T15:44:49.280Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:45:03,535 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:45:03,285 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1169,"blocks":8,"atimeMs":1587483891128.5178,"mtimeMs":1587483903274.3481,"ctimeMs":1587483903274.3481,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:44:51.129Z","mtime":"2020-04-21T15:45:03.274Z","ctime":"2020-04-21T15:45:03.274Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:45:03,335 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1169,"blocks":8,"atimeMs":1587483891128.5178,"mtimeMs":1587483903274.3481,"ctimeMs":1587483903274.3481,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:44:51.129Z","mtime":"2020-04-21T15:45:03.274Z","ctime":"2020-04-21T15:45:03.274Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:47:24,707 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:47:24,502 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1476,"blocks":8,"atimeMs":1587483905078.6404,"mtimeMs":1587484044440.4624,"ctimeMs":1587484044440.4624,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:45:05.079Z","mtime":"2020-04-21T15:47:24.440Z","ctime":"2020-04-21T15:47:24.440Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:48:04,658 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:48:04,453 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1485,"blocks":8,"atimeMs":1587484045877.8623,"mtimeMs":1587484084392.642,"ctimeMs":1587484084392.642,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:47:25.878Z","mtime":"2020-04-21T15:48:04.393Z","ctime":"2020-04-21T15:48:04.393Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:48:09,214 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1476,"blocks":8,"atimeMs":1587484085993.045,"mtimeMs":1587484089203.8284,"ctimeMs":1587484089203.8284,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:48:05.993Z","mtime":"2020-04-21T15:48:09.204Z","ctime":"2020-04-21T15:48:09.204Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:48:09,470 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:48:09,264 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1476,"blocks":8,"atimeMs":1587484085993.045,"mtimeMs":1587484089203.8284,"ctimeMs":1587484089203.8284,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:48:05.993Z","mtime":"2020-04-21T15:48:09.204Z","ctime":"2020-04-21T15:48:09.204Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:49:11,668 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:49:11,464 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1674,"blocks":8,"atimeMs":1587484091129.177,"mtimeMs":1587484151403.1975,"ctimeMs":1587484151403.1975,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:48:11.129Z","mtime":"2020-04-21T15:49:11.403Z","ctime":"2020-04-21T15:49:11.403Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:49:12,204 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1674,"blocks":8,"atimeMs":1587484152193.1455,"mtimeMs":1587484152193.4966,"ctimeMs":1587484152193.4966,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:49:12.193Z","mtime":"2020-04-21T15:49:12.193Z","ctime":"2020-04-21T15:49:12.193Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:49:12,283 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1674,"blocks":8,"atimeMs":1587484152193.1455,"mtimeMs":1587484152193.4966,"ctimeMs":1587484152193.4966,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:49:12.193Z","mtime":"2020-04-21T15:49:12.193Z","ctime":"2020-04-21T15:49:12.193Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:49:12,485 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:49:26,461 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:49:26,208 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1674,"blocks":8,"atimeMs":1587484153681.2197,"mtimeMs":1587484166197.4656,"ctimeMs":1587484166197.4656,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:49:13.681Z","mtime":"2020-04-21T15:49:26.197Z","ctime":"2020-04-21T15:49:26.197Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:49:26,259 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1674,"blocks":8,"atimeMs":1587484153681.2197,"mtimeMs":1587484166197.4656,"ctimeMs":1587484166197.4656,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:49:13.681Z","mtime":"2020-04-21T15:49:26.197Z","ctime":"2020-04-21T15:49:26.197Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:49:47,142 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:49:46,941 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1693,"blocks":8,"atimeMs":1587484168542.6628,"mtimeMs":1587484186880.1519,"ctimeMs":1587484186880.1519,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:49:28.543Z","mtime":"2020-04-21T15:49:46.880Z","ctime":"2020-04-21T15:49:46.880Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:49:49,807 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:49:50,238 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:49:49,601 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1693,"blocks":8,"atimeMs":1587484188646.7917,"mtimeMs":1587484189590.254,"ctimeMs":1587484189590.254,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:49:48.647Z","mtime":"2020-04-21T15:49:49.590Z","ctime":"2020-04-21T15:49:49.590Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:49:50,034 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1693,"blocks":8,"atimeMs":1587484190022.982,"mtimeMs":1587484190023.4216,"ctimeMs":1587484190023.4216,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:49:50.023Z","mtime":"2020-04-21T15:49:50.023Z","ctime":"2020-04-21T15:49:50.023Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:49:51,086 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:49:50,880 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1693,"blocks":8,"atimeMs":1587484190868.352,"mtimeMs":1587484190869.2917,"ctimeMs":1587484190869.2917,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:49:50.868Z","mtime":"2020-04-21T15:49:50.869Z","ctime":"2020-04-21T15:49:50.869Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:50:04,610 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:50:04,406 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1693,"blocks":8,"atimeMs":1587484192092.1125,"mtimeMs":1587484204395.8906,"ctimeMs":1587484204395.8906,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:49:52.092Z","mtime":"2020-04-21T15:50:04.396Z","ctime":"2020-04-21T15:50:04.396Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:50:15,457 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:50:15,205 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1696,"blocks":8,"atimeMs":1587484206132.7295,"mtimeMs":1587484215194.501,"ctimeMs":1587484215194.501,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:50:06.133Z","mtime":"2020-04-21T15:50:15.195Z","ctime":"2020-04-21T15:50:15.195Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:50:15,256 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1696,"blocks":8,"atimeMs":1587484206132.7295,"mtimeMs":1587484215194.501,"ctimeMs":1587484215194.501,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:50:06.133Z","mtime":"2020-04-21T15:50:15.195Z","ctime":"2020-04-21T15:50:15.195Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:50:26,538 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1720,"blocks":8,"atimeMs":1587484216731.252,"mtimeMs":1587484226527.4487,"ctimeMs":1587484226527.4487,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:50:16.731Z","mtime":"2020-04-21T15:50:26.527Z","ctime":"2020-04-21T15:50:26.527Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:50:26,589 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1720,"blocks":8,"atimeMs":1587484216731.252,"mtimeMs":1587484226527.4487,"ctimeMs":1587484226527.4487,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:50:16.731Z","mtime":"2020-04-21T15:50:26.527Z","ctime":"2020-04-21T15:50:26.527Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:50:26,792 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:50:59,665 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:50:59,462 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1714,"blocks":8,"atimeMs":1587484253585.8958,"mtimeMs":1587484259399.997,"ctimeMs":1587484259399.997,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:50:53.586Z","mtime":"2020-04-21T15:50:59.400Z","ctime":"2020-04-21T15:50:59.400Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:51:01,436 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:51:01,181 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1714,"blocks":8,"atimeMs":1587484261042.9746,"mtimeMs":1587484261170.8274,"ctimeMs":1587484261170.8274,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:51:01.043Z","mtime":"2020-04-21T15:51:01.171Z","ctime":"2020-04-21T15:51:01.171Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:51:01,231 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1714,"blocks":8,"atimeMs":1587484261042.9746,"mtimeMs":1587484261170.8274,"ctimeMs":1587484261170.8274,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:51:01.043Z","mtime":"2020-04-21T15:51:01.171Z","ctime":"2020-04-21T15:51:01.171Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:51:31,909 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1720,"blocks":8,"atimeMs":1587484262444.2507,"mtimeMs":1587484291848.075,"ctimeMs":1587484291848.075,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:51:02.444Z","mtime":"2020-04-21T15:51:31.848Z","ctime":"2020-04-21T15:51:31.848Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:51:32,113 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:51:36,928 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:51:36,673 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1726,"blocks":8,"atimeMs":1587484293112.727,"mtimeMs":1587484296662.6025,"ctimeMs":1587484296662.6025,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:51:33.113Z","mtime":"2020-04-21T15:51:36.663Z","ctime":"2020-04-21T15:51:36.663Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:51:36,724 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1726,"blocks":8,"atimeMs":1587484293112.727,"mtimeMs":1587484296662.6025,"ctimeMs":1587484296662.6025,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:51:33.113Z","mtime":"2020-04-21T15:51:36.663Z","ctime":"2020-04-21T15:51:36.663Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:52:04,699 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:52:04,495 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1723,"blocks":8,"atimeMs":1587484314297.4812,"mtimeMs":1587484324433.9888,"ctimeMs":1587484324433.9888,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:51:54.297Z","mtime":"2020-04-21T15:52:04.434Z","ctime":"2020-04-21T15:52:04.434Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:52:29,579 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:52:29,379 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1725,"blocks":8,"atimeMs":1587484325649.5693,"mtimeMs":1587484349317.6748,"ctimeMs":1587484349317.6748,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:52:05.650Z","mtime":"2020-04-21T15:52:29.318Z","ctime":"2020-04-21T15:52:29.318Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:52:35,936 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:52:35,734 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1725,"blocks":8,"atimeMs":1587484354013.001,"mtimeMs":1587484355723.4702,"ctimeMs":1587484355723.4702,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:52:34.013Z","mtime":"2020-04-21T15:52:35.723Z","ctime":"2020-04-21T15:52:35.723Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:53:09,217 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:53:09,012 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1723,"blocks":8,"atimeMs":1587484356982.7556,"mtimeMs":1587484388951.1042,"ctimeMs":1587484388951.1042,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:52:36.983Z","mtime":"2020-04-21T15:53:08.951Z","ctime":"2020-04-21T15:53:08.951Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:56:20,924 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1739,"blocks":8,"atimeMs":1587484404353.5215,"mtimeMs":1587484580862.4927,"ctimeMs":1587484580862.4927,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:53:24.354Z","mtime":"2020-04-21T15:56:20.862Z","ctime":"2020-04-21T15:56:20.862Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:56:21,130 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:56:21,420 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:56:21,216 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1739,"blocks":8,"atimeMs":1587484404353.5215,"mtimeMs":1587484580862.4927,"ctimeMs":1587484580862.4927,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:53:24.354Z","mtime":"2020-04-21T15:56:20.862Z","ctime":"2020-04-21T15:56:20.862Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:56:49,711 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:56:49,506 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1769,"blocks":8,"atimeMs":1587484582382.747,"mtimeMs":1587484609445.7207,"ctimeMs":1587484609445.7207,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:56:22.383Z","mtime":"2020-04-21T15:56:49.446Z","ctime":"2020-04-21T15:56:49.446Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:56:50,871 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:56:50,616 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1769,"blocks":8,"atimeMs":1587484610604.364,"mtimeMs":1587484610605.0032,"ctimeMs":1587484610605.0032,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:56:50.604Z","mtime":"2020-04-21T15:56:50.605Z","ctime":"2020-04-21T15:56:50.605Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:56:50,667 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1769,"blocks":8,"atimeMs":1587484610604.364,"mtimeMs":1587484610605.0032,"ctimeMs":1587484610605.0032,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:56:50.604Z","mtime":"2020-04-21T15:56:50.605Z","ctime":"2020-04-21T15:56:50.605Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:56:50,945 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1769,"blocks":8,"atimeMs":1587484610933.7976,"mtimeMs":1587484610934.412,"ctimeMs":1587484610934.412,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:56:50.934Z","mtime":"2020-04-21T15:56:50.934Z","ctime":"2020-04-21T15:56:50.934Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:56:51,148 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:56:51,418 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
+2020-04-21 23:56:51,167 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1769,"blocks":8,"atimeMs":1587484611155.362,"mtimeMs":1587484611155.9255,"ctimeMs":1587484611155.9255,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:56:51.155Z","mtime":"2020-04-21T15:56:51.156Z","ctime":"2020-04-21T15:56:51.156Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:56:51,217 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1769,"blocks":8,"atimeMs":1587484611155.362,"mtimeMs":1587484611155.9255,"ctimeMs":1587484611155.9255,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:56:51.155Z","mtime":"2020-04-21T15:56:51.156Z","ctime":"2020-04-21T15:56:51.156Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:57:21,074 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":1769,"blocks":8,"atimeMs":1587484612479.8042,"mtimeMs":1587484641013.7651,"ctimeMs":1587484641013.7651,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T15:56:52.480Z","mtime":"2020-04-21T15:57:21.014Z","ctime":"2020-04-21T15:57:21.014Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-21 23:57:21,277 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change

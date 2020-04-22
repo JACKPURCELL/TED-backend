@@ -1,0 +1,105 @@
+2020-04-14 01:54:56,043 INFO 90088 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 9303959ms at 2020-04-14 04:30:00.002
+2020-04-14 01:54:56,043 INFO 90088 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 79503957ms at 2020-04-15 00:00:00.000
+2020-04-14 01:54:56,044 INFO 90088 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 79504957ms at 2020-04-15 00:00:01.001
+2020-04-14 01:54:55,937 INFO 90091 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-14 01:54:55,937 INFO 90091 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-14 01:54:55,937 INFO 90091 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-14 01:57:03,748 INFO 90223 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-14 01:57:03,748 INFO 90223 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-14 01:57:03,748 INFO 90223 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-14 01:57:10,315 INFO 90242 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 9169687ms at 2020-04-14 04:30:00.002
+2020-04-14 01:57:10,315 INFO 90242 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 79369685ms at 2020-04-15 00:00:00.000
+2020-04-14 01:57:10,316 INFO 90242 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 79370685ms at 2020-04-15 00:00:01.001
+2020-04-14 01:57:10,257 INFO 90245 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-14 01:57:10,257 INFO 90245 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-14 01:57:10,257 INFO 90245 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-14 01:59:03,074 INFO 90418 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 9056928ms at 2020-04-14 04:30:00.002
+2020-04-14 01:59:03,074 INFO 90418 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 79256926ms at 2020-04-15 00:00:00.000
+2020-04-14 01:59:03,075 INFO 90418 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 79257926ms at 2020-04-15 00:00:01.001
+2020-04-14 01:59:02,997 INFO 90421 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-14 01:59:02,997 INFO 90421 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-14 01:59:02,997 INFO 90421 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-14 02:08:02,596 INFO 91012 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 8517406ms at 2020-04-14 04:30:00.002
+2020-04-14 02:08:02,596 INFO 91012 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 78717404ms at 2020-04-15 00:00:00.000
+2020-04-14 02:08:02,597 INFO 91012 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 78718404ms at 2020-04-15 00:00:01.001
+2020-04-14 02:08:02,495 INFO 91014 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-14 02:08:02,495 INFO 91014 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-14 02:08:02,495 INFO 91014 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-14 02:09:31,864 INFO 91106 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 8428139ms at 2020-04-14 04:30:00.003
+2020-04-14 02:09:31,864 INFO 91106 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 78628136ms at 2020-04-15 00:00:00.000
+2020-04-14 02:09:31,865 INFO 91106 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 78629135ms at 2020-04-15 00:00:01.000
+2020-04-14 02:09:31,754 INFO 91110 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-14 02:09:31,754 INFO 91110 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-14 02:09:31,754 INFO 91110 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-14 02:10:33,340 INFO 91185 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 8366662ms at 2020-04-14 04:30:00.002
+2020-04-14 02:10:33,341 INFO 91185 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 78566660ms at 2020-04-15 00:00:00.001
+2020-04-14 02:10:33,341 INFO 91185 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 78567659ms at 2020-04-15 00:00:01.000
+2020-04-14 02:10:33,242 INFO 91187 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-14 02:10:33,242 INFO 91187 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-14 02:10:33,242 INFO 91187 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-14 08:42:48,918 INFO 91185 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 71231110ms at 2020-04-15 04:30:00.028
+2020-04-14 08:42:48,987 INFO 91187 [Job#15868249688662412946597847541] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2020-04-14 08:42:49,049 INFO 91187 [Job#15868249688662412946597847541] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 46ms
+2020-04-14 11:07:36,537 INFO 3415 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-14 11:07:36,537 INFO 3415 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-14 11:07:36,537 INFO 3415 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-14 11:07:36,766 INFO 3413 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 62543236ms at 2020-04-15 04:30:00.002
+2020-04-14 11:07:36,766 INFO 3413 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 46343234ms at 2020-04-15 00:00:00.000
+2020-04-14 11:07:36,767 INFO 3413 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 46344234ms at 2020-04-15 00:00:01.001
+2020-04-14 23:17:28,229 INFO 18004 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 18751772ms at 2020-04-15 04:30:00.001
+2020-04-14 23:17:28,229 INFO 18004 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 2551771ms at 2020-04-15 00:00:00.000
+2020-04-14 23:17:28,230 INFO 18004 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 2552771ms at 2020-04-15 00:00:01.001
+2020-04-14 23:17:28,137 INFO 18005 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-14 23:17:28,137 INFO 18005 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-14 23:17:28,137 INFO 18005 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-14 23:19:30,748 INFO 18037 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-14 23:19:30,748 INFO 18037 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-14 23:19:30,748 INFO 18037 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-14 23:19:39,259 INFO 18040 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-14 23:19:39,259 INFO 18040 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-14 23:19:39,260 INFO 18040 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-14 23:19:53,840 INFO 18051 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 18606162ms at 2020-04-15 04:30:00.002
+2020-04-14 23:19:53,840 INFO 18051 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 2406160ms at 2020-04-15 00:00:00.000
+2020-04-14 23:19:53,840 INFO 18051 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 2407160ms at 2020-04-15 00:00:01.000
+2020-04-14 23:19:53,776 INFO 18055 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-14 23:19:53,776 INFO 18055 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-14 23:19:53,776 INFO 18055 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-14 23:21:26,545 INFO 18142 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 18513457ms at 2020-04-15 04:30:00.002
+2020-04-14 23:21:26,545 INFO 18142 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 2313455ms at 2020-04-15 00:00:00.000
+2020-04-14 23:21:26,546 INFO 18142 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 2314455ms at 2020-04-15 00:00:01.001
+2020-04-14 23:21:26,467 INFO 18146 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-14 23:21:26,467 INFO 18146 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-14 23:21:26,467 INFO 18146 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-14 23:22:20,277 INFO 18254 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 18459726ms at 2020-04-15 04:30:00.003
+2020-04-14 23:22:20,277 INFO 18254 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 2259723ms at 2020-04-15 00:00:00.000
+2020-04-14 23:22:20,277 INFO 18254 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 2260723ms at 2020-04-15 00:00:01.000
+2020-04-14 23:22:20,198 INFO 18258 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-14 23:22:20,198 INFO 18258 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-14 23:22:20,198 INFO 18258 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-14 23:22:37,026 INFO 18262 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-14 23:22:37,026 INFO 18262 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-14 23:22:37,026 INFO 18262 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-14 23:24:32,566 INFO 18291 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-14 23:24:32,566 INFO 18291 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-14 23:24:32,566 INFO 18291 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-14 23:24:38,703 INFO 18293 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-14 23:24:38,703 INFO 18293 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-14 23:24:38,703 INFO 18293 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-14 23:24:43,005 INFO 18295 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-14 23:24:43,005 INFO 18295 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-14 23:24:43,005 INFO 18295 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-14 23:37:32,923 INFO 18736 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-14 23:37:32,923 INFO 18736 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-14 23:37:32,923 INFO 18736 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-14 23:37:45,110 INFO 18740 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-14 23:37:45,110 INFO 18740 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-14 23:37:45,110 INFO 18740 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-14 23:57:46,226 INFO 19266 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-14 23:57:46,226 INFO 19266 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-14 23:57:46,226 INFO 19266 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-15 00:00:00,037 INFO 18254 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86399970ms at 2020-04-16 00:00:00.007
+2020-04-15 00:00:00,031 INFO 19266 [Job#1586880000028282584954980691] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2020-04-15 00:00:00,038 INFO 19266 [Job#1586880000028282584954980691] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 6ms
+2020-04-15 00:00:01,009 INFO 19266 [Job#1586880001008282585763066751] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2020-04-15 00:00:01,015 INFO 19266 [Job#1586880001008282585763066751] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 6ms
+2020-04-15 00:00:01,012 INFO 18254 [Timer] /Users/ljc/Downloads/vue/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86399991ms at 2020-04-16 00:00:01.003

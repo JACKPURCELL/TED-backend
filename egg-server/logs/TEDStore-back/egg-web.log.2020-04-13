@@ -1,0 +1,153 @@
+2020-04-13 15:46:04,183 INFO 62803 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 15:46:04,203 INFO 62803 [egg-multipart] stream mode enable
+2020-04-13 15:46:04,260 INFO 62803 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-13 15:46:04,262 INFO 62803 [egg-security] use csrf middleware
+2020-04-13 15:46:04,263 INFO 62803 [egg-security] use methodnoallow middleware
+2020-04-13 15:46:04,264 INFO 62803 [egg-security] use noopen middleware
+2020-04-13 15:46:04,264 INFO 62803 [egg-security] use nosniff middleware
+2020-04-13 15:46:04,265 INFO 62803 [egg-security] use xssProtection middleware
+2020-04-13 15:46:04,266 INFO 62803 [egg-security] use xframe middleware
+2020-04-13 15:46:04,266 INFO 62803 [egg-security] use dta middleware
+2020-04-13 15:46:04,266 INFO 62803 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 15:46:04,273 INFO 62803 [egg:core] dump config after load, 3ms
+2020-04-13 15:46:04,282 INFO 62803 [egg-watcher:application] watcher start success
+2020-04-13 15:46:04,290 INFO 62803 [egg:core] dump config after ready, 6ms
+2020-04-13 23:04:43,867 INFO 79679 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 23:04:43,884 INFO 79679 [egg-multipart] stream mode enable
+2020-04-13 23:04:43,951 INFO 79679 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-13 23:04:43,953 INFO 79679 [egg-security] use csrf middleware
+2020-04-13 23:04:43,954 INFO 79679 [egg-security] use methodnoallow middleware
+2020-04-13 23:04:43,955 INFO 79679 [egg-security] use noopen middleware
+2020-04-13 23:04:43,956 INFO 79679 [egg-security] use nosniff middleware
+2020-04-13 23:04:43,956 INFO 79679 [egg-security] use xssProtection middleware
+2020-04-13 23:04:43,957 INFO 79679 [egg-security] use xframe middleware
+2020-04-13 23:04:43,958 INFO 79679 [egg-security] use dta middleware
+2020-04-13 23:04:43,958 INFO 79679 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 23:04:43,965 INFO 79679 [egg:core] dump config after load, 3ms
+2020-04-13 23:04:43,977 INFO 79679 [egg-watcher:application] watcher start success
+2020-04-13 23:04:43,984 INFO 79679 [egg:core] dump config after ready, 6ms
+2020-04-13 23:19:56,425 INFO 80689 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 23:19:56,448 INFO 80689 [egg-multipart] stream mode enable
+2020-04-13 23:19:56,507 INFO 80689 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-13 23:19:56,509 INFO 80689 [egg-security] use csrf middleware
+2020-04-13 23:19:56,510 INFO 80689 [egg-security] use methodnoallow middleware
+2020-04-13 23:19:56,510 INFO 80689 [egg-security] use noopen middleware
+2020-04-13 23:19:56,511 INFO 80689 [egg-security] use nosniff middleware
+2020-04-13 23:19:56,512 INFO 80689 [egg-security] use xssProtection middleware
+2020-04-13 23:19:56,512 INFO 80689 [egg-security] use xframe middleware
+2020-04-13 23:19:56,513 INFO 80689 [egg-security] use dta middleware
+2020-04-13 23:19:56,513 INFO 80689 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 23:19:56,519 INFO 80689 [egg:core] dump config after load, 3ms
+2020-04-13 23:19:56,528 INFO 80689 [egg-watcher:application] watcher start success
+2020-04-13 23:19:56,535 INFO 80689 [egg:core] dump config after ready, 5ms
+2020-04-13 23:22:05,003 INFO 80776 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 23:22:05,028 INFO 80776 [egg-multipart] stream mode enable
+2020-04-13 23:22:05,111 INFO 80776 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-13 23:22:05,113 INFO 80776 [egg-security] use csrf middleware
+2020-04-13 23:22:05,114 INFO 80776 [egg-security] use methodnoallow middleware
+2020-04-13 23:22:05,115 INFO 80776 [egg-security] use noopen middleware
+2020-04-13 23:22:05,116 INFO 80776 [egg-security] use nosniff middleware
+2020-04-13 23:22:05,117 INFO 80776 [egg-security] use xssProtection middleware
+2020-04-13 23:22:05,117 INFO 80776 [egg-security] use xframe middleware
+2020-04-13 23:22:05,118 INFO 80776 [egg-security] use dta middleware
+2020-04-13 23:22:05,118 INFO 80776 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 23:22:05,126 INFO 80776 [egg:core] dump config after load, 3ms
+2020-04-13 23:22:05,135 INFO 80776 [egg-watcher:application] watcher start success
+2020-04-13 23:22:05,144 INFO 80776 [egg:core] dump config after ready, 6ms
+2020-04-13 23:22:22,872 INFO 80800 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 23:22:22,895 INFO 80800 [egg-multipart] stream mode enable
+2020-04-13 23:22:22,952 INFO 80800 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-13 23:22:22,954 INFO 80800 [egg-security] use csrf middleware
+2020-04-13 23:22:22,954 INFO 80800 [egg-security] use methodnoallow middleware
+2020-04-13 23:22:22,955 INFO 80800 [egg-security] use noopen middleware
+2020-04-13 23:22:22,956 INFO 80800 [egg-security] use nosniff middleware
+2020-04-13 23:22:22,956 INFO 80800 [egg-security] use xssProtection middleware
+2020-04-13 23:22:22,957 INFO 80800 [egg-security] use xframe middleware
+2020-04-13 23:22:22,957 INFO 80800 [egg-security] use dta middleware
+2020-04-13 23:22:22,957 INFO 80800 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 23:22:22,965 INFO 80800 [egg:core] dump config after load, 4ms
+2020-04-13 23:22:22,974 INFO 80800 [egg-watcher:application] watcher start success
+2020-04-13 23:22:22,983 INFO 80800 [egg:core] dump config after ready, 5ms
+2020-04-13 23:22:28,632 INFO 80805 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 23:22:28,656 INFO 80805 [egg-multipart] stream mode enable
+2020-04-13 23:22:28,731 INFO 80805 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-13 23:22:28,736 INFO 80805 [egg-security] use csrf middleware
+2020-04-13 23:22:28,736 INFO 80805 [egg-security] use methodnoallow middleware
+2020-04-13 23:22:28,737 INFO 80805 [egg-security] use noopen middleware
+2020-04-13 23:22:28,738 INFO 80805 [egg-security] use nosniff middleware
+2020-04-13 23:22:28,738 INFO 80805 [egg-security] use xssProtection middleware
+2020-04-13 23:22:28,739 INFO 80805 [egg-security] use xframe middleware
+2020-04-13 23:22:28,739 INFO 80805 [egg-security] use dta middleware
+2020-04-13 23:22:28,739 INFO 80805 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 23:22:28,747 INFO 80805 [egg:core] dump config after load, 4ms
+2020-04-13 23:22:28,756 INFO 80805 [egg-watcher:application] watcher start success
+2020-04-13 23:22:28,764 INFO 80805 [egg:core] dump config after ready, 7ms
+2020-04-13 23:22:41,296 INFO 80828 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 23:22:41,314 INFO 80828 [egg-multipart] stream mode enable
+2020-04-13 23:22:41,343 INFO 80828 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-13 23:22:41,345 INFO 80828 [egg-security] use csrf middleware
+2020-04-13 23:22:41,345 INFO 80828 [egg-security] use methodnoallow middleware
+2020-04-13 23:22:41,346 INFO 80828 [egg-security] use noopen middleware
+2020-04-13 23:22:41,346 INFO 80828 [egg-security] use nosniff middleware
+2020-04-13 23:22:41,346 INFO 80828 [egg-security] use xssProtection middleware
+2020-04-13 23:22:41,346 INFO 80828 [egg-security] use xframe middleware
+2020-04-13 23:22:41,347 INFO 80828 [egg-security] use dta middleware
+2020-04-13 23:22:41,347 INFO 80828 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 23:22:41,353 INFO 80828 [egg:core] dump config after load, 3ms
+2020-04-13 23:22:41,362 INFO 80828 [egg-watcher:application] watcher start success
+2020-04-13 23:22:41,369 INFO 80828 [egg:core] dump config after ready, 6ms
+2020-04-13 23:29:04,321 INFO 81141 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 23:29:04,350 INFO 81141 [egg-multipart] stream mode enable
+2020-04-13 23:29:04,425 INFO 81141 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-13 23:29:04,427 INFO 81141 [egg-security] use methodnoallow middleware
+2020-04-13 23:29:04,428 INFO 81141 [egg-security] use noopen middleware
+2020-04-13 23:29:04,428 INFO 81141 [egg-security] use nosniff middleware
+2020-04-13 23:29:04,429 INFO 81141 [egg-security] use xssProtection middleware
+2020-04-13 23:29:04,430 INFO 81141 [egg-security] use xframe middleware
+2020-04-13 23:29:04,430 INFO 81141 [egg-security] use dta middleware
+2020-04-13 23:29:04,430 INFO 81141 [egg-security] compose 6 middlewares into one security middleware
+2020-04-13 23:29:04,437 INFO 81141 [egg:core] dump config after load, 3ms
+2020-04-13 23:29:04,446 INFO 81141 [egg-watcher:application] watcher start success
+2020-04-13 23:29:04,451 INFO 81141 [egg:core] dump config after ready, 4ms
+2020-04-13 23:29:05,894 INFO 81146 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 23:29:05,911 INFO 81146 [egg-multipart] stream mode enable
+2020-04-13 23:29:05,945 INFO 81146 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-13 23:29:05,946 INFO 81146 [egg-security] use methodnoallow middleware
+2020-04-13 23:29:05,947 INFO 81146 [egg-security] use noopen middleware
+2020-04-13 23:29:05,947 INFO 81146 [egg-security] use nosniff middleware
+2020-04-13 23:29:05,947 INFO 81146 [egg-security] use xssProtection middleware
+2020-04-13 23:29:05,948 INFO 81146 [egg-security] use xframe middleware
+2020-04-13 23:29:05,948 INFO 81146 [egg-security] use dta middleware
+2020-04-13 23:29:05,948 INFO 81146 [egg-security] compose 6 middlewares into one security middleware
+2020-04-13 23:29:05,955 INFO 81146 [egg:core] dump config after load, 4ms
+2020-04-13 23:29:05,963 INFO 81146 [egg-watcher:application] watcher start success
+2020-04-13 23:29:05,972 INFO 81146 [egg:core] dump config after ready, 7ms
+2020-04-13 23:29:06,659 INFO 81151 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 23:29:06,681 INFO 81151 [egg-multipart] stream mode enable
+2020-04-13 23:29:06,716 INFO 81151 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-13 23:29:06,718 INFO 81151 [egg-security] use methodnoallow middleware
+2020-04-13 23:29:06,719 INFO 81151 [egg-security] use noopen middleware
+2020-04-13 23:29:06,719 INFO 81151 [egg-security] use nosniff middleware
+2020-04-13 23:29:06,719 INFO 81151 [egg-security] use xssProtection middleware
+2020-04-13 23:29:06,720 INFO 81151 [egg-security] use xframe middleware
+2020-04-13 23:29:06,720 INFO 81151 [egg-security] use dta middleware
+2020-04-13 23:29:06,720 INFO 81151 [egg-security] compose 6 middlewares into one security middleware
+2020-04-13 23:29:06,727 INFO 81151 [egg:core] dump config after load, 3ms
+2020-04-13 23:29:06,736 INFO 81151 [egg-watcher:application] watcher start success
+2020-04-13 23:29:06,745 INFO 81151 [egg:core] dump config after ready, 7ms
+2020-04-13 23:29:18,542 INFO 81190 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 23:29:18,563 INFO 81190 [egg-multipart] stream mode enable
+2020-04-13 23:29:18,599 INFO 81190 [egg-static] starting static serve /public/ -> /Users/ljc/Downloads/vue/egg-example/app/public
+2020-04-13 23:29:18,601 INFO 81190 [egg-security] use methodnoallow middleware
+2020-04-13 23:29:18,601 INFO 81190 [egg-security] use noopen middleware
+2020-04-13 23:29:18,601 INFO 81190 [egg-security] use nosniff middleware
+2020-04-13 23:29:18,602 INFO 81190 [egg-security] use xssProtection middleware
+2020-04-13 23:29:18,602 INFO 81190 [egg-security] use xframe middleware
+2020-04-13 23:29:18,602 INFO 81190 [egg-security] use dta middleware
+2020-04-13 23:29:18,602 INFO 81190 [egg-security] compose 6 middlewares into one security middleware
+2020-04-13 23:29:18,610 INFO 81190 [egg:core] dump config after load, 4ms
+2020-04-13 23:29:18,620 INFO 81190 [egg-watcher:application] watcher start success
+2020-04-13 23:29:18,629 INFO 81190 [egg:core] dump config after ready, 7ms
+2020-04-14 00:00:00,293 INFO 81190 [egg-logrotator] clean all log before 31 days
+2020-04-14 00:00:01,007 INFO 81190 [egg-logrotator] broadcast log-reload
+2020-04-14 00:00:01,008 INFO 81190 [egg-logrotator] rotate files success by DayRotator, files ["/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back/common-error.log -> /Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back/common-error.log.2020-04-13","/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back/TEDStore-back-web.log -> /Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back/TEDStore-back-web.log.2020-04-13","/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back/egg-web.log -> /Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back/egg-web.log.2020-04-13","/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back/egg-schedule.log -> /Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back/egg-schedule.log.2020-04-13","/Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back/egg-agent.log -> /Users/ljc/Downloads/vue/egg-example/logs/TEDStore-back/egg-agent.log.2020-04-13"]
