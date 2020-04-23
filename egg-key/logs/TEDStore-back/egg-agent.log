@@ -21,3 +21,113 @@
 2020-04-22 00:53:36,570 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
 2020-04-22 00:54:59,153 WARN 17677 [agent:development] reload worker because /Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js change
 2020-04-22 00:54:58,949 INFO 17677 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/egg-example/app/controller/linknum.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":696,"blocks":8,"atimeMs":1587488018378.9136,"mtimeMs":1587488098886.3508,"ctimeMs":1587488098886.3508,"birthtimeMs":1587480511751.6494,"atime":"2020-04-21T16:53:38.379Z","mtime":"2020-04-21T16:54:58.886Z","ctime":"2020-04-21T16:54:58.886Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-22 18:27:58,046 INFO 11372 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/TED-backend/egg-key/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-22 18:27:58,051 INFO 11372 [egg:core] dump config after load, 2ms
+2020-04-22 18:27:58,085 INFO 11372 [egg-watcher] Start watching: ["/Users/ljc/Downloads/vue/TED-backend/egg-key/app","/Users/ljc/Downloads/vue/TED-backend/egg-key/config","/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks","/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks_proxy","/Users/ljc/Downloads/vue/TED-backend/egg-key/app.js"]
+2020-04-22 18:27:58,085 INFO 11372 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/app"
+2020-04-22 18:27:58,085 INFO 11372 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/config"
+2020-04-22 18:27:58,085 INFO 11372 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks"
+2020-04-22 18:27:58,085 INFO 11372 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks_proxy"
+2020-04-22 18:27:58,085 INFO 11372 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/app.js"
+2020-04-22 18:27:58,086 INFO 11372 [egg-watcher:agent] watcher start success
+2020-04-22 18:27:58,169 INFO 11372 [egg:core] dump config after ready, 36ms
+2020-04-22 18:29:52,273 WARN 11372 [agent:development] reload worker because /Users/ljc/Downloads/vue/TED-backend/egg-key/app/controller/linknum.js change
+2020-04-22 18:29:52,068 INFO 11372 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/TED-backend/egg-key/app/controller/linknum.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":771,"blocks":8,"atimeMs":1587521958775.9722,"mtimeMs":1587551392005.9463,"ctimeMs":1587551392005.9463,"birthtimeMs":1587480511751.6494,"atime":"2020-04-22T02:19:18.776Z","mtime":"2020-04-22T10:29:52.006Z","ctime":"2020-04-22T10:29:52.006Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-22 18:37:57,591 WARN 11372 [agent:development] reload worker because /Users/ljc/Downloads/vue/TED-backend/egg-key/app/controller/linknum.js change
+2020-04-22 18:37:57,386 INFO 11372 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/TED-backend/egg-key/app/controller/linknum.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38754662,"size":814,"blocks":8,"atimeMs":1587551393427.3694,"mtimeMs":1587551877324.298,"ctimeMs":1587551877324.298,"birthtimeMs":1587480511751.6494,"atime":"2020-04-22T10:29:53.427Z","mtime":"2020-04-22T10:37:57.324Z","ctime":"2020-04-22T10:37:57.324Z","birthtime":"2020-04-21T14:48:31.752Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-22 19:03:23,353 ERROR 11372 nodejs.ClusterClientNoResponseError: client no response in 302380ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 11372
+hostname: liangjiengdeMBP.lan
+
+2020-04-22 19:09:06,438 ERROR 11372 nodejs.ClusterClientNoResponseError: client no response in 303065ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 11372
+hostname: liangjiengdeMBP.lan
+
+2020-04-22 19:14:19,821 ERROR 11372 nodejs.ClusterClientNoResponseError: client no response in 273360ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 11372
+hostname: liangjiengdeMBP.lan
+
+2020-04-22 20:59:26,393 ERROR 11372 nodejs.ClusterClientNoResponseError: client no response in 303105ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 11372
+hostname: liangjiengdeMBP.lan
+
+2020-04-22 21:04:49,500 ERROR 11372 nodejs.ClusterClientNoResponseError: client no response in 303081ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 11372
+hostname: liangjiengdeMBP.lan
+
+2020-04-23 18:30:57,962 INFO 37597 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/TED-backend/egg-key/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-23 18:30:57,968 INFO 37597 [egg:core] dump config after load, 3ms
+2020-04-23 18:30:58,002 INFO 37597 [egg-watcher] Start watching: ["/Users/ljc/Downloads/vue/TED-backend/egg-key/app","/Users/ljc/Downloads/vue/TED-backend/egg-key/config","/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks","/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks_proxy","/Users/ljc/Downloads/vue/TED-backend/egg-key/app.js"]
+2020-04-23 18:30:58,002 INFO 37597 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/app"
+2020-04-23 18:30:58,002 INFO 37597 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/config"
+2020-04-23 18:30:58,002 INFO 37597 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks"
+2020-04-23 18:30:58,002 INFO 37597 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks_proxy"
+2020-04-23 18:30:58,002 INFO 37597 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/app.js"
+2020-04-23 18:30:58,002 INFO 37597 [egg-watcher:agent] watcher start success
+2020-04-23 18:30:58,011 INFO 37597 [egg:core] dump config after ready, 4ms
+2020-04-23 21:13:31,992 INFO 45716 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/TED-backend/egg-key/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-23 21:13:31,999 INFO 45716 [egg:core] dump config after load, 4ms
+2020-04-23 21:13:32,035 INFO 45716 [egg-watcher] Start watching: ["/Users/ljc/Downloads/vue/TED-backend/egg-key/app","/Users/ljc/Downloads/vue/TED-backend/egg-key/config","/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks","/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks_proxy","/Users/ljc/Downloads/vue/TED-backend/egg-key/app.js"]
+2020-04-23 21:13:32,035 INFO 45716 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/app"
+2020-04-23 21:13:32,036 INFO 45716 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/config"
+2020-04-23 21:13:32,036 INFO 45716 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks"
+2020-04-23 21:13:32,036 INFO 45716 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks_proxy"
+2020-04-23 21:13:32,036 INFO 45716 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/app.js"
+2020-04-23 21:13:32,036 INFO 45716 [egg-watcher:agent] watcher start success
+2020-04-23 21:13:32,046 INFO 45716 [egg:core] dump config after ready, 4ms
+2020-04-23 21:56:55,327 INFO 47215 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/TED-backend/egg-key/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-23 21:56:55,334 INFO 47215 [egg:core] dump config after load, 3ms
+2020-04-23 21:56:55,371 INFO 47215 [egg-watcher] Start watching: ["/Users/ljc/Downloads/vue/TED-backend/egg-key/app","/Users/ljc/Downloads/vue/TED-backend/egg-key/config","/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks","/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks_proxy","/Users/ljc/Downloads/vue/TED-backend/egg-key/app.js"]
+2020-04-23 21:56:55,372 INFO 47215 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/app"
+2020-04-23 21:56:55,372 INFO 47215 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/config"
+2020-04-23 21:56:55,372 INFO 47215 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks"
+2020-04-23 21:56:55,372 INFO 47215 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks_proxy"
+2020-04-23 21:56:55,372 INFO 47215 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/app.js"
+2020-04-23 21:56:55,372 INFO 47215 [egg-watcher:agent] watcher start success
+2020-04-23 21:56:55,382 INFO 47215 [egg:core] dump config after ready, 4ms
+2020-04-23 21:58:13,308 WARN 47215 [agent:development] reload worker because /Users/ljc/Downloads/vue/TED-backend/egg-key/app/controller/controllerRegister.js change
+2020-04-23 21:58:13,101 INFO 47215 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/TED-backend/egg-key/app/controller/controllerRegister.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":39090290,"size":474,"blocks":8,"atimeMs":1587637812920.6484,"mtimeMs":1587650293002.4807,"ctimeMs":1587650293002.4807,"birthtimeMs":1587637745490.5789,"atime":"2020-04-23T10:30:12.921Z","mtime":"2020-04-23T13:58:13.002Z","ctime":"2020-04-23T13:58:13.002Z","birthtime":"2020-04-23T10:29:05.491Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-23 22:02:22,496 INFO 47215 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/TED-backend/egg-key/app/controller/controllerLogin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":39090289,"size":846,"blocks":8,"atimeMs":1587637811920.7014,"mtimeMs":1587650542214.6216,"ctimeMs":1587650542214.6216,"birthtimeMs":1587637745490.288,"atime":"2020-04-23T10:30:11.921Z","mtime":"2020-04-23T14:02:22.215Z","ctime":"2020-04-23T14:02:22.215Z","birthtime":"2020-04-23T10:29:05.490Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-23 22:02:22,696 WARN 47215 [agent:development] reload worker because /Users/ljc/Downloads/vue/TED-backend/egg-key/app/controller/controllerLogin.js change
+2020-04-23 22:02:36,166 WARN 47215 [agent:development] reload worker because /Users/ljc/Downloads/vue/TED-backend/egg-key/app/controller/controllerLogin.js change
+2020-04-23 22:02:35,912 INFO 47215 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/TED-backend/egg-key/app/controller/controllerLogin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":39090289,"size":882,"blocks":8,"atimeMs":1587650543431.8096,"mtimeMs":1587650555901.8984,"ctimeMs":1587650555901.8984,"birthtimeMs":1587637745490.288,"atime":"2020-04-23T14:02:23.432Z","mtime":"2020-04-23T14:02:35.902Z","ctime":"2020-04-23T14:02:35.902Z","birthtime":"2020-04-23T10:29:05.490Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-23 22:02:35,963 INFO 47215 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/TED-backend/egg-key/app/controller/controllerLogin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":39090289,"size":882,"blocks":8,"atimeMs":1587650543431.8096,"mtimeMs":1587650555901.8984,"ctimeMs":1587650555901.8984,"birthtimeMs":1587637745490.288,"atime":"2020-04-23T14:02:23.432Z","mtime":"2020-04-23T14:02:35.902Z","ctime":"2020-04-23T14:02:35.902Z","birthtime":"2020-04-23T10:29:05.490Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-23 22:03:06,382 WARN 47215 [agent:development] reload worker because /Users/ljc/Downloads/vue/TED-backend/egg-key/app/controller/controllerLogin.js change
+2020-04-23 22:03:06,178 INFO 47215 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/TED-backend/egg-key/app/controller/controllerLogin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":39090289,"size":852,"blocks":8,"atimeMs":1587650557160.3484,"mtimeMs":1587650586116.2397,"ctimeMs":1587650586116.2397,"birthtimeMs":1587637745490.288,"atime":"2020-04-23T14:02:37.160Z","mtime":"2020-04-23T14:03:06.116Z","ctime":"2020-04-23T14:03:06.116Z","birthtime":"2020-04-23T10:29:05.490Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-23 22:03:26,271 WARN 47215 [agent:development] reload worker because /Users/ljc/Downloads/vue/TED-backend/egg-key/app/service/serviceRegister.js change
+2020-04-23 22:03:26,066 INFO 47215 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/TED-backend/egg-key/app/service/serviceRegister.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":39089627,"size":468,"blocks":8,"atimeMs":1587637804863.1765,"mtimeMs":1587650606005.4358,"ctimeMs":1587650606005.4358,"birthtimeMs":1587637654846.0137,"atime":"2020-04-23T10:30:04.863Z","mtime":"2020-04-23T14:03:26.005Z","ctime":"2020-04-23T14:03:26.005Z","birthtime":"2020-04-23T10:27:34.846Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-23 22:03:43,736 WARN 47215 [agent:development] reload worker because /Users/ljc/Downloads/vue/TED-backend/egg-key/app/service/serviceRegister.js change
+2020-04-23 22:03:43,531 INFO 47215 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/TED-backend/egg-key/app/service/serviceRegister.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":39089627,"size":512,"blocks":8,"atimeMs":1587650607257.6506,"mtimeMs":1587650623470.7444,"ctimeMs":1587650623470.7444,"birthtimeMs":1587637654846.0137,"atime":"2020-04-23T14:03:27.258Z","mtime":"2020-04-23T14:03:43.471Z","ctime":"2020-04-23T14:03:43.471Z","birthtime":"2020-04-23T10:27:34.846Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-23 22:04:00,330 WARN 47215 [agent:development] reload worker because /Users/ljc/Downloads/vue/TED-backend/egg-key/app/service/serviceRegister.js change
+2020-04-23 22:04:00,125 INFO 47215 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/TED-backend/egg-key/app/service/serviceRegister.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":39089627,"size":506,"blocks":8,"atimeMs":1587650624856.7488,"mtimeMs":1587650640031.5542,"ctimeMs":1587650640031.5542,"birthtimeMs":1587637654846.0137,"atime":"2020-04-23T14:03:44.857Z","mtime":"2020-04-23T14:04:00.032Z","ctime":"2020-04-23T14:04:00.032Z","birthtime":"2020-04-23T10:27:34.846Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-23 22:04:49,795 WARN 47215 [agent:development] reload worker because /Users/ljc/Downloads/vue/TED-backend/egg-key/app/service/serviceRegister.js change
+2020-04-23 22:04:49,590 INFO 47215 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/TED-backend/egg-key/app/service/serviceRegister.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":39089627,"size":512,"blocks":8,"atimeMs":1587650641281.163,"mtimeMs":1587650689528.2139,"ctimeMs":1587650689528.2139,"birthtimeMs":1587637654846.0137,"atime":"2020-04-23T14:04:01.281Z","mtime":"2020-04-23T14:04:49.528Z","ctime":"2020-04-23T14:04:49.528Z","birthtime":"2020-04-23T10:27:34.846Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-23 22:05:05,618 WARN 47215 [agent:development] reload worker because /Users/ljc/Downloads/vue/TED-backend/egg-key/app/service/serviceRegister.js change
+2020-04-23 22:05:05,412 INFO 47215 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/TED-backend/egg-key/app/service/serviceRegister.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":39089627,"size":468,"blocks":8,"atimeMs":1587650690812.0444,"mtimeMs":1587650705351.3992,"ctimeMs":1587650705351.3992,"birthtimeMs":1587637654846.0137,"atime":"2020-04-23T14:04:50.812Z","mtime":"2020-04-23T14:05:05.351Z","ctime":"2020-04-23T14:05:05.351Z","birthtime":"2020-04-23T10:27:34.846Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-23 22:06:05,941 WARN 47215 [agent:development] reload worker because /Users/ljc/Downloads/vue/TED-backend/egg-key/app/controller/controllerRegister.js change
+2020-04-23 22:06:05,736 INFO 47215 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/TED-backend/egg-key/app/controller/controllerRegister.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":39090290,"size":477,"blocks":8,"atimeMs":1587650294833.8171,"mtimeMs":1587650765624.679,"ctimeMs":1587650765624.679,"birthtimeMs":1587637745490.5789,"atime":"2020-04-23T13:58:14.834Z","mtime":"2020-04-23T14:06:05.625Z","ctime":"2020-04-23T14:06:05.625Z","birthtime":"2020-04-23T10:29:05.491Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-23 22:06:11,534 WARN 47215 [agent:development] reload worker because /Users/ljc/Downloads/vue/TED-backend/egg-key/app/controller/controllerRegister.js change
+2020-04-23 22:06:11,279 INFO 47215 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/TED-backend/egg-key/app/controller/controllerRegister.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":39090290,"size":477,"blocks":8,"atimeMs":1587650767011.8213,"mtimeMs":1587650771268,"ctimeMs":1587650771268,"birthtimeMs":1587637745490.5789,"atime":"2020-04-23T14:06:07.012Z","mtime":"2020-04-23T14:06:11.268Z","ctime":"2020-04-23T14:06:11.268Z","birthtime":"2020-04-23T10:29:05.491Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-23 22:06:11,330 INFO 47215 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/TED-backend/egg-key/app/controller/controllerRegister.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":39090290,"size":477,"blocks":8,"atimeMs":1587650767011.8213,"mtimeMs":1587650771268,"ctimeMs":1587650771268,"birthtimeMs":1587637745490.5789,"atime":"2020-04-23T14:06:07.012Z","mtime":"2020-04-23T14:06:11.268Z","ctime":"2020-04-23T14:06:11.268Z","birthtime":"2020-04-23T10:29:05.491Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-23 22:07:33,735 WARN 47215 [agent:development] reload worker because /Users/ljc/Downloads/vue/TED-backend/egg-key/app/controller/controllerLogin.js change
+2020-04-23 22:07:33,532 INFO 47215 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/TED-backend/egg-key/app/controller/controllerLogin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":39090289,"size":852,"blocks":8,"atimeMs":1587650587362.2493,"mtimeMs":1587650853470.185,"ctimeMs":1587650853470.185,"birthtimeMs":1587637745490.288,"atime":"2020-04-23T14:03:07.362Z","mtime":"2020-04-23T14:07:33.470Z","ctime":"2020-04-23T14:07:33.470Z","birthtime":"2020-04-23T10:29:05.490Z"},"remove":false,"isDirectory":false,"isFile":true}

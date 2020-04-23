@@ -13,14 +13,16 @@ class NumController extends Controller {
     const ctx = this.ctx;
     const result = await this.dolinkcheck();
     ctx.status = 200;
+    // const linknum = Number(result) - 1;
     // ctx.set(result.headers);
     ctx.body = result;
     console.log(result);
 
   }
   async dolinkcheck() {
-    const { stdout, stderr } = await exec('pstree -p `ps -e | grep server | awk \’{print $1}\’` | wc -l');
-    return stdout;
+    // const { stdout, stderr } = await exec('pstree -p `ps -e | grep keymanager | awk \'{print $1}\'` | wc -l');
+    const { stdout, stderr } = await exec('ls');
+    return stdout;// stdout-1为连接数
   }
 }
 module.exports = NumController;

@@ -6,8 +6,12 @@ module.exports = {
   // static: {
   //   enable: true,
   // }
-  io: {
+  mysql: {
     enable: true,
-    package: 'egg-socket.io',
+    package: 'egg-mysql',
+  },
+  ejs: {
+    enable: true,
+    package: 'egg-view-ejs',
   },
 };
