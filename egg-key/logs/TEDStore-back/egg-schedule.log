@@ -85,3 +85,9 @@
 2020-04-23 22:07:34,811 INFO 47712 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
 2020-04-23 22:07:34,811 INFO 47712 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/egg-logrotator/app/schedule/clean_log.js
 2020-04-23 22:07:34,811 INFO 47712 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-23 22:11:01,376 INFO 48212 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-23 22:11:01,376 INFO 48212 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-23 22:11:01,376 INFO 48212 [egg-schedule]: register schedule /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-23 22:11:01,650 INFO 48211 [Timer] /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 22738352ms at 2020-04-24 04:30:00.002
+2020-04-23 22:11:01,651 INFO 48211 [Timer] /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 6538350ms at 2020-04-24 00:00:00.000
+2020-04-23 22:11:01,651 INFO 48211 [Timer] /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 6539349ms at 2020-04-24 00:00:01.000
