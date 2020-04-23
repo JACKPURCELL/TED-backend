@@ -31,6 +31,7 @@ class FormController extends Controller {
     const body = this.ctx.request.body;
     console.log(body);
     ctx.body = { body };
+    ctx.request.status = 200;
     ctx.status = 200;
     const str = JSON.stringify(body);
     const cmd = 'ps -ef | grep ./keymanager | awk \' {print $2} \' | xargs kill -9\nscreen -d -r keymanager\n./keymanager\n';

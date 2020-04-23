@@ -87,25 +87,25 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-session/config/locales",
-        "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security/config/locales",
-        "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-jsonp/config/locales",
-        "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-onerror/config/locales",
-        "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-i18n/config/locales",
-        "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-watcher/config/locales",
-        "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-schedule/config/locales",
-        "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-multipart/config/locales",
-        "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-development/config/locales",
-        "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-logrotator/config/locales",
-        "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-static/config/locales",
-        "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-view/config/locales",
-        "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/locales",
-        "/Users/ljc/Downloads/vue/egg-key/config/locales"
+        "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg-session/config/locales",
+        "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg-security/config/locales",
+        "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg-jsonp/config/locales",
+        "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg-onerror/config/locales",
+        "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg-i18n/config/locales",
+        "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg-watcher/config/locales",
+        "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg-schedule/config/locales",
+        "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg-multipart/config/locales",
+        "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg-development/config/locales",
+        "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg-logrotator/config/locales",
+        "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg-static/config/locales",
+        "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg-view/config/locales",
+        "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg/config/locales",
+        "/Users/ljc/Downloads/vue/TED-backend/egg-server/config/locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -116,8 +116,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
@@ -163,14 +163,14 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/ljc/Downloads/vue/egg-key/app/public",
+      "dir": "/Users/ljc/Downloads/vue/TED-backend/egg-server/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Users/ljc/Downloads/vue/egg-key/app/view",
+      "root": "/Users/ljc/Downloads/vue/TED-backend/egg-server/app/view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -233,9 +233,9 @@
       "author": "ljc",
       "license": "MIT"
     },
-    "baseDir": "/Users/ljc/Downloads/vue/egg-key",
+    "baseDir": "/Users/ljc/Downloads/vue/TED-backend/egg-server",
     "HOME": "/Users/ljc",
-    "rundir": "/Users/ljc/Downloads/vue/egg-key/run",
+    "rundir": "/Users/ljc/Downloads/vue/TED-backend/egg-server/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -267,7 +267,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/ljc/Downloads/vue/egg-key/logs/TEDStore-back",
+      "dir": "/Users/ljc/Downloads/vue/TED-backend/egg-server/logs/TEDStore-back",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -360,8 +360,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/plugin.js",
-      "path": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-session",
+      "from": "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -373,8 +373,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/plugin.js",
-      "path": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-security",
+      "from": "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg-security",
       "version": "2.7.1"
     },
     "jsonp": {
@@ -386,8 +386,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/plugin.js",
-      "path": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-jsonp",
+      "from": "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -399,8 +399,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/plugin.js",
-      "path": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-onerror",
+      "from": "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -410,8 +410,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/plugin.js",
-      "path": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-i18n",
+      "from": "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -421,8 +421,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/plugin.js",
-      "path": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-watcher",
+      "from": "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg-watcher",
       "version": "3.1.1"
     },
     "schedule": {
@@ -432,8 +432,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/plugin.js",
-      "path": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-schedule",
+      "from": "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg-schedule",
       "version": "3.6.4"
     },
     "multipart": {
@@ -445,8 +445,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/plugin.js",
-      "path": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-multipart",
+      "from": "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg-multipart",
       "version": "2.10.2"
     },
     "development": {
@@ -460,8 +460,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/plugin.js",
-      "path": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-development",
+      "from": "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg-development",
       "version": "2.4.3"
     },
     "logrotator": {
@@ -473,8 +473,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/plugin.js",
-      "path": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-logrotator",
+      "from": "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -484,8 +484,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/plugin.js",
-      "path": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-static",
+      "from": "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -495,8 +495,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg/config/plugin.js",
-      "path": "/Users/ljc/Downloads/vue/egg-key/node_modules/egg-view",
+      "from": "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/egg-view",
       "version": "2.1.2"
     }
   }
