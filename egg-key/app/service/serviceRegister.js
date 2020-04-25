@@ -8,9 +8,15 @@ class ServiceRegisterService extends Service {
     const username = this.ctx.query.username;
     console.log(this.ctx.query.username);
     const password = this.ctx.query.password;
-    await this.app.mysql.insert('register', { username, password });
-    console.log(username + '......' + password);
-    this.ctx.body = username + '注册成功';
+    const result = await this.app.mysql.insert('register', { username, password });
+    if (result.affectedRows === 1) {
+      console.log(username + '......' + password);
+      this.ctx.body = 'success';
+    } else {
+      console.log(username + '......' + password);
+      this.ctx.body = 'fail';
+    }
+
   }
 }
 

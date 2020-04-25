@@ -7,6 +7,8 @@ import ExportControllerRegister = require('../../../app/controller/controllerReg
 import ExportForm = require('../../../app/controller/form');
 import ExportHome = require('../../../app/controller/home');
 import ExportLinknum = require('../../../app/controller/linknum');
+import ExportVipadd = require('../../../app/controller/vipadd');
+import ExportVipask = require('../../../app/controller/vipask');
 
 declare module 'egg' {
   interface IController {
@@ -15,5 +17,7 @@ declare module 'egg' {
     form: ExportForm;
     home: ExportHome;
     linknum: ExportLinknum;
+    vipadd: ExportVipadd;
+    vipask: ExportVipask;
   }
 }

@@ -10,4 +10,6 @@ module.exports = app => {
   router.get('/', controller.controllerRegister.controllerRegister);
   router.get('/commit', controller.controllerRegister.test);
   router.get('/login', controller.controllerLogin.judgeLogin);
+  router.get('/vipadd', controller.vipadd.test);
+  router.get('/vipask', controller.vipask.judgeLogin);
 };

@@ -16,10 +16,10 @@ class ControllerLoginController extends Controller {
     console.log(sel);
     this.ctx.body += '';
     if (sel) {
-      this.ctx.body = sel.username + '登录成功';
+      this.ctx.body = 'success';
     // eslint-disable-next-line eqeqeq
     } if (sel == null) {
-      this.ctx.body = '抱歉！登录失败，请重新登录';
+      this.ctx.body = 'fail';
     }
   }
 }

@@ -1,0 +1,871 @@
+2020-04-23 18:30:58,794 ERROR 37599 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+    --------------------
+    at Protocol._enqueue (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:48:16)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at Pool.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:202:8)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 37599
+hostname: liangjiengdeMBP.lan
+
+2020-04-23 21:13:42,954 ERROR 45720 [-/127.0.0.1/-/0ms GET /] nodejs.PROTOCOL_SEQUENCE_TIMEOUTError: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:160:17)
+    at Handshake.emit (events.js:315:20)
+    at Handshake._onTimeout (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:124:8)
+    at Timer._onTimeout (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Timer.js:32:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+    --------------------
+    at Protocol._enqueue (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:48:16)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at Pool.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:202:8)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "PROTOCOL_SEQUENCE_TIMEOUT"
+fatal: true
+timeout: 10000
+name: "PROTOCOL_SEQUENCE_TIMEOUTError"
+pid: 45720
+hostname: liangjiachengdeMacBook-Pro.local
+
+2020-04-23 21:59:34,380 ERROR 47272 [-/127.0.0.1/-/51ms GET /commit?abc=abc] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'test.register' doesn't exist
+    at Query.Sequence._packetToError (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:297:12)
+    --------------------
+    at Pool.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:199:23)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'test.register' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)"
+name: "ER_NO_SUCH_TABLEError"
+pid: 47272
+hostname: liangjiengdeMBP.lan
+
+2020-04-23 22:00:25,214 ERROR 47272 [-/127.0.0.1/-/41ms GET /commit?abc=abc] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'username' cannot be null
+    at Query.Sequence._packetToError (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:297:12)
+    --------------------
+    at Pool.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:199:23)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'username' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)"
+name: "ER_BAD_NULL_ERRORError"
+pid: 47272
+hostname: liangjiengdeMBP.lan
+
+2020-04-23 22:01:38,034 ERROR 47272 [-/127.0.0.1/-/40ms GET /commit?abc=abc] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'username' cannot be null
+    at Query.Sequence._packetToError (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:297:12)
+    --------------------
+    at Pool.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:199:23)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'username' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)"
+name: "ER_BAD_NULL_ERRORError"
+pid: 47272
+hostname: liangjiengdeMBP.lan
+
+2020-04-23 22:02:39,858 ERROR 47466 [-/127.0.0.1/-/44ms GET /commit?abc=abc] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'username' cannot be null
+    at Query.Sequence._packetToError (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:297:12)
+    --------------------
+    at Pool.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:199:23)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'username' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)"
+name: "ER_BAD_NULL_ERRORError"
+pid: 47466
+hostname: liangjiengdeMBP.lan
+
+2020-04-23 22:03:30,701 ERROR 47511 [-/127.0.0.1/-/46ms GET /commit?abc=abc] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'username' cannot be null
+    at Query.Sequence._packetToError (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:297:12)
+    --------------------
+    at Pool.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:199:23)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'username' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)"
+name: "ER_BAD_NULL_ERRORError"
+pid: 47511
+hostname: liangjiengdeMBP.lan
+
+2020-04-23 22:03:47,781 ERROR 47526 [-/127.0.0.1/-/37ms GET /commit?abc=abc] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'username' cannot be null
+    at Query.Sequence._packetToError (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:297:12)
+    --------------------
+    at Pool.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:199:23)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'username' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)"
+name: "ER_BAD_NULL_ERRORError"
+pid: 47526
+hostname: liangjiengdeMBP.lan
+
+2020-04-23 22:04:03,335 ERROR 47557 [-/127.0.0.1/-/41ms GET /commit?abc=abc] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'username' cannot be null
+    at Query.Sequence._packetToError (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:297:12)
+    --------------------
+    at Pool.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:199:23)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'username' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)"
+name: "ER_BAD_NULL_ERRORError"
+pid: 47557
+hostname: liangjiengdeMBP.lan
+
+2020-04-23 22:04:53,208 ERROR 47581 [-/127.0.0.1/-/34ms GET /commit?username=abc&password=bbb] nodejs.AssertionError: Can't find login from 
+    at Map.resolve (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/egg-view/lib/view_manager.js:74:5)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async ContextView.[contextView#render] (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/egg-view/lib/context_view.js:50:22)
+    at async ControllerRegisterController.test (/Users/ljc/Downloads/vue/TED-backend/egg-key/app/controller/controllerRegister.js:13:5)
+    at async /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/koa-session/index.js:41:7)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 47581
+hostname: liangjiengdeMBP.lan
+
+2020-04-23 22:21:51,328 ERROR 48212 [-/127.0.0.1/-/10088ms GET /commit] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'username' cannot be null
+    at Query.Sequence._packetToError (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:297:12)
+    --------------------
+    at Pool.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:199:23)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'username' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)"
+name: "ER_BAD_NULL_ERRORError"
+pid: 48212
+hostname: liangjiengdeMBP.lan
+
+2020-04-23 22:23:32,089 ERROR 48212 [-/127.0.0.1/-/42ms GET /commit] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'username' cannot be null
+    at Query.Sequence._packetToError (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:297:12)
+    --------------------
+    at Pool.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:199:23)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'username' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)"
+name: "ER_BAD_NULL_ERRORError"
+pid: 48212
+hostname: liangjiengdeMBP.lan
+
+2020-04-23 22:23:54,582 ERROR 48212 [-/127.0.0.1/-/34ms GET /commit] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'username' cannot be null
+    at Query.Sequence._packetToError (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:297:12)
+    --------------------
+    at Pool.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:199:23)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'username' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)"
+name: "ER_BAD_NULL_ERRORError"
+pid: 48212
+hostname: liangjiengdeMBP.lan
+
+2020-04-23 22:24:17,790 ERROR 48212 [-/127.0.0.1/-/39ms GET /commit] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'username' cannot be null
+    at Query.Sequence._packetToError (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:297:12)
+    --------------------
+    at Pool.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:199:23)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'username' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)"
+name: "ER_BAD_NULL_ERRORError"
+pid: 48212
+hostname: liangjiengdeMBP.lan
+
+2020-04-23 22:24:28,707 ERROR 48212 [-/127.0.0.1/-/40ms GET /commit] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'username' cannot be null
+    at Query.Sequence._packetToError (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:297:12)
+    --------------------
+    at Pool.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:199:23)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'username' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)"
+name: "ER_BAD_NULL_ERRORError"
+pid: 48212
+hostname: liangjiengdeMBP.lan
+
+2020-04-23 22:24:44,723 ERROR 48212 [-/127.0.0.1/-/41ms GET /commit] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'username' cannot be null
+    at Query.Sequence._packetToError (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:297:12)
+    --------------------
+    at Pool.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:199:23)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'username' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)"
+name: "ER_BAD_NULL_ERRORError"
+pid: 48212
+hostname: liangjiengdeMBP.lan
+
+2020-04-23 22:25:26,121 ERROR 48212 [-/127.0.0.1/-/34ms GET /commit] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'username' cannot be null
+    at Query.Sequence._packetToError (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:297:12)
+    --------------------
+    at Pool.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:199:23)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'username' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)"
+name: "ER_BAD_NULL_ERRORError"
+pid: 48212
+hostname: liangjiengdeMBP.lan
+
+2020-04-23 22:26:45,532 ERROR 48212 [-/127.0.0.1/-/37ms GET /commit] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'username' cannot be null
+    at Query.Sequence._packetToError (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:297:12)
+    --------------------
+    at Pool.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:199:23)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'username' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)"
+name: "ER_BAD_NULL_ERRORError"
+pid: 48212
+hostname: liangjiengdeMBP.lan
+
+2020-04-23 22:29:23,781 ERROR 48212 [-/127.0.0.1/-/36ms GET /commit] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'username' cannot be null
+    at Query.Sequence._packetToError (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:297:12)
+    --------------------
+    at Pool.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:199:23)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'username' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)"
+name: "ER_BAD_NULL_ERRORError"
+pid: 48212
+hostname: liangjiengdeMBP.lan
+
+2020-04-23 22:29:49,429 ERROR 48212 [-/127.0.0.1/-/32ms GET /commit] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'username' cannot be null
+    at Query.Sequence._packetToError (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:297:12)
+    --------------------
+    at Pool.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:199:23)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'username' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)"
+name: "ER_BAD_NULL_ERRORError"
+pid: 48212
+hostname: liangjiengdeMBP.lan
+
+2020-04-23 22:29:56,496 ERROR 48212 [-/127.0.0.1/-/34ms GET /commit] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'username' cannot be null
+    at Query.Sequence._packetToError (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:297:12)
+    --------------------
+    at Pool.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:199:23)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'username' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)"
+name: "ER_BAD_NULL_ERRORError"
+pid: 48212
+hostname: liangjiengdeMBP.lan
+
+2020-04-23 22:30:07,679 ERROR 48956 [-/127.0.0.1/-/50ms GET /commit] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'username' cannot be null
+    at Query.Sequence._packetToError (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:297:12)
+    --------------------
+    at Pool.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:199:23)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'username' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)"
+name: "ER_BAD_NULL_ERRORError"
+pid: 48956
+hostname: liangjiengdeMBP.lan
+
+2020-04-23 22:30:57,781 ERROR 48956 [-/127.0.0.1/-/36ms GET /commit] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'username' cannot be null
+    at Query.Sequence._packetToError (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:297:12)
+    --------------------
+    at Pool.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:199:23)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'username' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `register`(`username`, `password`) VALUES(NULL, NULL)"
+name: "ER_BAD_NULL_ERRORError"
+pid: 48956
+hostname: liangjiengdeMBP.lan
+
+2020-04-23 22:33:43,191 ERROR 48956 [-/127.0.0.1/-/30ms POST /form] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:7002
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 7002
+config: {"url":"http://127.0.0.1:7002/form","method":"post","data":"{\"ChunkerConfig\":{\"_chunkingType\":1,\"_minChunkSize\":4096,\"_avgChunkSize\":8192,\"_maxChunkSize\":16384,\"_slidingWinSize\":256,\"_ReadSize\":128},\"KeyServerConfig\":{\"_keyBatchSize\":3000,\"_keyServerPort\":6666,\"_sketchTableWidth\":1048576,\"_optimalSolverComputeItemNumberThreshold\":48000,\"_storageBlowPercent\":0.005},\"SPConfig\":{\"_storageServerPort\":6668,\"_maxContainerSize\":8388608},\"client\":{\"_clientID\":1,\"_sendChunkBatchSize\":1000,\"_sendRecipeBatchSize\":100000,\"_sendShortHashMaskBitNumber\":12}}","headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"axios/0.19.2","Content-Length":489},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1}
+request: {"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":false,"decodeStrings":true,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":true,"bufferProcessing":false,"writecb":null,"writelen":0,"afterWriteTickInfo":null,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":0,"prefinished":false,"errorEmitted":false,"emitClose":true,"autoDestroy":false,"errored":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":true,"_events":{},"_eventsCount":2,"_options":{"protocol":"http:","maxRedirects":21,"maxBodyLength":10485760,"path":"/form","method":"POST","headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"axios/0.19.2","Content-Length":489},"agents":{},"hostname":"127.0.0.1","port":"7002","nativeProtocols":{"http:":{"METHODS":["ACL","BIND","CHECKOUT","CONNECT","COPY","DELETE","GET","HEAD","LINK","LOCK","M-SEARCH","MERGE","MKACTIVITY","MKCALENDAR","MKCOL","MOVE","NOTIFY","OPTIONS","PATCH","POST","PROPFIND","PROPPATCH","PURGE","PUT","REBIND","REPORT","SEARCH","SOURCE","SUBSCRIBE","TRACE","UNBIND","UNLINK","UNLOCK","UNSUBSCRIBE"],"STATUS_CODES":{"100":"Continue","101":"Switching Protocols","102":"Processing","103":"Early Hints","200":"OK","201":"Created","202":"Accepted","203":"Non-Authoritative Information","204":"No Content","205":"Reset Content","206":"Partial Content","207":"Multi-Status","208":"Already Reported","226":"IM Used","300":"Multiple Choices","301":"Moved Permanently","302":"Found","303":"See Other","304":"Not Modified","305":"Use Proxy","307":"Temporary Redirect","308":"Permanent Redirect","400":"Bad Request","401":"Unauthorized","402":"Payment Required","403":"Forbidden","404":"Not Found","405":"Method Not Allowed","406":"Not Acceptable","407":"Proxy Authentication Required","408":"Request Timeout","409":"Conflict","410":"Gone","411":"Length Required","412":"Precondition Failed","413":"Payload Too Large","414":"URI Too Long","415":"Unsupported Media Type","416":"Range Not Satisfiable","417":"Expectation Failed","418":"I'm a Teapot","421":"Misdirected Request","422":"Unprocessable Entity","423":"Locked","424":"Failed Dependency","425":"Too Early","426":"Upgrade Required","428":"Precondition Required","429":"Too Many Requests","431":"Request Header Fields Too Large","451":"Unavailable For Legal Reasons","500":"Internal Server Error","501":"Not Implemented","502":"Bad Gateway","503":"Service Unavailable","504":"Gateway Timeout","505":"HTTP Version Not Supported","506":"Variant Also Negotiates","507":"Insufficient Storage","508":"Loop Detected","509":"Bandwidth Limit Exceeded","510":"Not Extended","511":"Network Authentication Required"},"maxHeaderSize":8192,"globalAgent":{"_events":{},"_eventsCount":2,"defaultPort":80,"protocol":"http:","options":{"path":null},"requests":{},"sockets":{"127.0.0.1:7002:":[{"connecting":false,"_hadError":true,"_parent":null,"_host":null,"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":[],"flowing":true,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"errorEmitted":true,"emitClose":false,"autoDestroy":false,"destroyed":true,"defaultEncoding":"utf8","awaitDrainWriters":null,"multiAwaitDrain":false,"readingMore":false,"decoder":null,"encoding":null},"readable":false,"_events":{"connect":[null,null,null],"close":[null,null]},"_eventsCount":8,"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":true,"decodeStrings":false,"defaultEncoding":"utf8","length":675,"writing":true,"corked":0,"sync":false,"bufferProcessing":false,"writelen":675,"afterWriteTickInfo":null,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":3,"prefinished":false,"errorEmitted":true,"emitClose":false,"autoDestroy":false,"errored":true,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":false,"allowHalfOpen":false,"_sockname":null,"_pendingData":[{"chunk":"POST /form HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nContent-Type: application/json\r\nUser-Agent: axios/0.19.2\r\nContent-Length: 489\r\nHost: 127.0.0.1:7002\r\nConnection: close\r\n\r\n","encoding":"latin1","next":{"chunk":"<Buffer 7b 22 43 68 75 6e 6b 65 72 43 6f 6e 66 69 67 22 3a 7b 22 5f 63 68 75 6e 6b 69 6e 67 54 79 70 65 22 3a 31 2c 22 5f 6d 69 6e 43 68 75 6e 6b 53 69 7a 65 ...(489) >","encoding":"buffer","next":null}},"~_options~nativeProtocols~http:~globalAgent~sockets~127.0.0.1:7002:~0~_pendingData~0~next"],"_pendingEncoding":"","server":null,"_server":null,"parser":null,"_httpMessage":{"_events":{},"_eventsCount":6,"outputData":[],"outputSize":0,"writable":true,"_last":true,"chunkedEncoding":false,"shouldKeepAlive":false,"useChunkedEncodingByDefault":true,"sendDate":false,"_removedConnection":false,"_removedContLen":false,"_removedTE":false,"_contentLength":null,"_hasBody":true,"_trailer":"","finished":false,"_headerSent":true,"socket":"~_options~nativeProtocols~http:~globalAgent~sockets~127.0.0.1:7002:~0","_header":"POST /form HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nContent-Type: application/json\r\nUser-Agent: axios/0.19.2\r\nContent-Length: 489\r\nHost: 127.0.0.1:7002\r\nConnection: close\r\n\r\n","agent":"~_options~nativeProtocols~http:~globalAgent","method":"POST","path":"/form","_ended":false,"res":null,"aborted":false,"timeoutCb":null,"upgradeOrConnect":false,"parser":null,"maxHeadersCount":null,"reusedSocket":false,"_redirectable":"~"}}]},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256}},"https:":{"globalAgent":{"_events":{},"_eventsCount":2,"defaultPort":443,"protocol":"https:","options":{"path":null},"requests":{},"sockets":{},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256,"maxCachedSessions":100,"_sessionCache":{"map":{},"list":[]}}}},"pathname":"/form"},"_redirectCount":0,"_redirects":[],"_requestBodyLength":489,"_requestBodyBuffers":[{"data":"<Buffer 7b 22 43 68 75 6e 6b 65 72 43 6f 6e 66 69 67 22 3a 7b 22 5f 63 68 75 6e 6b 69 6e 67 54 79 70 65 22 3a 31 2c 22 5f 6d 69 6e 43 68 75 6e 6b 53 69 7a 65 ...(489) >"}],"_currentRequest":"~_options~nativeProtocols~http:~globalAgent~sockets~127.0.0.1:7002:~0~_httpMessage","_currentUrl":"http://127.0.0.1:7002/form"}
+response: undefined
+isAxiosError: true
+toJSON: undefined
+name: "ECONNREFUSEDError"
+pid: 48956
+hostname: liangjiengdeMBP.lan
+
+2020-04-23 22:34:29,915 ERROR 49208 [-/127.0.0.1/-/33ms POST /form] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:7002
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 7002
+config: {"url":"http://127.0.0.1:7002/form","method":"post","data":"{\"ChunkerConfig\":{\"_chunkingType\":1,\"_minChunkSize\":4096,\"_avgChunkSize\":8192,\"_maxChunkSize\":16384,\"_slidingWinSize\":256,\"_ReadSize\":128},\"KeyServerConfig\":{\"_keyBatchSize\":3000,\"_keyServerPort\":6666,\"_sketchTableWidth\":1048576,\"_optimalSolverComputeItemNumberThreshold\":48000,\"_storageBlowPercent\":0.005},\"SPConfig\":{\"_storageServerPort\":6668,\"_maxContainerSize\":8388608},\"client\":{\"_clientID\":1,\"_sendChunkBatchSize\":1000,\"_sendRecipeBatchSize\":100000,\"_sendShortHashMaskBitNumber\":12}}","headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"axios/0.19.2","Content-Length":489},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1}
+request: {"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":false,"decodeStrings":true,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":true,"bufferProcessing":false,"writecb":null,"writelen":0,"afterWriteTickInfo":null,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":0,"prefinished":false,"errorEmitted":false,"emitClose":true,"autoDestroy":false,"errored":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":true,"_events":{},"_eventsCount":2,"_options":{"protocol":"http:","maxRedirects":21,"maxBodyLength":10485760,"path":"/form","method":"POST","headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"axios/0.19.2","Content-Length":489},"agents":{},"hostname":"127.0.0.1","port":"7002","nativeProtocols":{"http:":{"METHODS":["ACL","BIND","CHECKOUT","CONNECT","COPY","DELETE","GET","HEAD","LINK","LOCK","M-SEARCH","MERGE","MKACTIVITY","MKCALENDAR","MKCOL","MOVE","NOTIFY","OPTIONS","PATCH","POST","PROPFIND","PROPPATCH","PURGE","PUT","REBIND","REPORT","SEARCH","SOURCE","SUBSCRIBE","TRACE","UNBIND","UNLINK","UNLOCK","UNSUBSCRIBE"],"STATUS_CODES":{"100":"Continue","101":"Switching Protocols","102":"Processing","103":"Early Hints","200":"OK","201":"Created","202":"Accepted","203":"Non-Authoritative Information","204":"No Content","205":"Reset Content","206":"Partial Content","207":"Multi-Status","208":"Already Reported","226":"IM Used","300":"Multiple Choices","301":"Moved Permanently","302":"Found","303":"See Other","304":"Not Modified","305":"Use Proxy","307":"Temporary Redirect","308":"Permanent Redirect","400":"Bad Request","401":"Unauthorized","402":"Payment Required","403":"Forbidden","404":"Not Found","405":"Method Not Allowed","406":"Not Acceptable","407":"Proxy Authentication Required","408":"Request Timeout","409":"Conflict","410":"Gone","411":"Length Required","412":"Precondition Failed","413":"Payload Too Large","414":"URI Too Long","415":"Unsupported Media Type","416":"Range Not Satisfiable","417":"Expectation Failed","418":"I'm a Teapot","421":"Misdirected Request","422":"Unprocessable Entity","423":"Locked","424":"Failed Dependency","425":"Too Early","426":"Upgrade Required","428":"Precondition Required","429":"Too Many Requests","431":"Request Header Fields Too Large","451":"Unavailable For Legal Reasons","500":"Internal Server Error","501":"Not Implemented","502":"Bad Gateway","503":"Service Unavailable","504":"Gateway Timeout","505":"HTTP Version Not Supported","506":"Variant Also Negotiates","507":"Insufficient Storage","508":"Loop Detected","509":"Bandwidth Limit Exceeded","510":"Not Extended","511":"Network Authentication Required"},"maxHeaderSize":8192,"globalAgent":{"_events":{},"_eventsCount":2,"defaultPort":80,"protocol":"http:","options":{"path":null},"requests":{},"sockets":{"127.0.0.1:7002:":[{"connecting":false,"_hadError":true,"_parent":null,"_host":null,"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":[],"flowing":true,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"errorEmitted":true,"emitClose":false,"autoDestroy":false,"destroyed":true,"defaultEncoding":"utf8","awaitDrainWriters":null,"multiAwaitDrain":false,"readingMore":false,"decoder":null,"encoding":null},"readable":false,"_events":{"connect":[null,null,null],"close":[null,null]},"_eventsCount":8,"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":true,"decodeStrings":false,"defaultEncoding":"utf8","length":675,"writing":true,"corked":0,"sync":false,"bufferProcessing":false,"writelen":675,"afterWriteTickInfo":null,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":3,"prefinished":false,"errorEmitted":true,"emitClose":false,"autoDestroy":false,"errored":true,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":false,"allowHalfOpen":false,"_sockname":null,"_pendingData":[{"chunk":"POST /form HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nContent-Type: application/json\r\nUser-Agent: axios/0.19.2\r\nContent-Length: 489\r\nHost: 127.0.0.1:7002\r\nConnection: close\r\n\r\n","encoding":"latin1","next":{"chunk":"<Buffer 7b 22 43 68 75 6e 6b 65 72 43 6f 6e 66 69 67 22 3a 7b 22 5f 63 68 75 6e 6b 69 6e 67 54 79 70 65 22 3a 31 2c 22 5f 6d 69 6e 43 68 75 6e 6b 53 69 7a 65 ...(489) >","encoding":"buffer","next":null}},"~_options~nativeProtocols~http:~globalAgent~sockets~127.0.0.1:7002:~0~_pendingData~0~next"],"_pendingEncoding":"","server":null,"_server":null,"parser":null,"_httpMessage":{"_events":{},"_eventsCount":6,"outputData":[],"outputSize":0,"writable":true,"_last":true,"chunkedEncoding":false,"shouldKeepAlive":false,"useChunkedEncodingByDefault":true,"sendDate":false,"_removedConnection":false,"_removedContLen":false,"_removedTE":false,"_contentLength":null,"_hasBody":true,"_trailer":"","finished":false,"_headerSent":true,"socket":"~_options~nativeProtocols~http:~globalAgent~sockets~127.0.0.1:7002:~0","_header":"POST /form HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nContent-Type: application/json\r\nUser-Agent: axios/0.19.2\r\nContent-Length: 489\r\nHost: 127.0.0.1:7002\r\nConnection: close\r\n\r\n","agent":"~_options~nativeProtocols~http:~globalAgent","method":"POST","path":"/form","_ended":false,"res":null,"aborted":false,"timeoutCb":null,"upgradeOrConnect":false,"parser":null,"maxHeadersCount":null,"reusedSocket":false,"_redirectable":"~"}}]},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256}},"https:":{"globalAgent":{"_events":{},"_eventsCount":2,"defaultPort":443,"protocol":"https:","options":{"path":null},"requests":{},"sockets":{},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256,"maxCachedSessions":100,"_sessionCache":{"map":{},"list":[]}}}},"pathname":"/form"},"_redirectCount":0,"_redirects":[],"_requestBodyLength":489,"_requestBodyBuffers":[{"data":"<Buffer 7b 22 43 68 75 6e 6b 65 72 43 6f 6e 66 69 67 22 3a 7b 22 5f 63 68 75 6e 6b 69 6e 67 54 79 70 65 22 3a 31 2c 22 5f 6d 69 6e 43 68 75 6e 6b 53 69 7a 65 ...(489) >"}],"_currentRequest":"~_options~nativeProtocols~http:~globalAgent~sockets~127.0.0.1:7002:~0~_httpMessage","_currentUrl":"http://127.0.0.1:7002/form"}
+response: undefined
+isAxiosError: true
+toJSON: undefined
+name: "ECONNREFUSEDError"
+pid: 49208
+hostname: liangjiengdeMBP.lan
+
+2020-04-23 22:35:02,541 ERROR 49211 [-/127.0.0.1/-/32ms POST /form] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:7002
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 7002
+config: {"url":"http://127.0.0.1:7002/form","method":"post","data":"{\"ChunkerConfig\":{\"_chunkingType\":1,\"_minChunkSize\":4096,\"_avgChunkSize\":8192,\"_maxChunkSize\":16384,\"_slidingWinSize\":256,\"_ReadSize\":128},\"KeyServerConfig\":{\"_keyBatchSize\":3000,\"_keyServerPort\":6666,\"_sketchTableWidth\":1048576,\"_optimalSolverComputeItemNumberThreshold\":48000,\"_storageBlowPercent\":0.005},\"SPConfig\":{\"_storageServerPort\":6668,\"_maxContainerSize\":8388608},\"client\":{\"_clientID\":1,\"_sendChunkBatchSize\":1000,\"_sendRecipeBatchSize\":100000,\"_sendShortHashMaskBitNumber\":12}}","headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"axios/0.19.2","Content-Length":489},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1}
+request: {"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":false,"decodeStrings":true,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":true,"bufferProcessing":false,"writecb":null,"writelen":0,"afterWriteTickInfo":null,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":0,"prefinished":false,"errorEmitted":false,"emitClose":true,"autoDestroy":false,"errored":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":true,"_events":{},"_eventsCount":2,"_options":{"protocol":"http:","maxRedirects":21,"maxBodyLength":10485760,"path":"/form","method":"POST","headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"axios/0.19.2","Content-Length":489},"agents":{},"hostname":"127.0.0.1","port":"7002","nativeProtocols":{"http:":{"METHODS":["ACL","BIND","CHECKOUT","CONNECT","COPY","DELETE","GET","HEAD","LINK","LOCK","M-SEARCH","MERGE","MKACTIVITY","MKCALENDAR","MKCOL","MOVE","NOTIFY","OPTIONS","PATCH","POST","PROPFIND","PROPPATCH","PURGE","PUT","REBIND","REPORT","SEARCH","SOURCE","SUBSCRIBE","TRACE","UNBIND","UNLINK","UNLOCK","UNSUBSCRIBE"],"STATUS_CODES":{"100":"Continue","101":"Switching Protocols","102":"Processing","103":"Early Hints","200":"OK","201":"Created","202":"Accepted","203":"Non-Authoritative Information","204":"No Content","205":"Reset Content","206":"Partial Content","207":"Multi-Status","208":"Already Reported","226":"IM Used","300":"Multiple Choices","301":"Moved Permanently","302":"Found","303":"See Other","304":"Not Modified","305":"Use Proxy","307":"Temporary Redirect","308":"Permanent Redirect","400":"Bad Request","401":"Unauthorized","402":"Payment Required","403":"Forbidden","404":"Not Found","405":"Method Not Allowed","406":"Not Acceptable","407":"Proxy Authentication Required","408":"Request Timeout","409":"Conflict","410":"Gone","411":"Length Required","412":"Precondition Failed","413":"Payload Too Large","414":"URI Too Long","415":"Unsupported Media Type","416":"Range Not Satisfiable","417":"Expectation Failed","418":"I'm a Teapot","421":"Misdirected Request","422":"Unprocessable Entity","423":"Locked","424":"Failed Dependency","425":"Too Early","426":"Upgrade Required","428":"Precondition Required","429":"Too Many Requests","431":"Request Header Fields Too Large","451":"Unavailable For Legal Reasons","500":"Internal Server Error","501":"Not Implemented","502":"Bad Gateway","503":"Service Unavailable","504":"Gateway Timeout","505":"HTTP Version Not Supported","506":"Variant Also Negotiates","507":"Insufficient Storage","508":"Loop Detected","509":"Bandwidth Limit Exceeded","510":"Not Extended","511":"Network Authentication Required"},"maxHeaderSize":8192,"globalAgent":{"_events":{},"_eventsCount":2,"defaultPort":80,"protocol":"http:","options":{"path":null},"requests":{},"sockets":{"127.0.0.1:7002:":[{"connecting":false,"_hadError":true,"_parent":null,"_host":null,"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":[],"flowing":true,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"errorEmitted":true,"emitClose":false,"autoDestroy":false,"destroyed":true,"defaultEncoding":"utf8","awaitDrainWriters":null,"multiAwaitDrain":false,"readingMore":false,"decoder":null,"encoding":null},"readable":false,"_events":{"connect":[null,null,null],"close":[null,null]},"_eventsCount":8,"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":true,"decodeStrings":false,"defaultEncoding":"utf8","length":675,"writing":true,"corked":0,"sync":false,"bufferProcessing":false,"writelen":675,"afterWriteTickInfo":null,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":3,"prefinished":false,"errorEmitted":true,"emitClose":false,"autoDestroy":false,"errored":true,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":false,"allowHalfOpen":false,"_sockname":null,"_pendingData":[{"chunk":"POST /form HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nContent-Type: application/json\r\nUser-Agent: axios/0.19.2\r\nContent-Length: 489\r\nHost: 127.0.0.1:7002\r\nConnection: close\r\n\r\n","encoding":"latin1","next":{"chunk":"<Buffer 7b 22 43 68 75 6e 6b 65 72 43 6f 6e 66 69 67 22 3a 7b 22 5f 63 68 75 6e 6b 69 6e 67 54 79 70 65 22 3a 31 2c 22 5f 6d 69 6e 43 68 75 6e 6b 53 69 7a 65 ...(489) >","encoding":"buffer","next":null}},"~_options~nativeProtocols~http:~globalAgent~sockets~127.0.0.1:7002:~0~_pendingData~0~next"],"_pendingEncoding":"","server":null,"_server":null,"parser":null,"_httpMessage":{"_events":{},"_eventsCount":6,"outputData":[],"outputSize":0,"writable":true,"_last":true,"chunkedEncoding":false,"shouldKeepAlive":false,"useChunkedEncodingByDefault":true,"sendDate":false,"_removedConnection":false,"_removedContLen":false,"_removedTE":false,"_contentLength":null,"_hasBody":true,"_trailer":"","finished":false,"_headerSent":true,"socket":"~_options~nativeProtocols~http:~globalAgent~sockets~127.0.0.1:7002:~0","_header":"POST /form HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nContent-Type: application/json\r\nUser-Agent: axios/0.19.2\r\nContent-Length: 489\r\nHost: 127.0.0.1:7002\r\nConnection: close\r\n\r\n","agent":"~_options~nativeProtocols~http:~globalAgent","method":"POST","path":"/form","_ended":false,"res":null,"aborted":false,"timeoutCb":null,"upgradeOrConnect":false,"parser":null,"maxHeadersCount":null,"reusedSocket":false,"_redirectable":"~"}}]},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256}},"https:":{"globalAgent":{"_events":{},"_eventsCount":2,"defaultPort":443,"protocol":"https:","options":{"path":null},"requests":{},"sockets":{},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256,"maxCachedSessions":100,"_sessionCache":{"map":{},"list":[]}}}},"pathname":"/form"},"_redirectCount":0,"_redirects":[],"_requestBodyLength":489,"_requestBodyBuffers":[{"data":"<Buffer 7b 22 43 68 75 6e 6b 65 72 43 6f 6e 66 69 67 22 3a 7b 22 5f 63 68 75 6e 6b 69 6e 67 54 79 70 65 22 3a 31 2c 22 5f 6d 69 6e 43 68 75 6e 6b 53 69 7a 65 ...(489) >"}],"_currentRequest":"~_options~nativeProtocols~http:~globalAgent~sockets~127.0.0.1:7002:~0~_httpMessage","_currentUrl":"http://127.0.0.1:7002/form"}
+response: undefined
+isAxiosError: true
+toJSON: undefined
+name: "ECONNREFUSEDError"
+pid: 49211
+hostname: liangjiengdeMBP.lan
+
+2020-04-23 22:36:14,936 ERROR 49229 [-/127.0.0.1/-/32ms POST /form] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:7002
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 7002
+config: {"url":"http://127.0.0.1:7002/form","method":"post","data":"{\"ChunkerConfig\":{\"_chunkingType\":1,\"_minChunkSize\":4096,\"_avgChunkSize\":8192,\"_maxChunkSize\":16384,\"_slidingWinSize\":256,\"_ReadSize\":128},\"KeyServerConfig\":{\"_keyBatchSize\":3000,\"_keyServerPort\":6666,\"_sketchTableWidth\":1048576,\"_optimalSolverComputeItemNumberThreshold\":48000,\"_storageBlowPercent\":0.005},\"SPConfig\":{\"_storageServerPort\":6668,\"_maxContainerSize\":8388608,\"_fp2MetaDBame\":\"cao\"},\"client\":{\"_clientID\":1,\"_sendChunkBatchSize\":1000,\"_sendRecipeBatchSize\":100000,\"_sendShortHashMaskBitNumber\":12}}","headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"axios/0.19.2","Content-Length":511},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1}
+request: {"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":false,"decodeStrings":true,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":true,"bufferProcessing":false,"writecb":null,"writelen":0,"afterWriteTickInfo":null,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":0,"prefinished":false,"errorEmitted":false,"emitClose":true,"autoDestroy":false,"errored":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":true,"_events":{},"_eventsCount":2,"_options":{"protocol":"http:","maxRedirects":21,"maxBodyLength":10485760,"path":"/form","method":"POST","headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"axios/0.19.2","Content-Length":511},"agents":{},"hostname":"127.0.0.1","port":"7002","nativeProtocols":{"http:":{"METHODS":["ACL","BIND","CHECKOUT","CONNECT","COPY","DELETE","GET","HEAD","LINK","LOCK","M-SEARCH","MERGE","MKACTIVITY","MKCALENDAR","MKCOL","MOVE","NOTIFY","OPTIONS","PATCH","POST","PROPFIND","PROPPATCH","PURGE","PUT","REBIND","REPORT","SEARCH","SOURCE","SUBSCRIBE","TRACE","UNBIND","UNLINK","UNLOCK","UNSUBSCRIBE"],"STATUS_CODES":{"100":"Continue","101":"Switching Protocols","102":"Processing","103":"Early Hints","200":"OK","201":"Created","202":"Accepted","203":"Non-Authoritative Information","204":"No Content","205":"Reset Content","206":"Partial Content","207":"Multi-Status","208":"Already Reported","226":"IM Used","300":"Multiple Choices","301":"Moved Permanently","302":"Found","303":"See Other","304":"Not Modified","305":"Use Proxy","307":"Temporary Redirect","308":"Permanent Redirect","400":"Bad Request","401":"Unauthorized","402":"Payment Required","403":"Forbidden","404":"Not Found","405":"Method Not Allowed","406":"Not Acceptable","407":"Proxy Authentication Required","408":"Request Timeout","409":"Conflict","410":"Gone","411":"Length Required","412":"Precondition Failed","413":"Payload Too Large","414":"URI Too Long","415":"Unsupported Media Type","416":"Range Not Satisfiable","417":"Expectation Failed","418":"I'm a Teapot","421":"Misdirected Request","422":"Unprocessable Entity","423":"Locked","424":"Failed Dependency","425":"Too Early","426":"Upgrade Required","428":"Precondition Required","429":"Too Many Requests","431":"Request Header Fields Too Large","451":"Unavailable For Legal Reasons","500":"Internal Server Error","501":"Not Implemented","502":"Bad Gateway","503":"Service Unavailable","504":"Gateway Timeout","505":"HTTP Version Not Supported","506":"Variant Also Negotiates","507":"Insufficient Storage","508":"Loop Detected","509":"Bandwidth Limit Exceeded","510":"Not Extended","511":"Network Authentication Required"},"maxHeaderSize":8192,"globalAgent":{"_events":{},"_eventsCount":2,"defaultPort":80,"protocol":"http:","options":{"path":null},"requests":{},"sockets":{"127.0.0.1:7002:":[{"connecting":false,"_hadError":true,"_parent":null,"_host":null,"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":[],"flowing":true,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"errorEmitted":true,"emitClose":false,"autoDestroy":false,"destroyed":true,"defaultEncoding":"utf8","awaitDrainWriters":null,"multiAwaitDrain":false,"readingMore":false,"decoder":null,"encoding":null},"readable":false,"_events":{"connect":[null,null,null],"close":[null,null]},"_eventsCount":8,"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":true,"decodeStrings":false,"defaultEncoding":"utf8","length":697,"writing":true,"corked":0,"sync":false,"bufferProcessing":false,"writelen":697,"afterWriteTickInfo":null,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":3,"prefinished":false,"errorEmitted":true,"emitClose":false,"autoDestroy":false,"errored":true,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":false,"allowHalfOpen":false,"_sockname":null,"_pendingData":[{"chunk":"POST /form HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nContent-Type: application/json\r\nUser-Agent: axios/0.19.2\r\nContent-Length: 511\r\nHost: 127.0.0.1:7002\r\nConnection: close\r\n\r\n","encoding":"latin1","next":{"chunk":"<Buffer 7b 22 43 68 75 6e 6b 65 72 43 6f 6e 66 69 67 22 3a 7b 22 5f 63 68 75 6e 6b 69 6e 67 54 79 70 65 22 3a 31 2c 22 5f 6d 69 6e 43 68 75 6e 6b 53 69 7a 65 ...(511) >","encoding":"buffer","next":null}},"~_options~nativeProtocols~http:~globalAgent~sockets~127.0.0.1:7002:~0~_pendingData~0~next"],"_pendingEncoding":"","server":null,"_server":null,"parser":null,"_httpMessage":{"_events":{},"_eventsCount":6,"outputData":[],"outputSize":0,"writable":true,"_last":true,"chunkedEncoding":false,"shouldKeepAlive":false,"useChunkedEncodingByDefault":true,"sendDate":false,"_removedConnection":false,"_removedContLen":false,"_removedTE":false,"_contentLength":null,"_hasBody":true,"_trailer":"","finished":false,"_headerSent":true,"socket":"~_options~nativeProtocols~http:~globalAgent~sockets~127.0.0.1:7002:~0","_header":"POST /form HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nContent-Type: application/json\r\nUser-Agent: axios/0.19.2\r\nContent-Length: 511\r\nHost: 127.0.0.1:7002\r\nConnection: close\r\n\r\n","agent":"~_options~nativeProtocols~http:~globalAgent","method":"POST","path":"/form","_ended":false,"res":null,"aborted":false,"timeoutCb":null,"upgradeOrConnect":false,"parser":null,"maxHeadersCount":null,"reusedSocket":false,"_redirectable":"~"}}]},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256}},"https:":{"globalAgent":{"_events":{},"_eventsCount":2,"defaultPort":443,"protocol":"https:","options":{"path":null},"requests":{},"sockets":{},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256,"maxCachedSessions":100,"_sessionCache":{"map":{},"list":[]}}}},"pathname":"/form"},"_redirectCount":0,"_redirects":[],"_requestBodyLength":511,"_requestBodyBuffers":[{"data":"<Buffer 7b 22 43 68 75 6e 6b 65 72 43 6f 6e 66 69 67 22 3a 7b 22 5f 63 68 75 6e 6b 69 6e 67 54 79 70 65 22 3a 31 2c 22 5f 6d 69 6e 43 68 75 6e 6b 53 69 7a 65 ...(511) >"}],"_currentRequest":"~_options~nativeProtocols~http:~globalAgent~sockets~127.0.0.1:7002:~0~_httpMessage","_currentUrl":"http://127.0.0.1:7002/form"}
+response: undefined
+isAxiosError: true
+toJSON: undefined
+name: "ECONNREFUSEDError"
+pid: 49229
+hostname: liangjiengdeMBP.lan
+
+2020-04-23 22:37:30,324 ERROR 49286 [-/127.0.0.1/-/31ms POST /form] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:7002
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 7002
+config: {"url":"http://127.0.0.1:7002/form","method":"post","data":"{\"ChunkerConfig\":{\"_chunkingType\":1,\"_minChunkSize\":4096,\"_avgChunkSize\":8192,\"_maxChunkSize\":16384,\"_slidingWinSize\":256,\"_ReadSize\":128},\"KeyServerConfig\":{\"_keyBatchSize\":3000,\"_keyServerPort\":6666,\"_sketchTableWidth\":1048576,\"_optimalSolverComputeItemNumberThreshold\":48000,\"_storageBlowPercent\":0.005},\"SPConfig\":{\"_storageServerPort\":6668,\"_maxContainerSize\":8388608},\"client\":{\"_clientID\":1,\"_sendChunkBatchSize\":1000,\"_sendRecipeBatchSize\":100000,\"_sendShortHashMaskBitNumber\":12}}","headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"axios/0.19.2","Content-Length":489},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1}
+request: {"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":false,"decodeStrings":true,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":true,"bufferProcessing":false,"writecb":null,"writelen":0,"afterWriteTickInfo":null,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":0,"prefinished":false,"errorEmitted":false,"emitClose":true,"autoDestroy":false,"errored":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":true,"_events":{},"_eventsCount":2,"_options":{"protocol":"http:","maxRedirects":21,"maxBodyLength":10485760,"path":"/form","method":"POST","headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"axios/0.19.2","Content-Length":489},"agents":{},"hostname":"127.0.0.1","port":"7002","nativeProtocols":{"http:":{"METHODS":["ACL","BIND","CHECKOUT","CONNECT","COPY","DELETE","GET","HEAD","LINK","LOCK","M-SEARCH","MERGE","MKACTIVITY","MKCALENDAR","MKCOL","MOVE","NOTIFY","OPTIONS","PATCH","POST","PROPFIND","PROPPATCH","PURGE","PUT","REBIND","REPORT","SEARCH","SOURCE","SUBSCRIBE","TRACE","UNBIND","UNLINK","UNLOCK","UNSUBSCRIBE"],"STATUS_CODES":{"100":"Continue","101":"Switching Protocols","102":"Processing","103":"Early Hints","200":"OK","201":"Created","202":"Accepted","203":"Non-Authoritative Information","204":"No Content","205":"Reset Content","206":"Partial Content","207":"Multi-Status","208":"Already Reported","226":"IM Used","300":"Multiple Choices","301":"Moved Permanently","302":"Found","303":"See Other","304":"Not Modified","305":"Use Proxy","307":"Temporary Redirect","308":"Permanent Redirect","400":"Bad Request","401":"Unauthorized","402":"Payment Required","403":"Forbidden","404":"Not Found","405":"Method Not Allowed","406":"Not Acceptable","407":"Proxy Authentication Required","408":"Request Timeout","409":"Conflict","410":"Gone","411":"Length Required","412":"Precondition Failed","413":"Payload Too Large","414":"URI Too Long","415":"Unsupported Media Type","416":"Range Not Satisfiable","417":"Expectation Failed","418":"I'm a Teapot","421":"Misdirected Request","422":"Unprocessable Entity","423":"Locked","424":"Failed Dependency","425":"Too Early","426":"Upgrade Required","428":"Precondition Required","429":"Too Many Requests","431":"Request Header Fields Too Large","451":"Unavailable For Legal Reasons","500":"Internal Server Error","501":"Not Implemented","502":"Bad Gateway","503":"Service Unavailable","504":"Gateway Timeout","505":"HTTP Version Not Supported","506":"Variant Also Negotiates","507":"Insufficient Storage","508":"Loop Detected","509":"Bandwidth Limit Exceeded","510":"Not Extended","511":"Network Authentication Required"},"maxHeaderSize":8192,"globalAgent":{"_events":{},"_eventsCount":2,"defaultPort":80,"protocol":"http:","options":{"path":null},"requests":{},"sockets":{"127.0.0.1:7002:":[{"connecting":false,"_hadError":true,"_parent":null,"_host":null,"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":[],"flowing":true,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"errorEmitted":true,"emitClose":false,"autoDestroy":false,"destroyed":true,"defaultEncoding":"utf8","awaitDrainWriters":null,"multiAwaitDrain":false,"readingMore":false,"decoder":null,"encoding":null},"readable":false,"_events":{"connect":[null,null,null],"close":[null,null]},"_eventsCount":8,"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":true,"decodeStrings":false,"defaultEncoding":"utf8","length":675,"writing":true,"corked":0,"sync":false,"bufferProcessing":false,"writelen":675,"afterWriteTickInfo":null,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":3,"prefinished":false,"errorEmitted":true,"emitClose":false,"autoDestroy":false,"errored":true,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":false,"allowHalfOpen":false,"_sockname":null,"_pendingData":[{"chunk":"POST /form HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nContent-Type: application/json\r\nUser-Agent: axios/0.19.2\r\nContent-Length: 489\r\nHost: 127.0.0.1:7002\r\nConnection: close\r\n\r\n","encoding":"latin1","next":{"chunk":"<Buffer 7b 22 43 68 75 6e 6b 65 72 43 6f 6e 66 69 67 22 3a 7b 22 5f 63 68 75 6e 6b 69 6e 67 54 79 70 65 22 3a 31 2c 22 5f 6d 69 6e 43 68 75 6e 6b 53 69 7a 65 ...(489) >","encoding":"buffer","next":null}},"~_options~nativeProtocols~http:~globalAgent~sockets~127.0.0.1:7002:~0~_pendingData~0~next"],"_pendingEncoding":"","server":null,"_server":null,"parser":null,"_httpMessage":{"_events":{},"_eventsCount":6,"outputData":[],"outputSize":0,"writable":true,"_last":true,"chunkedEncoding":false,"shouldKeepAlive":false,"useChunkedEncodingByDefault":true,"sendDate":false,"_removedConnection":false,"_removedContLen":false,"_removedTE":false,"_contentLength":null,"_hasBody":true,"_trailer":"","finished":false,"_headerSent":true,"socket":"~_options~nativeProtocols~http:~globalAgent~sockets~127.0.0.1:7002:~0","_header":"POST /form HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nContent-Type: application/json\r\nUser-Agent: axios/0.19.2\r\nContent-Length: 489\r\nHost: 127.0.0.1:7002\r\nConnection: close\r\n\r\n","agent":"~_options~nativeProtocols~http:~globalAgent","method":"POST","path":"/form","_ended":false,"res":null,"aborted":false,"timeoutCb":null,"upgradeOrConnect":false,"parser":null,"maxHeadersCount":null,"reusedSocket":false,"_redirectable":"~"}}]},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256}},"https:":{"globalAgent":{"_events":{},"_eventsCount":2,"defaultPort":443,"protocol":"https:","options":{"path":null},"requests":{},"sockets":{},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256,"maxCachedSessions":100,"_sessionCache":{"map":{},"list":[]}}}},"pathname":"/form"},"_redirectCount":0,"_redirects":[],"_requestBodyLength":489,"_requestBodyBuffers":[{"data":"<Buffer 7b 22 43 68 75 6e 6b 65 72 43 6f 6e 66 69 67 22 3a 7b 22 5f 63 68 75 6e 6b 69 6e 67 54 79 70 65 22 3a 31 2c 22 5f 6d 69 6e 43 68 75 6e 6b 53 69 7a 65 ...(489) >"}],"_currentRequest":"~_options~nativeProtocols~http:~globalAgent~sockets~127.0.0.1:7002:~0~_httpMessage","_currentUrl":"http://127.0.0.1:7002/form"}
+response: undefined
+isAxiosError: true
+toJSON: undefined
+name: "ECONNREFUSEDError"
+pid: 49286
+hostname: liangjiengdeMBP.lan
+
+2020-04-23 22:39:21,586 ERROR 49408 [-/127.0.0.1/-/30ms POST /form] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:7002
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 7002
+config: {"url":"http://127.0.0.1:7002/form","method":"post","data":"{\"ChunkerConfig\":{\"_chunkingType\":1,\"_minChunkSize\":4096,\"_avgChunkSize\":8192,\"_maxChunkSize\":16384,\"_slidingWinSize\":256,\"_ReadSize\":128},\"KeyServerConfig\":{\"_keyBatchSize\":3000,\"_keyServerPort\":6666,\"_sketchTableWidth\":1048576,\"_optimalSolverComputeItemNumberThreshold\":48000,\"_storageBlowPercent\":0.005},\"SPConfig\":{\"_storageServerPort\":6668,\"_maxContainerSize\":8388608},\"client\":{\"_clientID\":1,\"_sendChunkBatchSize\":1000,\"_sendRecipeBatchSize\":100000,\"_sendShortHashMaskBitNumber\":12}}","headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"axios/0.19.2","Content-Length":489},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1}
+request: {"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":false,"decodeStrings":true,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":true,"bufferProcessing":false,"writecb":null,"writelen":0,"afterWriteTickInfo":null,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":0,"prefinished":false,"errorEmitted":false,"emitClose":true,"autoDestroy":false,"errored":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":true,"_events":{},"_eventsCount":2,"_options":{"protocol":"http:","maxRedirects":21,"maxBodyLength":10485760,"path":"/form","method":"POST","headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"axios/0.19.2","Content-Length":489},"agents":{},"hostname":"127.0.0.1","port":"7002","nativeProtocols":{"http:":{"METHODS":["ACL","BIND","CHECKOUT","CONNECT","COPY","DELETE","GET","HEAD","LINK","LOCK","M-SEARCH","MERGE","MKACTIVITY","MKCALENDAR","MKCOL","MOVE","NOTIFY","OPTIONS","PATCH","POST","PROPFIND","PROPPATCH","PURGE","PUT","REBIND","REPORT","SEARCH","SOURCE","SUBSCRIBE","TRACE","UNBIND","UNLINK","UNLOCK","UNSUBSCRIBE"],"STATUS_CODES":{"100":"Continue","101":"Switching Protocols","102":"Processing","103":"Early Hints","200":"OK","201":"Created","202":"Accepted","203":"Non-Authoritative Information","204":"No Content","205":"Reset Content","206":"Partial Content","207":"Multi-Status","208":"Already Reported","226":"IM Used","300":"Multiple Choices","301":"Moved Permanently","302":"Found","303":"See Other","304":"Not Modified","305":"Use Proxy","307":"Temporary Redirect","308":"Permanent Redirect","400":"Bad Request","401":"Unauthorized","402":"Payment Required","403":"Forbidden","404":"Not Found","405":"Method Not Allowed","406":"Not Acceptable","407":"Proxy Authentication Required","408":"Request Timeout","409":"Conflict","410":"Gone","411":"Length Required","412":"Precondition Failed","413":"Payload Too Large","414":"URI Too Long","415":"Unsupported Media Type","416":"Range Not Satisfiable","417":"Expectation Failed","418":"I'm a Teapot","421":"Misdirected Request","422":"Unprocessable Entity","423":"Locked","424":"Failed Dependency","425":"Too Early","426":"Upgrade Required","428":"Precondition Required","429":"Too Many Requests","431":"Request Header Fields Too Large","451":"Unavailable For Legal Reasons","500":"Internal Server Error","501":"Not Implemented","502":"Bad Gateway","503":"Service Unavailable","504":"Gateway Timeout","505":"HTTP Version Not Supported","506":"Variant Also Negotiates","507":"Insufficient Storage","508":"Loop Detected","509":"Bandwidth Limit Exceeded","510":"Not Extended","511":"Network Authentication Required"},"maxHeaderSize":8192,"globalAgent":{"_events":{},"_eventsCount":2,"defaultPort":80,"protocol":"http:","options":{"path":null},"requests":{},"sockets":{"127.0.0.1:7002:":[{"connecting":false,"_hadError":true,"_parent":null,"_host":null,"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":[],"flowing":true,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"errorEmitted":true,"emitClose":false,"autoDestroy":false,"destroyed":true,"defaultEncoding":"utf8","awaitDrainWriters":null,"multiAwaitDrain":false,"readingMore":false,"decoder":null,"encoding":null},"readable":false,"_events":{"connect":[null,null,null],"close":[null,null]},"_eventsCount":8,"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":true,"decodeStrings":false,"defaultEncoding":"utf8","length":675,"writing":true,"corked":0,"sync":false,"bufferProcessing":false,"writelen":675,"afterWriteTickInfo":null,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":3,"prefinished":false,"errorEmitted":true,"emitClose":false,"autoDestroy":false,"errored":true,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":false,"allowHalfOpen":false,"_sockname":null,"_pendingData":[{"chunk":"POST /form HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nContent-Type: application/json\r\nUser-Agent: axios/0.19.2\r\nContent-Length: 489\r\nHost: 127.0.0.1:7002\r\nConnection: close\r\n\r\n","encoding":"latin1","next":{"chunk":"<Buffer 7b 22 43 68 75 6e 6b 65 72 43 6f 6e 66 69 67 22 3a 7b 22 5f 63 68 75 6e 6b 69 6e 67 54 79 70 65 22 3a 31 2c 22 5f 6d 69 6e 43 68 75 6e 6b 53 69 7a 65 ...(489) >","encoding":"buffer","next":null}},"~_options~nativeProtocols~http:~globalAgent~sockets~127.0.0.1:7002:~0~_pendingData~0~next"],"_pendingEncoding":"","server":null,"_server":null,"parser":null,"_httpMessage":{"_events":{},"_eventsCount":6,"outputData":[],"outputSize":0,"writable":true,"_last":true,"chunkedEncoding":false,"shouldKeepAlive":false,"useChunkedEncodingByDefault":true,"sendDate":false,"_removedConnection":false,"_removedContLen":false,"_removedTE":false,"_contentLength":null,"_hasBody":true,"_trailer":"","finished":false,"_headerSent":true,"socket":"~_options~nativeProtocols~http:~globalAgent~sockets~127.0.0.1:7002:~0","_header":"POST /form HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nContent-Type: application/json\r\nUser-Agent: axios/0.19.2\r\nContent-Length: 489\r\nHost: 127.0.0.1:7002\r\nConnection: close\r\n\r\n","agent":"~_options~nativeProtocols~http:~globalAgent","method":"POST","path":"/form","_ended":false,"res":null,"aborted":false,"timeoutCb":null,"upgradeOrConnect":false,"parser":null,"maxHeadersCount":null,"reusedSocket":false,"_redirectable":"~"}}]},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256}},"https:":{"globalAgent":{"_events":{},"_eventsCount":2,"defaultPort":443,"protocol":"https:","options":{"path":null},"requests":{},"sockets":{},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256,"maxCachedSessions":100,"_sessionCache":{"map":{},"list":[]}}}},"pathname":"/form"},"_redirectCount":0,"_redirects":[],"_requestBodyLength":489,"_requestBodyBuffers":[{"data":"<Buffer 7b 22 43 68 75 6e 6b 65 72 43 6f 6e 66 69 67 22 3a 7b 22 5f 63 68 75 6e 6b 69 6e 67 54 79 70 65 22 3a 31 2c 22 5f 6d 69 6e 43 68 75 6e 6b 53 69 7a 65 ...(489) >"}],"_currentRequest":"~_options~nativeProtocols~http:~globalAgent~sockets~127.0.0.1:7002:~0~_httpMessage","_currentUrl":"http://127.0.0.1:7002/form"}
+response: undefined
+isAxiosError: true
+toJSON: undefined
+name: "ECONNREFUSEDError"
+pid: 49408
+hostname: liangjiengdeMBP.lan
+
+2020-04-23 22:39:42,773 ERROR 49416 [-/127.0.0.1/-/22ms POST /form?username=test&password=test] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:7002
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 7002
+config: {"url":"http://127.0.0.1:7002/form","method":"post","data":"{}","headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"axios/0.19.2","Content-Length":2},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1}
+request: {"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":false,"decodeStrings":true,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":true,"bufferProcessing":false,"writecb":null,"writelen":0,"afterWriteTickInfo":null,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":0,"prefinished":false,"errorEmitted":false,"emitClose":true,"autoDestroy":false,"errored":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":true,"_events":{},"_eventsCount":2,"_options":{"protocol":"http:","maxRedirects":21,"maxBodyLength":10485760,"path":"/form","method":"POST","headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"axios/0.19.2","Content-Length":2},"agents":{},"hostname":"127.0.0.1","port":"7002","nativeProtocols":{"http:":{"METHODS":["ACL","BIND","CHECKOUT","CONNECT","COPY","DELETE","GET","HEAD","LINK","LOCK","M-SEARCH","MERGE","MKACTIVITY","MKCALENDAR","MKCOL","MOVE","NOTIFY","OPTIONS","PATCH","POST","PROPFIND","PROPPATCH","PURGE","PUT","REBIND","REPORT","SEARCH","SOURCE","SUBSCRIBE","TRACE","UNBIND","UNLINK","UNLOCK","UNSUBSCRIBE"],"STATUS_CODES":{"100":"Continue","101":"Switching Protocols","102":"Processing","103":"Early Hints","200":"OK","201":"Created","202":"Accepted","203":"Non-Authoritative Information","204":"No Content","205":"Reset Content","206":"Partial Content","207":"Multi-Status","208":"Already Reported","226":"IM Used","300":"Multiple Choices","301":"Moved Permanently","302":"Found","303":"See Other","304":"Not Modified","305":"Use Proxy","307":"Temporary Redirect","308":"Permanent Redirect","400":"Bad Request","401":"Unauthorized","402":"Payment Required","403":"Forbidden","404":"Not Found","405":"Method Not Allowed","406":"Not Acceptable","407":"Proxy Authentication Required","408":"Request Timeout","409":"Conflict","410":"Gone","411":"Length Required","412":"Precondition Failed","413":"Payload Too Large","414":"URI Too Long","415":"Unsupported Media Type","416":"Range Not Satisfiable","417":"Expectation Failed","418":"I'm a Teapot","421":"Misdirected Request","422":"Unprocessable Entity","423":"Locked","424":"Failed Dependency","425":"Too Early","426":"Upgrade Required","428":"Precondition Required","429":"Too Many Requests","431":"Request Header Fields Too Large","451":"Unavailable For Legal Reasons","500":"Internal Server Error","501":"Not Implemented","502":"Bad Gateway","503":"Service Unavailable","504":"Gateway Timeout","505":"HTTP Version Not Supported","506":"Variant Also Negotiates","507":"Insufficient Storage","508":"Loop Detected","509":"Bandwidth Limit Exceeded","510":"Not Extended","511":"Network Authentication Required"},"maxHeaderSize":8192,"globalAgent":{"_events":{},"_eventsCount":2,"defaultPort":80,"protocol":"http:","options":{"path":null},"requests":{},"sockets":{"127.0.0.1:7002:":[{"connecting":false,"_hadError":true,"_parent":null,"_host":null,"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":[],"flowing":true,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"errorEmitted":true,"emitClose":false,"autoDestroy":false,"destroyed":true,"defaultEncoding":"utf8","awaitDrainWriters":null,"multiAwaitDrain":false,"readingMore":false,"decoder":null,"encoding":null},"readable":false,"_events":{"connect":[null,null,null],"close":[null,null]},"_eventsCount":8,"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":true,"decodeStrings":false,"defaultEncoding":"utf8","length":186,"writing":true,"corked":0,"sync":false,"bufferProcessing":false,"writelen":186,"afterWriteTickInfo":null,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":3,"prefinished":false,"errorEmitted":true,"emitClose":false,"autoDestroy":false,"errored":true,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":false,"allowHalfOpen":false,"_sockname":null,"_pendingData":[{"chunk":"POST /form HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nContent-Type: application/json\r\nUser-Agent: axios/0.19.2\r\nContent-Length: 2\r\nHost: 127.0.0.1:7002\r\nConnection: close\r\n\r\n","encoding":"latin1","next":{"chunk":"<Buffer 7b 7d>","encoding":"buffer","next":null}},"~_options~nativeProtocols~http:~globalAgent~sockets~127.0.0.1:7002:~0~_pendingData~0~next"],"_pendingEncoding":"","server":null,"_server":null,"parser":null,"_httpMessage":{"_events":{},"_eventsCount":6,"outputData":[],"outputSize":0,"writable":true,"_last":true,"chunkedEncoding":false,"shouldKeepAlive":false,"useChunkedEncodingByDefault":true,"sendDate":false,"_removedConnection":false,"_removedContLen":false,"_removedTE":false,"_contentLength":null,"_hasBody":true,"_trailer":"","finished":false,"_headerSent":true,"socket":"~_options~nativeProtocols~http:~globalAgent~sockets~127.0.0.1:7002:~0","_header":"POST /form HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nContent-Type: application/json\r\nUser-Agent: axios/0.19.2\r\nContent-Length: 2\r\nHost: 127.0.0.1:7002\r\nConnection: close\r\n\r\n","agent":"~_options~nativeProtocols~http:~globalAgent","method":"POST","path":"/form","_ended":false,"res":null,"aborted":false,"timeoutCb":null,"upgradeOrConnect":false,"parser":null,"maxHeadersCount":null,"reusedSocket":false,"_redirectable":"~"}}]},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256}},"https:":{"globalAgent":{"_events":{},"_eventsCount":2,"defaultPort":443,"protocol":"https:","options":{"path":null},"requests":{},"sockets":{},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256,"maxCachedSessions":100,"_sessionCache":{"map":{},"list":[]}}}},"pathname":"/form"},"_redirectCount":0,"_redirects":[],"_requestBodyLength":2,"_requestBodyBuffers":[{"data":"<Buffer 7b 7d>"}],"_currentRequest":"~_options~nativeProtocols~http:~globalAgent~sockets~127.0.0.1:7002:~0~_httpMessage","_currentUrl":"http://127.0.0.1:7002/form"}
+response: undefined
+isAxiosError: true
+toJSON: undefined
+name: "ECONNREFUSEDError"
+pid: 49416
+hostname: liangjiengdeMBP.lan
+
+2020-04-25 23:59:05,858 ERROR 25828 [-/127.0.0.1/-/6ms GET /vipadd?username&capacity=10&duration=10] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:50:10)
+    at RDSClient.createPromise [as update] (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:30:15)
+    at ServicevipaddService.UpdateDatabase (/Users/ljc/Downloads/vue/TED-backend/egg-key/app/service/servicevipadd.js:20:41)
+    at vipadd.test (/Users/ljc/Downloads/vue/TED-backend/egg-key/app/controller/vipadd.js:11:38)
+    at Object.callFn (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/egg-core/lib/utils/index.js:44:21)
+
+pid: 25828
+hostname: liangjiengdeMBP.lan
+
+2020-04-25 23:59:48,565 ERROR 25871 [-/127.0.0.1/-/5ms GET /vipadd?username&capacity=10&duration=10] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:50:10)
+    at RDSClient.createPromise [as update] (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/_co@4.6.0@co/index.js:30:15)
+    at ServicevipaddService.UpdateDatabase (/Users/ljc/Downloads/vue/TED-backend/egg-key/app/service/servicevipadd.js:18:41)
+    at vipadd.test (/Users/ljc/Downloads/vue/TED-backend/egg-key/app/controller/vipadd.js:11:38)
+    at Object.callFn (/Users/ljc/Downloads/vue/TED-backend/egg-key/node_modules/egg-core/lib/utils/index.js:44:21)
+
+pid: 25871
+hostname: liangjiengdeMBP.lan
+
