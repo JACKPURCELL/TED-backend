@@ -1,0 +1,40 @@
+2020-05-22 13:30:40,208 ERROR 24949 nodejs.ClusterClientNoResponseError: client no response in 124018ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24949
+hostname: liangjiachengdeMacBook-Pro.local
+
+2020-05-22 13:34:24,152 ERROR 24949 nodejs.ClusterClientNoResponseError: client no response in 183401ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24949
+hostname: liangjiachengdeMacBook-Pro.local
+
+2020-05-22 13:49:19,966 ERROR 24949 nodejs.ClusterClientNoResponseError: client no response in 855792ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24949
+hostname: liangjiachengdeMacBook-Pro.local
+
+2020-05-22 14:04:31,811 ERROR 24949 nodejs.ClusterClientNoResponseError: client no response in 871828ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24949
+hostname: liangjiachengdeMacBook-Pro.local
+
+2020-05-22 14:12:53,787 ERROR 24949 nodejs.ClusterClientNoResponseError: client no response in 481969ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24949
+hostname: liangjiachengdeMacBook-Pro.local
+

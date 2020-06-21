@@ -39,3 +39,71 @@
 2020-04-23 22:43:24,109 INFO 50081 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/TED-backend/egg-server/app/userppp.json","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38683745,"size":489,"blocks":8,"atimeMs":1587652905994.7207,"mtimeMs":1587653004100.9626,"ctimeMs":1587653004100.9626,"birthtimeMs":1586877578393.2979,"atime":"2020-04-23T14:41:45.995Z","mtime":"2020-04-23T14:43:24.101Z","ctime":"2020-04-23T14:43:24.101Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
 2020-04-23 22:43:32,181 WARN 50081 [agent:development] reload worker because /Users/ljc/Downloads/vue/TED-backend/egg-server/app/userppp.json change
 2020-04-23 22:43:31,973 INFO 50081 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/TED-backend/egg-server/app/userppp.json","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38683745,"size":515,"blocks":8,"atimeMs":1587652905994.7207,"mtimeMs":1587653011953.6646,"ctimeMs":1587653011953.6646,"birthtimeMs":1586877578393.2979,"atime":"2020-04-23T14:41:45.995Z","mtime":"2020-04-23T14:43:31.954Z","ctime":"2020-04-23T14:43:31.954Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-20 15:12:24,941 INFO 68470 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/TED-backend/egg-server/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-20 15:12:24,949 INFO 68470 [egg:core] dump config after load, 3ms
+2020-05-20 15:12:24,989 INFO 68470 [egg-watcher] Start watching: ["/Users/ljc/Downloads/vue/TED-backend/egg-server/app","/Users/ljc/Downloads/vue/TED-backend/egg-server/config","/Users/ljc/Downloads/vue/TED-backend/egg-server/mocks","/Users/ljc/Downloads/vue/TED-backend/egg-server/mocks_proxy","/Users/ljc/Downloads/vue/TED-backend/egg-server/app.js"]
+2020-05-20 15:12:24,989 INFO 68470 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-server/app"
+2020-05-20 15:12:24,990 INFO 68470 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-server/config"
+2020-05-20 15:12:24,990 INFO 68470 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-server/mocks"
+2020-05-20 15:12:24,990 INFO 68470 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-server/mocks_proxy"
+2020-05-20 15:12:24,990 INFO 68470 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-server/app.js"
+2020-05-20 15:12:24,990 INFO 68470 [egg-watcher:agent] watcher start success
+2020-05-20 15:12:25,002 INFO 68470 [egg:core] dump config after ready, 4ms
+2020-05-20 15:12:45,826 INFO 68470 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/TED-backend/egg-server/app/userppp.json","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38683745,"size":664,"blocks":8,"atimeMs":1587653015712.6116,"mtimeMs":1589958765768.0005,"ctimeMs":1589958765768.0005,"birthtimeMs":1586877578393.2979,"atime":"2020-04-23T14:43:35.713Z","mtime":"2020-05-20T07:12:45.768Z","ctime":"2020-05-20T07:12:45.768Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-20 15:12:46,029 WARN 68470 [agent:development] reload worker because /Users/ljc/Downloads/vue/TED-backend/egg-server/app/userppp.json change
+2020-05-20 15:13:44,903 WARN 68470 [agent:development] reload worker because /Users/ljc/Downloads/vue/TED-backend/egg-server/app/userppp.json change
+2020-05-20 15:13:44,699 INFO 68470 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/TED-backend/egg-server/app/userppp.json","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38683745,"size":664,"blocks":8,"atimeMs":1587653015712.6116,"mtimeMs":1589958765768.0005,"ctimeMs":1589958824568.3125,"birthtimeMs":1586877578393.2979,"atime":"2020-04-23T14:43:35.713Z","mtime":"2020-05-20T07:12:45.768Z","ctime":"2020-05-20T07:13:44.568Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-22 08:08:40,985 INFO 24949 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/TED-backend/egg-server/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-22 08:08:40,990 INFO 24949 [egg:core] dump config after load, 2ms
+2020-05-22 08:08:41,024 INFO 24949 [egg-watcher] Start watching: ["/Users/ljc/Downloads/vue/TED-backend/egg-server/app","/Users/ljc/Downloads/vue/TED-backend/egg-server/config","/Users/ljc/Downloads/vue/TED-backend/egg-server/mocks","/Users/ljc/Downloads/vue/TED-backend/egg-server/mocks_proxy","/Users/ljc/Downloads/vue/TED-backend/egg-server/app.js"]
+2020-05-22 08:08:41,024 INFO 24949 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-server/app"
+2020-05-22 08:08:41,024 INFO 24949 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-server/config"
+2020-05-22 08:08:41,024 INFO 24949 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-server/mocks"
+2020-05-22 08:08:41,025 INFO 24949 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-server/mocks_proxy"
+2020-05-22 08:08:41,025 INFO 24949 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-server/app.js"
+2020-05-22 08:08:41,025 INFO 24949 [egg-watcher:agent] watcher start success
+2020-05-22 08:08:41,034 INFO 24949 [egg:core] dump config after ready, 4ms
+2020-05-22 08:08:43,840 INFO 24949 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/TED-backend/egg-server/app/userppp.json","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38683745,"size":489,"blocks":8,"atimeMs":1589958825278.6523,"mtimeMs":1590106123830.109,"ctimeMs":1590106123830.109,"birthtimeMs":1586877578393.2979,"atime":"2020-05-20T07:13:45.279Z","mtime":"2020-05-22T00:08:43.830Z","ctime":"2020-05-22T00:08:43.830Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-22 08:08:44,043 WARN 24949 [agent:development] reload worker because /Users/ljc/Downloads/vue/TED-backend/egg-server/app/userppp.json change
+2020-05-22 08:47:29,554 INFO 24949 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/TED-backend/egg-server/app/userppp.json","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":38683745,"size":626,"blocks":8,"atimeMs":1589958825278.6523,"mtimeMs":1590108449482.7935,"ctimeMs":1590108449482.7935,"birthtimeMs":1586877578393.2979,"atime":"2020-05-20T07:13:45.279Z","mtime":"2020-05-22T00:47:29.483Z","ctime":"2020-05-22T00:47:29.483Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-22 08:47:29,768 WARN 24949 [agent:development] reload worker because /Users/ljc/Downloads/vue/TED-backend/egg-server/app/userppp.json change
+2020-05-22 13:30:40,209 ERROR 24949 nodejs.ClusterClientNoResponseError: client no response in 124018ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24949
+hostname: liangjiachengdeMacBook-Pro.local
+
+2020-05-22 13:34:24,153 ERROR 24949 nodejs.ClusterClientNoResponseError: client no response in 183401ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24949
+hostname: liangjiachengdeMacBook-Pro.local
+
+2020-05-22 13:49:19,967 ERROR 24949 nodejs.ClusterClientNoResponseError: client no response in 855792ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24949
+hostname: liangjiachengdeMacBook-Pro.local
+
+2020-05-22 14:04:31,812 ERROR 24949 nodejs.ClusterClientNoResponseError: client no response in 871828ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24949
+hostname: liangjiachengdeMacBook-Pro.local
+
+2020-05-22 14:12:53,788 ERROR 24949 nodejs.ClusterClientNoResponseError: client no response in 481969ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/ljc/Downloads/vue/TED-backend/egg-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24949
+hostname: liangjiachengdeMacBook-Pro.local
+

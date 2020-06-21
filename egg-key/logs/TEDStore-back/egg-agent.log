@@ -45,3 +45,49 @@
 2020-04-26 00:15:26,087 WARN 25608 [agent:development] reload worker because /Users/ljc/Downloads/vue/TED-backend/egg-key/app/controller/vipask.js change
 2020-04-26 00:15:50,070 WARN 25608 [agent:development] reload worker because /Users/ljc/Downloads/vue/TED-backend/egg-key/app/controller/vipask.js change
 2020-04-26 00:15:49,865 INFO 25608 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/TED-backend/egg-key/app/controller/vipask.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":39496294,"size":688,"blocks":8,"atimeMs":1587831327342.3635,"mtimeMs":1587831349803.7263,"ctimeMs":1587831349803.7263,"birthtimeMs":1587828554873.3313,"atime":"2020-04-25T16:15:27.342Z","mtime":"2020-04-25T16:15:49.804Z","ctime":"2020-04-25T16:15:49.804Z","birthtime":"2020-04-25T15:29:14.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-26 00:17:46,820 INFO 26807 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/TED-backend/egg-key/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-26 00:17:46,827 INFO 26807 [egg:core] dump config after load, 4ms
+2020-04-26 00:17:46,866 INFO 26807 [egg-watcher] Start watching: ["/Users/ljc/Downloads/vue/TED-backend/egg-key/app","/Users/ljc/Downloads/vue/TED-backend/egg-key/config","/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks","/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks_proxy","/Users/ljc/Downloads/vue/TED-backend/egg-key/app.js"]
+2020-04-26 00:17:46,866 INFO 26807 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/app"
+2020-04-26 00:17:46,866 INFO 26807 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/config"
+2020-04-26 00:17:46,867 INFO 26807 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks"
+2020-04-26 00:17:46,867 INFO 26807 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks_proxy"
+2020-04-26 00:17:46,867 INFO 26807 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/app.js"
+2020-04-26 00:17:46,867 INFO 26807 [egg-watcher:agent] watcher start success
+2020-04-26 00:17:46,884 INFO 26807 [egg:core] dump config after ready, 4ms
+2020-05-20 15:12:10,603 INFO 68417 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/TED-backend/egg-key/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-20 15:12:10,612 INFO 68417 [egg:core] dump config after load, 5ms
+2020-05-20 15:12:10,652 INFO 68417 [egg-watcher] Start watching: ["/Users/ljc/Downloads/vue/TED-backend/egg-key/app","/Users/ljc/Downloads/vue/TED-backend/egg-key/config","/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks","/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks_proxy","/Users/ljc/Downloads/vue/TED-backend/egg-key/app.js"]
+2020-05-20 15:12:10,652 INFO 68417 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/app"
+2020-05-20 15:12:10,652 INFO 68417 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/config"
+2020-05-20 15:12:10,652 INFO 68417 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks"
+2020-05-20 15:12:10,652 INFO 68417 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks_proxy"
+2020-05-20 15:12:10,652 INFO 68417 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/app.js"
+2020-05-20 15:12:10,653 INFO 68417 [egg-watcher:agent] watcher start success
+2020-05-20 15:12:10,664 INFO 68417 [egg:core] dump config after ready, 4ms
+2020-05-20 15:12:45,997 WARN 68417 [agent:development] reload worker because /Users/ljc/Downloads/vue/TED-backend/egg-key/app/userppp.json change
+2020-05-20 15:12:45,791 INFO 68417 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/TED-backend/egg-key/app/userppp.json","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":664,"blocks":8,"atimeMs":1587653021295.1572,"mtimeMs":1589958765735.6855,"ctimeMs":1589958765735.6855,"birthtimeMs":1586877578393.2979,"atime":"2020-04-23T14:43:41.295Z","mtime":"2020-05-20T07:12:45.736Z","ctime":"2020-05-20T07:12:45.736Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-21 22:05:25,611 INFO 16106 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/TED-backend/egg-key/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-21 22:05:25,617 INFO 16106 [egg:core] dump config after load, 3ms
+2020-05-21 22:05:25,648 INFO 16106 [egg-watcher] Start watching: ["/Users/ljc/Downloads/vue/TED-backend/egg-key/app","/Users/ljc/Downloads/vue/TED-backend/egg-key/config","/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks","/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks_proxy","/Users/ljc/Downloads/vue/TED-backend/egg-key/app.js"]
+2020-05-21 22:05:25,649 INFO 16106 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/app"
+2020-05-21 22:05:25,649 INFO 16106 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/config"
+2020-05-21 22:05:25,649 INFO 16106 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks"
+2020-05-21 22:05:25,649 INFO 16106 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks_proxy"
+2020-05-21 22:05:25,649 INFO 16106 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/app.js"
+2020-05-21 22:05:25,649 INFO 16106 [egg-watcher:agent] watcher start success
+2020-05-21 22:05:25,657 INFO 16106 [egg:core] dump config after ready, 3ms
+2020-05-22 08:08:11,265 INFO 24893 [egg:logger] init all loggers with options: {"dir":"/Users/ljc/Downloads/vue/TED-backend/egg-key/logs/TEDStore-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"TEDStore-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-22 08:08:11,271 INFO 24893 [egg:core] dump config after load, 3ms
+2020-05-22 08:08:11,303 INFO 24893 [egg-watcher] Start watching: ["/Users/ljc/Downloads/vue/TED-backend/egg-key/app","/Users/ljc/Downloads/vue/TED-backend/egg-key/config","/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks","/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks_proxy","/Users/ljc/Downloads/vue/TED-backend/egg-key/app.js"]
+2020-05-22 08:08:11,303 INFO 24893 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/app"
+2020-05-22 08:08:11,304 INFO 24893 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/config"
+2020-05-22 08:08:11,304 INFO 24893 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks"
+2020-05-22 08:08:11,304 INFO 24893 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/mocks_proxy"
+2020-05-22 08:08:11,304 INFO 24893 [egg-watcher] Start watching: "/Users/ljc/Downloads/vue/TED-backend/egg-key/app.js"
+2020-05-22 08:08:11,304 INFO 24893 [egg-watcher:agent] watcher start success
+2020-05-22 08:08:11,312 INFO 24893 [egg:core] dump config after ready, 3ms
+2020-05-22 08:08:44,061 WARN 24893 [agent:development] reload worker because /Users/ljc/Downloads/vue/TED-backend/egg-key/app/userppp.json change
+2020-05-22 08:08:43,854 INFO 24893 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/TED-backend/egg-key/app/userppp.json","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":489,"blocks":8,"atimeMs":1587653021295.1572,"mtimeMs":1590106123800.536,"ctimeMs":1590106123800.536,"birthtimeMs":1586877578393.2979,"atime":"2020-04-23T14:43:41.295Z","mtime":"2020-05-22T00:08:43.801Z","ctime":"2020-05-22T00:08:43.801Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-22 08:47:29,648 WARN 24893 [agent:development] reload worker because /Users/ljc/Downloads/vue/TED-backend/egg-key/app/userppp.json change
+2020-05-22 08:47:29,438 INFO 24893 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/ljc/Downloads/vue/TED-backend/egg-key/app/userppp.json","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":36906203,"size":626,"blocks":8,"atimeMs":1587653021295.1572,"mtimeMs":1590108449383.3105,"ctimeMs":1590108449383.3105,"birthtimeMs":1586877578393.2979,"atime":"2020-04-23T14:43:41.295Z","mtime":"2020-05-22T00:47:29.383Z","ctime":"2020-05-22T00:47:29.383Z","birthtime":"2020-04-14T15:19:38.393Z"},"remove":false,"isDirectory":false,"isFile":true}
